@@ -15,10 +15,19 @@ Each game/publisher has its own branch, mirroring
 
 ### How it's built
 
-The minimaps are extracted from the game's own `spaces/<id>/mmap.dds` (DXT1),
-pulled straight from Wargaming's update CDN via WGUS (no client install), decoded
-and re-encoded as WebP (upscaled to 1024²). The generator lives in the main app
-repo (`apps/web/scripts/extract-minimaps.mjs`) and is re-run on each game patch.
+Fully self-contained, no game client needed. `generate.mjs` pulls the game's own
+`spaces/<id>/mmap.dds` (DXT1) straight from Wargaming's update CDN via **WGUS**
+(query the update service for the versioned `.wgpkg` volumes, range-download only
+each map's 7-Zip block from the content CDN, unpack, decode DXT), and re-encodes
+it as WebP upscaled to 2048².
+
+`.github/workflows/sync.yml` runs it on a daily schedule per branch and pushes
+only what changed. It's a no-op unless the game patched: the generator compares
+the live client version to `.metadata_version` and skips the download entirely
+when unchanged.
+
+Run locally: `npm install && node generate.mjs --all --out out` (needs `7z` /
+p7zip on PATH). `--host`/`--guid` select the branch, `--size` the output edge.
 
 ### Notice
 

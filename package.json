@@ -1,0 +1,19 @@
+{
+  "name": "wot.maps",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "HD World of Tanks battle minimaps, extracted from the game update CDN via WGUS.",
+  "scripts": {
+    "generate": "tsx generate.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}

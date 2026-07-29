@@ -1,0 +1,76 @@
+name: sync
+
+# Self-updating mirror: on a schedule, re-extract each branch's minimaps from
+# the live game client (via WGUS) and push only what changed. The generator
+# skips the multi-GB download entirely when the client version is unchanged, so
+# most scheduled runs finish in seconds.
+
+on:
+  schedule:
+    - cron: "0 4 * * *" # daily; a no-op unless the game patched
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - branch: WG
+            host: wgus-woteu.wargaming.net
+            guid: WOT.EU.PRODUCTION
+          - branch: WG_CT
+            host: wgus-wotct.wargaming.net
+            guid: WOT.CT.PRODUCTION
+          # Lesta / Lesta_PT run on Lesta's RU infra whose content CDN is not
+          # reachable from GitHub-hosted (US/EU) runners. Populate them from a
+          # self-hosted runner with RU access, e.g.:
+          #   - branch: Lesta
+          #     host: <lesta wgus host>
+          #     guid: MT.RU.PRODUCTION
+    steps:
+      - name: Checkout generator (main)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install 7-Zip
+        run: sudo apt-get update && sudo apt-get install -y p7zip-full
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - run: npm install --no-audit --no-fund
+
+      - name: Prepare branch worktree
+        run: |
+          git config user.name "wot.maps sync"
+          git config user.email "actions@users.noreply.github.com"
+          if git ls-remote --exit-code --heads origin "${{ matrix.branch }}" >/dev/null; then
+            git worktree add out "origin/${{ matrix.branch }}"
+          else
+            git worktree add --orphan -b "${{ matrix.branch }}" out
+          fi
+
+      - name: Extract (no-op if client version unchanged)
+        run: npm run generate -- --all --host "${{ matrix.host }}" --guid "${{ matrix.guid }}" --out out --size 2048
+
+      - name: Commit & push if changed
+        working-directory: out
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "no changes for ${{ matrix.branch }}"
+            exit 0
+          fi
+          git commit -m "🍱 sync ${{ matrix.branch }} minimaps"
+          git push origin "HEAD:${{ matrix.branch }}"
