@@ -6,12 +6,12 @@ keyed by arena id (`<arena_id>.webp`), used by [unicum.gg](https://unicum.gg).
 Each game/publisher has its own branch, mirroring
 [`unicum-gg/wot.assets`](https://github.com/unicum-gg/wot.assets):
 
-| Branch | Client |
-| --- | --- |
-| `WG` | Wargaming release |
-| `WG_CT` | Wargaming Common Test |
-| `Lesta` | Lesta release |
-| `Lesta_PT` | Lesta Public Test |
+| Branch | Client | WGUS host | guid |
+| --- | --- | --- | --- |
+| `WG` | Wargaming release | `wgus-woteu.wargaming.net` | `WOT.EU.PRODUCTION` |
+| `WG_CT` | Wargaming Common Test | `wgus-wotct.wargaming.net` | `WOT.CT.PRODUCTION` |
+| `Lesta` | Lesta / Мир танков release | `lstus-ru.lesta.ru` | `MT.RU.PRODUCTION` |
+| `Lesta_PT` | Lesta Public Test | — | — |
 
 ### How it's built
 
