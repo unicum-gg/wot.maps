@@ -21,7 +21,6 @@ import path from "node:path";
 import sharp from "sharp";
 
 const PV = "100500.6969696"; // spoofed protocol version WGUS accepts
-const CONTENT_PART = "sdcontent"; // base packages hold spaces/<id>/mmap.dds
 
 type Volume = { url: string; size: number };
 type Block = { name: string; off: number; comp: number };
@@ -44,6 +43,7 @@ function takeFlag(name: string): string | undefined {
 
 const HOST = takeFlag("--host") ?? "wgus-woteu.wargaming.net";
 const GUID = takeFlag("--guid") ?? "WOT.EU.PRODUCTION";
+const PART_OVERRIDE = takeFlag("--part"); // debug: scan only this content part
 const outDir = takeFlag("--out") ?? path.resolve("maps-out");
 const outSize = Number(takeFlag("--size") ?? "2048"); // 0 = keep native 512
 const wantAll = args.includes("--all");
@@ -63,19 +63,21 @@ async function getBuffer(url: string, range?: string): Promise<Buffer> {
   return Buffer.from(await r.arrayBuffer());
 }
 
-// ---- WGUS: resolve the current sdcontent .wgpkg volumes ----------------------
-async function resolveVolumes(): Promise<{ version: string; volumes: Volume[] }> {
+// ---- WGUS: resolve the install chain, grouping .wgpkg volumes by part --------
+async function resolveClient(): Promise<{
+  version: string;
+  getVolumes: (part: string) => Volume[];
+}> {
   const meta = await getText(
     `https://${HOST}/api/v1/metadata/?guid=${GUID}&chain_id=unknown&protocol_version=${PV}`,
   );
   const version = x(meta, /<version>([^<]+)<\/version>/);
   if (!version) throw new Error(`no metadata version for ${GUID}`);
   // Some publishers redirect the app id (Lesta: WOT.RU.PRODUCTION -> MT.RU...).
-  const redirect = x(meta, /<redirect_application_id>([^<]+)<\/redirect_application_id>/);
-  const appId = redirect ?? GUID;
+  const appId = x(meta, /<redirect_application_id>([^<]+)<\/redirect_application_id>/) ?? GUID;
   // Language must be one the build supports (Lesta is RU-only, not EN).
   const lang = x(meta, /<default_language>([^<]+)<\/default_language>/) ?? "EN";
-  // client_type "hd" carries every part id we may need to declare.
+  // client_type "hd" carries every part id we must declare a version for.
   const hdBlock = x(meta, /<client_type\b[^>]*\bid="hd"[^>]*>([\s\S]*?)<\/client_type>/) ?? "";
   const parts = xAll(hdBlock, /<client_part\b[^>]*\bid="([^"]+)"/g).map((m) => m[1]);
 
@@ -92,20 +94,25 @@ async function resolveVolumes(): Promise<{ version: string; volumes: Volume[] }>
   const chain = await getText(`https://${HOST}/api/v1/patches_chain/?${q}`);
 
   const seedBase = x(chain, /<web_seeds>[\s\S]*?<url[^>]*>([^<]+)<\/url>/);
-  const patch = xAll(chain, /<patch>([\s\S]*?)<\/patch>/g)
-    .map((m) => m[1])
-    .find((p) => x(p, /<part>([^<]+)<\/part>/) === CONTENT_PART);
   // A branch with no live build (e.g. Common Test between tests) returns a
-  // stale/empty chain with no seeds or content part.
-  if (!seedBase || !patch) {
-    throw new Error(`no ${CONTENT_PART} install chain for ${GUID} (no active build?)`);
-  }
+  // stale/empty chain with no seeds.
+  if (!seedBase) throw new Error(`no install chain for ${appId} (no active build?)`);
 
-  const volumes = xAll(patch, /<file>([\s\S]*?)<\/file>/g).map((m): Volume => ({
-    url: seedBase + (x(m[1], /<name>([^<]+)<\/name>/) ?? "").trim(),
-    size: Number(x(m[1], /<size>([^<]+)<\/size>/)),
-  }));
-  return { version, volumes };
+  // Map each part to its full-install .wgpkg volumes. Map minimaps live across
+  // two parts: `client` (the classic maps) and `sdcontent` (everything else). A
+  // part can list several patches (a full install plus incremental diffs); we
+  // only want the full one, i.e. `version_from = 0`.
+  const byPart = new Map<string, Volume[]>();
+  for (const [, patch] of xAll(chain, /<patch>([\s\S]*?)<\/patch>/g)) {
+    const part = x(patch, /<part>([^<]+)<\/part>/);
+    if (!part || x(patch, /<version_from>([^<]+)<\/version_from>/) !== "0") continue;
+    const vols = xAll(patch, /<file>([\s\S]*?)<\/file>/g).map((m): Volume => ({
+      url: seedBase + (x(m[1], /<name>([^<]+)<\/name>/) ?? "").trim(),
+      size: Number(x(m[1], /<size>([^<]+)<\/size>/)),
+    }));
+    byPart.set(part, vols);
+  }
+  return { version, getVolumes: (part) => byPart.get(part) ?? [] };
 }
 
 // ---- Sparse 7z: build volumes with only the header filled, then list ---------
@@ -163,24 +170,29 @@ async function buildSparse(dir: string, volumes: Volume[]): Promise<number[]> {
 // and laid out in listing order starting at 32 (verified against real CRCs), so
 // offset = 32 + sum(compressed size of every block before it).
 // Packages that never hold a `spaces/<id>/mmap.dds` — skip them so `--all`
-// doesn't download tens of MB per tank/shared/hangar block for nothing. The
-// byte offset must still advance over every block (offsets are cumulative), so
-// we only skip *adding* them, never the accumulation.
+// doesn't download tens of MB per tank/shared/hangar block for nothing.
 const NON_MAP = /(?:^|[/_-])(?:vehicles_level|shared_content|hangar)|_bin$|_editor/;
 
+// Map every `res/packages/<id>.pkg` to its byte offset in the (non-solid)
+// archive. Each entry is its own packed stream laid out contiguously from
+// offset 32, in listing order, so an entry's offset is 32 + the sum of every
+// preceding entry's packed size. The `client` archive interleaves the map
+// packages with the exe/dlls/other res, so we must accumulate over ALL entries,
+// not just the packages — hence `-slt` (one `Packed Size` per file).
 function indexArchive(vol1: string): Map<string, Block> {
-  const listing = execFileSync("7z", ["l", vol1], { encoding: "utf8", maxBuffer: 64 << 20 });
+  const listing = execFileSync("7z", ["l", "-slt", vol1], {
+    encoding: "utf8",
+    maxBuffer: 128 << 20,
+  });
   let off = 32;
   const byId = new Map<string, Block>();
-  for (const line of listing.split("\n")) {
-    const m = line.match(/\bres\/packages\/([^\s/]+)\.pkg\s*$/);
-    if (!m) continue;
-    const cols = line.trim().split(/\s+/);
-    const comp = Number(cols[cols.length - 2]); // Date Time Attr Size Compressed Name
-    if (!NON_MAP.test(m[1])) {
-      byId.set(m[1], { name: `res/packages/${m[1]}.pkg`, off, comp });
-    }
-    off += comp;
+  for (const entry of listing.split(/\r?\n\r?\n/)) {
+    const p = x(entry, /^Path = (.+)$/m);
+    if (!p || !/^Packed Size =/m.test(entry)) continue; // skip archive header / dirs
+    const packed = Number(x(entry, /^Packed Size = (\d+)$/m) ?? "0");
+    const m = p.match(/^res\/packages\/([^/]+)\.pkg$/);
+    if (m && !NON_MAP.test(m[1])) byId.set(m[1], { name: p, off, comp: packed });
+    off += packed;
   }
   return byId;
 }
@@ -277,10 +289,16 @@ async function extractMap(
   await img.webp({ quality: 88 }).toFile(path.join(mapsDir, `${id}.webp`));
 }
 
+// The content parts that hold `res/packages/<id>.pkg` map packages: the classic
+// maps ship in `client`, everything else in `sdcontent`.
+const CONTENT_PARTS = PART_OVERRIDE ? [PART_OVERRIDE] : ["client", "sdcontent"];
+
+type PartArchive = { volumes: Volume[]; sizes: number[]; dir: string };
+
 async function main(): Promise<void> {
-  console.log("[wot.maps] resolving CDN volumes via WGUS...");
-  const { version, volumes } = await resolveVolumes();
-  console.log(`[wot.maps] client ${version}, ${CONTENT_PART}: ${volumes.length} volumes`);
+  console.log("[wot.maps] resolving install chain via WGUS...");
+  const { version, getVolumes } = await resolveClient();
+  console.log(`[wot.maps] client ${version}`);
 
   // Cheap up-to-date guard for the sync cron: if the mirror already holds this
   // exact client version, skip the multi-GB re-extraction entirely. `--force`
@@ -294,24 +312,38 @@ async function main(): Promise<void> {
     return;
   }
 
-  const dir = fs.mkdtempSync(path.join(os.tmpdir(), "wotmaps-"));
-  console.log("[wot.maps] building sparse 7z + reading index...");
-  const sizes = await buildSparse(dir, volumes);
-  const byId = indexArchive(volPath(dir, 0));
-  console.log(`[wot.maps] ${byId.size} map packages in the archive`);
+  // Index every map across the content parts (a map lives in exactly one part;
+  // `client` wins over `sdcontent` for the rare id present in both).
+  const dirs: string[] = [];
+  const byId = new Map<string, { archive: PartArchive; block: Block }>();
+  for (const part of CONTENT_PARTS) {
+    const volumes = getVolumes(part);
+    if (volumes.length === 0) {
+      console.warn(`[wot.maps] no ${part} volumes`);
+      continue;
+    }
+    const dir = fs.mkdtempSync(path.join(os.tmpdir(), "wotmaps-"));
+    dirs.push(dir);
+    const sizes = await buildSparse(dir, volumes);
+    const idx = indexArchive(volPath(dir, 0));
+    const archive: PartArchive = { volumes, sizes, dir };
+    for (const [id, block] of idx) if (!byId.has(id)) byId.set(id, { archive, block });
+    console.log(`[wot.maps] ${part}: ${idx.size} map packages`);
+  }
 
   const ids = wantAll ? [...byId.keys()] : explicitIds.length ? explicitIds : ["01_karelia"];
   let ok = 0;
   const missing: string[] = [];
   for (const id of ids) {
-    const block = byId.get(id);
-    if (!block) {
+    const entry = byId.get(id);
+    if (!entry) {
       missing.push(id);
-      console.warn(`  ? ${id}: not in ${CONTENT_PART}`);
+      console.warn(`  ? ${id}: not found`);
       continue;
     }
     try {
-      await extractMap(dir, volumes, sizes, block, id);
+      const { archive, block } = entry;
+      await extractMap(archive.dir, archive.volumes, archive.sizes, block, id);
       ok++;
       console.log(`  ✓ ${id} (${(block.comp / 1e6).toFixed(1)} MB block)`);
     } catch (e) {
@@ -319,7 +351,7 @@ async function main(): Promise<void> {
       console.warn(`  ✗ ${id}: ${(e as Error).message}`);
     }
   }
-  fs.rmSync(dir, { recursive: true, force: true });
+  for (const dir of dirs) fs.rmSync(dir, { recursive: true, force: true });
   if (ok > 0) fs.writeFileSync(versionFile, `${version}\n`);
   console.log(
     `[wot.maps] done: ${ok} written to ${outDir}${missing.length ? `, missing: ${missing.join(", ")}` : ""}`,
