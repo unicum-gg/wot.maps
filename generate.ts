@@ -162,6 +162,12 @@ async function buildSparse(dir: string, volumes: Volume[]): Promise<number[]> {
 // Parse `7z l` into an ordered map of block -> byte offset. Blocks are non-solid
 // and laid out in listing order starting at 32 (verified against real CRCs), so
 // offset = 32 + sum(compressed size of every block before it).
+// Packages that never hold a `spaces/<id>/mmap.dds` — skip them so `--all`
+// doesn't download tens of MB per tank/shared/hangar block for nothing. The
+// byte offset must still advance over every block (offsets are cumulative), so
+// we only skip *adding* them, never the accumulation.
+const NON_MAP = /(?:^|[/_-])(?:vehicles_level|shared_content|hangar)|_bin$|_editor/;
+
 function indexArchive(vol1: string): Map<string, Block> {
   const listing = execFileSync("7z", ["l", vol1], { encoding: "utf8", maxBuffer: 64 << 20 });
   let off = 32;
@@ -171,7 +177,9 @@ function indexArchive(vol1: string): Map<string, Block> {
     if (!m) continue;
     const cols = line.trim().split(/\s+/);
     const comp = Number(cols[cols.length - 2]); // Date Time Attr Size Compressed Name
-    byId.set(m[1], { name: `res/packages/${m[1]}.pkg`, off, comp });
+    if (!NON_MAP.test(m[1])) {
+      byId.set(m[1], { name: `res/packages/${m[1]}.pkg`, off, comp });
+    }
     off += comp;
   }
   return byId;
