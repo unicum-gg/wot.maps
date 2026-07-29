@@ -11,7 +11,7 @@ Each game/publisher has its own branch, mirroring
 | `WG` | Wargaming release | `wgus-woteu.wargaming.net` | `WOT.EU.PRODUCTION` |
 | `WG_CT` | Wargaming Common Test | `wgus-wotct.wargaming.net` | `WOT.CT.PRODUCTION` |
 | `Lesta` | Lesta / Мир танков release | `lstus-ru.lesta.ru` | `MT.RU.PRODUCTION` |
-| `Lesta_PT` | Lesta Public Test | — | — |
+| `Lesta_PT` | Lesta Public Test | `lstus-ru.lesta.ru` | `MT.PT.PRODUCTION` |
 
 ### How it's built
 

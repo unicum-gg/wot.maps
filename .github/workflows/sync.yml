@@ -33,7 +33,9 @@ jobs:
           - branch: Lesta
             host: lstus-ru.lesta.ru
             guid: MT.RU.PRODUCTION
-          # Lesta_PT: guid/host not yet pinned (public test usually inactive).
+          - branch: Lesta_PT
+            host: lstus-ru.lesta.ru
+            guid: MT.PT.PRODUCTION
     steps:
       - name: Checkout generator (main)
         uses: actions/checkout@v4
