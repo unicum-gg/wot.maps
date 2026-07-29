@@ -264,8 +264,9 @@ async function extractMap(
   if (outSize && outSize !== width) {
     img = img.resize(outSize, outSize, { kernel: "lanczos3" });
   }
-  fs.mkdirSync(outDir, { recursive: true });
-  await img.webp({ quality: 88 }).toFile(path.join(outDir, `${id}.webp`));
+  const mapsDir = path.join(outDir, "maps");
+  fs.mkdirSync(mapsDir, { recursive: true });
+  await img.webp({ quality: 88 }).toFile(path.join(mapsDir, `${id}.webp`));
 }
 
 async function main(): Promise<void> {
