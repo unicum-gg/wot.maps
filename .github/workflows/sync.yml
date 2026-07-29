@@ -30,12 +30,10 @@ jobs:
           - branch: WG_CT
             host: wgus-wotct.wargaming.net
             guid: WOT.CT.PRODUCTION
-          # Lesta / Lesta_PT run on Lesta's RU infra whose content CDN is not
-          # reachable from GitHub-hosted (US/EU) runners. Populate them from a
-          # self-hosted runner with RU access, e.g.:
-          #   - branch: Lesta
-          #     host: <lesta wgus host>
-          #     guid: MT.RU.PRODUCTION
+          - branch: Lesta
+            host: lstus-ru.lesta.ru
+            guid: MT.RU.PRODUCTION
+          # Lesta_PT: guid/host not yet pinned (public test usually inactive).
     steps:
       - name: Checkout generator (main)
         uses: actions/checkout@v4

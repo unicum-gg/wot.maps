@@ -70,17 +70,22 @@ async function resolveVolumes(): Promise<{ version: string; volumes: Volume[] }>
   );
   const version = x(meta, /<version>([^<]+)<\/version>/);
   if (!version) throw new Error(`no metadata version for ${GUID}`);
+  // Some publishers redirect the app id (Lesta: WOT.RU.PRODUCTION -> MT.RU...).
+  const redirect = x(meta, /<redirect_application_id>([^<]+)<\/redirect_application_id>/);
+  const appId = redirect ?? GUID;
+  // Language must be one the build supports (Lesta is RU-only, not EN).
+  const lang = x(meta, /<default_language>([^<]+)<\/default_language>/) ?? "EN";
   // client_type "hd" carries every part id we may need to declare.
   const hdBlock = x(meta, /<client_type\b[^>]*\bid="hd"[^>]*>([\s\S]*?)<\/client_type>/) ?? "";
   const parts = xAll(hdBlock, /<client_part\b[^>]*\bid="([^"]+)"/g).map((m) => m[1]);
 
   const q = new URLSearchParams({
-    game_id: GUID,
+    game_id: appId,
     protocol_version: PV,
     metadata_protocol_version: PV,
     installation_id: "python-wgus",
     client_type: "hd",
-    lang: "EN",
+    lang,
     metadata_version: version,
   });
   for (const p of parts) q.set(`${p}_current_version`, "0");
