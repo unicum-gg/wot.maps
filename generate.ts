@@ -28,9 +28,10 @@ type Decoded = { width: number; height: number; rgba: Buffer };
 type Rgb = [number, number, number];
 
 // WGUS coordinates per branch (mirrors unicum-gg/wot.assets):
-//   WG      wgus-woteu.wargaming.net  WOT.EU.PRODUCTION
-//   WG_CT   wgus-wotct.wargaming.net  WOT.CT.PRODUCTION
-//   Lesta   (RU infra — content CDN geo-restricted; needs an RU runner)
+//   WG        wgus-woteu.wargaming.net  WOT.EU.PRODUCTION
+//   WG_CT     wgus-wotct.wargaming.net  WOT.CT.PRODUCTION
+//   Lesta     lstus-ru.lesta.ru         MT.RU.PRODUCTION
+//   Lesta_PT  lstus-ru.lesta.ru         MT.PT.PRODUCTION
 const args = process.argv.slice(2);
 
 function takeFlag(name: string): string | undefined {
