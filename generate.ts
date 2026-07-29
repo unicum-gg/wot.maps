@@ -101,17 +101,20 @@ async function resolveClient(): Promise<{
 
   // Map each part to its full-install .wgpkg volumes. Map minimaps live across
   // two parts: `client` (the classic maps) and `sdcontent` (everything else). A
-  // part can list several patches (a full install plus incremental diffs); we
-  // only want the full one, i.e. `version_from = 0`.
+  // part can list several patches (a full install plus small incremental diffs);
+  // we keep the largest, which is always the full install (WG tags diffs with
+  // `version_from`, Lesta omits it, so total size is the reliable discriminator).
+  const total = (v: Volume[]) => v.reduce((s, vol) => s + vol.size, 0);
   const byPart = new Map<string, Volume[]>();
   for (const [, patch] of xAll(chain, /<patch>([\s\S]*?)<\/patch>/g)) {
     const part = x(patch, /<part>([^<]+)<\/part>/);
-    if (!part || x(patch, /<version_from>([^<]+)<\/version_from>/) !== "0") continue;
+    if (!part) continue;
     const vols = xAll(patch, /<file>([\s\S]*?)<\/file>/g).map((m): Volume => ({
       url: seedBase + (x(m[1], /<name>([^<]+)<\/name>/) ?? "").trim(),
       size: Number(x(m[1], /<size>([^<]+)<\/size>/)),
     }));
-    byPart.set(part, vols);
+    const cur = byPart.get(part);
+    if (!cur || total(vols) > total(cur)) byPart.set(part, vols);
   }
   return { version, getVolumes: (part) => byPart.get(part) ?? [] };
 }
