@@ -419,6 +419,23 @@ async function generateMarkers(): Promise<void> {
     poi_strike: "poiMarkerIcon_1",
     poi_recon: "poiMarkerIcon_2",
   };
+  // A soft dark shadow of a sprite, so a white glyph stays legible on the white
+  // disc (an all-white marker that still reads).
+  const shadow = async (r: Rect): Promise<Buffer> => {
+    const alpha = await crop(r).extractChannel(3).png().toBuffer();
+    return sharp({
+      create: {
+        width: r.w * MARKER_SCALE,
+        height: r.h * MARKER_SCALE,
+        channels: 3,
+        background: { r: 0, g: 0, b: 0 },
+      },
+    })
+      .joinChannel(alpha)
+      .blur(2)
+      .png()
+      .toBuffer();
+  };
   const back = rects.get("poiMarkerBack");
   for (const [name, iconName] of Object.entries(poiIcons)) {
     const icon = rects.get(iconName);
@@ -427,9 +444,12 @@ async function generateMarkers(): Promise<void> {
       continue;
     }
     const disc = await recolour(back, { r: 0xff, g: 0xff, b: 0xff }, 3);
-    const glyph = await recolour(icon, { r: 0x22, g: 0x24, b: 0x2b }, 1.2);
+    const glyph = await recolour(icon, { r: 0xff, g: 0xff, b: 0xff }, 1.2);
     await sharp(disc)
-      .composite([{ input: glyph, gravity: "center" }])
+      .composite([
+        { input: await shadow(icon), gravity: "center" },
+        { input: glyph, gravity: "center" },
+      ])
       .png({ compressionLevel: 9 })
       .toFile(path.join(markersDir, `${name}.png`));
     ok++;
