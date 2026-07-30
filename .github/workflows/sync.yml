@@ -64,6 +64,10 @@ jobs:
       - name: Extract (no-op if client version unchanged)
         run: npm run generate -- --all --host "${{ matrix.host }}" --guid "${{ matrix.guid }}" --out out --size 2048
 
+      - name: Extract minimap markers (WG only, region-agnostic GUI)
+        if: matrix.branch == 'WG'
+        run: npm run generate -- --markers --out out
+
       - name: Commit & push if changed
         working-directory: out
         run: |

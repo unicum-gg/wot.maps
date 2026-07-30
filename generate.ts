@@ -14,6 +14,7 @@
 //
 // Usage (needs the `7z` binary on PATH):
 //   npm run generate -- [--all | id1 id2 ...] [--host H] [--guid G] [--out DIR] [--size N]
+//   npm run generate -- --markers [--out DIR]   # minimap base/spawn/CP markers
 import { execFileSync } from "node:child_process";
 import fs from "node:fs";
 import os from "node:os";
@@ -293,6 +294,74 @@ async function extractMap(
   await img.webp({ quality: 88 }).toFile(path.join(mapsDir, `${id}.webp`));
 }
 
+// ---- Minimap markers (base / spawn / control point) --------------------------
+// The game's own minimap entry icons live baked in the client battle atlas
+// (`gui/flash/atlases/battleAtlas.dds`, a 4096-wide DXT5 sheet with an XML of
+// named sub-textures). They are region-agnostic GUI, so we source the atlas from
+// the sibling `unicum-gg/wot.assets` mirror (which already extracts the client's
+// `gui/**` binaries) rather than re-deriving it here, decode the DXT5, and crop
+// the named sprites into standalone PNGs under `<out>/markers/`.
+const WOT_ASSETS_RAW =
+  "https://raw.githubusercontent.com/unicum-gg/wot.assets/WG/gui/flash/atlases/battleAtlas";
+const MARKER_SCALE = 2; // 64px atlas sprites -> crisp 128px PNGs
+
+// Output file name -> atlas sub-texture name. Ally reads green, enemy red, as
+// in-game. Spawn points are numbered 1..4.
+function markerSprites(): Record<string, string> {
+  const out: Record<string, string> = {
+    base_ally: "AllyTeamBaseEntry_green_0",
+    base_enemy: "EnemyTeamBaseEntry_red_0",
+    control_point: "ControlPointEntry_0",
+  };
+  for (let i = 1; i <= 4; i++) {
+    out[`spawn_ally_${i}`] = `AllyTeamSpawnEntry_green_${i}`;
+    out[`spawn_enemy_${i}`] = `EnemyTeamSpawnEntry_red_${i}`;
+  }
+  return out;
+}
+
+type Rect = { x: number; y: number; w: number; h: number };
+
+function parseAtlasXml(xml: string): Map<string, Rect> {
+  const rects = new Map<string, Rect>();
+  const re =
+    /<SubTexture>\s*<name>\s*([^<\s]+)\s*<\/name>\s*<x>\s*(\d+)\s*<\/x>\s*<y>\s*(\d+)\s*<\/y>\s*<width>\s*(\d+)\s*<\/width>\s*<height>\s*(\d+)\s*<\/height>/g;
+  for (const m of xml.matchAll(re)) {
+    rects.set(m[1], { x: +m[2], y: +m[3], w: +m[4], h: +m[5] });
+  }
+  return rects;
+}
+
+async function generateMarkers(): Promise<void> {
+  console.log("[wot.maps] extracting minimap markers from battleAtlas...");
+  const [xml, dds] = await Promise.all([
+    getText(`${WOT_ASSETS_RAW}.xml`),
+    getBuffer(`${WOT_ASSETS_RAW}.dds`),
+  ]);
+  const rects = parseAtlasXml(xml);
+  const { width, height, rgba } = decodeDDS(dds);
+  const markersDir = path.join(outDir, "markers");
+  fs.mkdirSync(markersDir, { recursive: true });
+  let ok = 0;
+  const missing: string[] = [];
+  for (const [name, sprite] of Object.entries(markerSprites())) {
+    const r = rects.get(sprite);
+    if (!r) {
+      missing.push(sprite);
+      continue;
+    }
+    await sharp(rgba, { raw: { width, height, channels: 4 } })
+      .extract({ left: r.x, top: r.y, width: r.w, height: r.h })
+      .resize(r.w * MARKER_SCALE, r.h * MARKER_SCALE, { kernel: "lanczos3" })
+      .png({ compressionLevel: 9 })
+      .toFile(path.join(markersDir, `${name}.png`));
+    ok++;
+  }
+  console.log(
+    `[wot.maps] markers: ${ok} written to ${markersDir}${missing.length ? `, missing: ${missing.join(", ")}` : ""}`,
+  );
+}
+
 // The content parts that hold `res/packages/<id>.pkg` map packages: the classic
 // maps ship in `client`, everything else in `sdcontent`.
 const CONTENT_PARTS = PART_OVERRIDE ? [PART_OVERRIDE] : ["client", "sdcontent"];
@@ -362,7 +431,8 @@ async function main(): Promise<void> {
   );
 }
 
-main().catch((e) => {
+const entry = args.includes("--markers") ? generateMarkers : main;
+entry().catch((e) => {
   console.error(e);
   process.exit(1);
 });

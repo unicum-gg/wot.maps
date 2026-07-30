@@ -3,6 +3,10 @@
 High-resolution top-down battle **minimaps** for World of Tanks / Мир танков,
 keyed by arena id (`maps/<arena_id>.webp`), used by [unicum.gg](https://unicum.gg).
 
+The `WG` branch also carries `markers/` — the game's own minimap entry icons
+(base flags, numbered spawn diamonds, control point) cropped from the client
+battle atlas. These are region-agnostic GUI, so a single set is published there.
+
 Each game/publisher has its own branch, mirroring
 [`unicum-gg/wot.assets`](https://github.com/unicum-gg/wot.assets):
 
@@ -32,10 +36,12 @@ Run locally (needs `7z` / p7zip on PATH):
 npm install
 npm run generate -- --all --out out          # WG (default host/guid)
 npm run generate -- --all --out out --host lstus-ru.lesta.ru --guid MT.RU.PRODUCTION
+npm run generate -- --markers --out out       # minimap base/spawn/CP markers
 ```
 
 `--host`/`--guid` select the branch, `--size` the output edge (default 2048),
-`--force` re-extracts even when the version is unchanged.
+`--force` re-extracts even when the version is unchanged. `--markers` crops the
+minimap icons from the `unicum-gg/wot.assets` battle atlas into `markers/`.
 
 ### Notice
 
