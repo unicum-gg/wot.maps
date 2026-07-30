@@ -386,23 +386,29 @@ async function generateMarkers(): Promise<void> {
     ok++;
   }
 
-  // Onslaught points-of-interest markers: the `poiMarkerBack` disc (a neutral
-  // grey the game colours per state) + a per-type glyph (`poiMarkerIcon_{type}`,
-  // 1 = strike, 2 = recon). We fill the disc with the game's available/amber so
-  // it reads as "capturable" rather than the greyed-out captured look.
-  const POI_AMBER = { r: 0xe8, g: 0xb0, b: 0x2e };
+  // Onslaught points-of-interest markers: the `poiMarkerBack` disc (a neutral,
+  // semi-transparent scrim the game colours per state) + a per-type glyph
+  // (`poiMarkerIcon_{type}`, 1 = strike, 2 = recon). We render the game's
+  // "available/capturable" look: a solid white disc with the glyph darkened for
+  // contrast, rather than the greyed-out captured state.
   const crop = (r: Rect) =>
     sharp(rgba, { raw: { width, height, channels: 4 } })
       .extract({ left: r.x, top: r.y, width: r.w, height: r.h })
       .resize(r.w * MARKER_SCALE, r.h * MARKER_SCALE, { kernel: "lanczos3" });
-  const amberDisc = async (r: Rect): Promise<Buffer> => {
-    const alpha = await crop(r).extractChannel(3).png().toBuffer();
+  // Recolour a sprite: fill `rgb`, keep its shape, and boost its alpha (the disc
+  // is only ~half opaque) so the fill reads solid.
+  const recolour = async (
+    r: Rect,
+    rgb: { r: number; g: number; b: number },
+    alphaGain: number,
+  ): Promise<Buffer> => {
+    const alpha = await crop(r).extractChannel(3).linear(alphaGain, 0).png().toBuffer();
     return sharp({
       create: {
         width: r.w * MARKER_SCALE,
         height: r.h * MARKER_SCALE,
         channels: 3,
-        background: POI_AMBER,
+        background: rgb,
       },
     })
       .joinChannel(alpha)
@@ -420,8 +426,10 @@ async function generateMarkers(): Promise<void> {
       missing.push(name);
       continue;
     }
-    await sharp(await amberDisc(back))
-      .composite([{ input: await crop(icon).png().toBuffer(), gravity: "center" }])
+    const disc = await recolour(back, { r: 0xff, g: 0xff, b: 0xff }, 3);
+    const glyph = await recolour(icon, { r: 0x22, g: 0x24, b: 0x2b }, 1.2);
+    await sharp(disc)
+      .composite([{ input: glyph, gravity: "center" }])
       .png({ compressionLevel: 9 })
       .toFile(path.join(markersDir, `${name}.png`));
     ok++;
