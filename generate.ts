@@ -385,6 +385,34 @@ async function generateMarkers(): Promise<void> {
       .toFile(path.join(markersDir, `${name}.png`));
     ok++;
   }
+
+  // Composite markers: a shared disc background + a per-type glyph. The Onslaught
+  // points of interest are `poiMarkerBack` + `poiMarkerIcon_{type}` (1 = strike,
+  // 2 = recon).
+  const crop = (r: Rect) =>
+    sharp(rgba, { raw: { width, height, channels: 4 } })
+      .extract({ left: r.x, top: r.y, width: r.w, height: r.h })
+      .resize(r.w * MARKER_SCALE, r.h * MARKER_SCALE, { kernel: "lanczos3" })
+      .png()
+      .toBuffer();
+  const composites: Record<string, [string, string]> = {
+    poi_strike: ["poiMarkerBack", "poiMarkerIcon_1"],
+    poi_recon: ["poiMarkerBack", "poiMarkerIcon_2"],
+  };
+  for (const [name, [backName, iconName]] of Object.entries(composites)) {
+    const back = rects.get(backName);
+    const icon = rects.get(iconName);
+    if (!back || !icon) {
+      missing.push(name);
+      continue;
+    }
+    await sharp(await crop(back))
+      .composite([{ input: await crop(icon), gravity: "center" }])
+      .png({ compressionLevel: 9 })
+      .toFile(path.join(markersDir, `${name}.png`));
+    ok++;
+  }
+
   console.log(
     `[wot.maps] markers: ${ok} written to ${markersDir}${missing.length ? `, missing: ${missing.join(", ")}` : ""}`,
   );
