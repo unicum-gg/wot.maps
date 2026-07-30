@@ -264,6 +264,32 @@ function decodeDDS(buf: Buffer): Decoded {
 }
 
 // ---- Per-map extraction ------------------------------------------------------
+// Decode one inner `.dds` from an already-unpacked map `.pkg` and write it as a
+// WebP. `required` maps get the standard top-down minimap; the Onslaught variant
+// (`mmap_comp7.dds`, a reduced play area shipped only by some maps) is optional.
+async function ddsInnerToWebp(
+  dir: string,
+  pkgPath: string,
+  inner: string,
+  outFile: string,
+  required: boolean,
+): Promise<void> {
+  const ddsDir = path.join(dir, "dds");
+  fs.rmSync(ddsDir, { recursive: true, force: true });
+  execFileSync("7z", ["x", pkgPath, `-i!${inner}`, `-o${ddsDir}`, "-y"], { stdio: "ignore" });
+  const ddsPath = path.join(ddsDir, inner);
+  if (!fs.existsSync(ddsPath)) {
+    if (required) throw new Error(`no ${inner} in pkg`);
+    return;
+  }
+  const { width, height, rgba } = decodeDDS(fs.readFileSync(ddsPath));
+  let img = sharp(rgba, { raw: { width, height, channels: 4 } });
+  if (outSize && outSize !== width) {
+    img = img.resize(outSize, outSize, { kernel: "lanczos3" });
+  }
+  await img.webp({ quality: 88 }).toFile(outFile);
+}
+
 async function extractMap(
   dir: string,
   volumes: Volume[],
@@ -278,20 +304,22 @@ async function extractMap(
     stdio: "ignore",
   });
   const pkgPath = path.join(workPkg, block.name);
-  const inner = `spaces/${id}/mmap.dds`;
-  const ddsDir = path.join(dir, "dds");
-  fs.rmSync(ddsDir, { recursive: true, force: true });
-  execFileSync("7z", ["x", pkgPath, `-i!${inner}`, `-o${ddsDir}`, "-y"], { stdio: "ignore" });
-  const ddsPath = path.join(ddsDir, inner);
-  if (!fs.existsSync(ddsPath)) throw new Error(`no ${inner} in pkg`);
-  const { width, height, rgba } = decodeDDS(fs.readFileSync(ddsPath));
-  let img = sharp(rgba, { raw: { width, height, channels: 4 } });
-  if (outSize && outSize !== width) {
-    img = img.resize(outSize, outSize, { kernel: "lanczos3" });
-  }
   const mapsDir = path.join(outDir, "maps");
   fs.mkdirSync(mapsDir, { recursive: true });
-  await img.webp({ quality: 88 }).toFile(path.join(mapsDir, `${id}.webp`));
+  await ddsInnerToWebp(
+    dir,
+    pkgPath,
+    `spaces/${id}/mmap.dds`,
+    path.join(mapsDir, `${id}.webp`),
+    true,
+  );
+  await ddsInnerToWebp(
+    dir,
+    pkgPath,
+    `spaces/${id}/mmap_comp7.dds`,
+    path.join(mapsDir, `${id}_comp7.webp`),
+    false,
+  );
 }
 
 // ---- Minimap markers (base / spawn / control point) --------------------------
