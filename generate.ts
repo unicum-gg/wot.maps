@@ -386,28 +386,42 @@ async function generateMarkers(): Promise<void> {
     ok++;
   }
 
-  // Composite markers: a shared disc background + a per-type glyph. The Onslaught
-  // points of interest are `poiMarkerBack` + `poiMarkerIcon_{type}` (1 = strike,
-  // 2 = recon).
+  // Onslaught points-of-interest markers: the `poiMarkerBack` disc (a neutral
+  // grey the game colours per state) + a per-type glyph (`poiMarkerIcon_{type}`,
+  // 1 = strike, 2 = recon). We fill the disc with the game's available/amber so
+  // it reads as "capturable" rather than the greyed-out captured look.
+  const POI_AMBER = { r: 0xe8, g: 0xb0, b: 0x2e };
   const crop = (r: Rect) =>
     sharp(rgba, { raw: { width, height, channels: 4 } })
       .extract({ left: r.x, top: r.y, width: r.w, height: r.h })
-      .resize(r.w * MARKER_SCALE, r.h * MARKER_SCALE, { kernel: "lanczos3" })
+      .resize(r.w * MARKER_SCALE, r.h * MARKER_SCALE, { kernel: "lanczos3" });
+  const amberDisc = async (r: Rect): Promise<Buffer> => {
+    const alpha = await crop(r).extractChannel(3).png().toBuffer();
+    return sharp({
+      create: {
+        width: r.w * MARKER_SCALE,
+        height: r.h * MARKER_SCALE,
+        channels: 3,
+        background: POI_AMBER,
+      },
+    })
+      .joinChannel(alpha)
       .png()
       .toBuffer();
-  const composites: Record<string, [string, string]> = {
-    poi_strike: ["poiMarkerBack", "poiMarkerIcon_1"],
-    poi_recon: ["poiMarkerBack", "poiMarkerIcon_2"],
   };
-  for (const [name, [backName, iconName]] of Object.entries(composites)) {
-    const back = rects.get(backName);
+  const poiIcons: Record<string, string> = {
+    poi_strike: "poiMarkerIcon_1",
+    poi_recon: "poiMarkerIcon_2",
+  };
+  const back = rects.get("poiMarkerBack");
+  for (const [name, iconName] of Object.entries(poiIcons)) {
     const icon = rects.get(iconName);
     if (!back || !icon) {
       missing.push(name);
       continue;
     }
-    await sharp(await crop(back))
-      .composite([{ input: await crop(icon), gravity: "center" }])
+    await sharp(await amberDisc(back))
+      .composite([{ input: await crop(icon).png().toBuffer(), gravity: "center" }])
       .png({ compressionLevel: 9 })
       .toFile(path.join(markersDir, `${name}.png`));
     ok++;
