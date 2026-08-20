@@ -30,7 +30,7 @@ type Rgb = [number, number, number];
 
 // WGUS coordinates per branch (mirrors unicum-gg/wot.assets):
 //   WG        wgus-woteu.wargaming.net  WOT.EU.PRODUCTION
-//   WG_CT     wgus-wotct.wargaming.net  WOT.CT.PRODUCTION
+//   WG_CT     wgus-wotct.wargaming.net  WOT.CT.PRODUCTION  (redirects to wgus-eu)
 //   Lesta     lstus-ru.lesta.ru         MT.RU.PRODUCTION
 //   Lesta_PT  lstus-ru.lesta.ru         MT.PT.PRODUCTION
 const args = process.argv.slice(2);
@@ -66,58 +66,84 @@ async function getBuffer(url: string, range?: string): Promise<Buffer> {
 }
 
 // ---- WGUS: resolve the install chain, grouping .wgpkg volumes by part --------
-async function resolveClient(): Promise<{
-  version: string;
-  getVolumes: (part: string) => Volume[];
-}> {
-  const meta = await getText(
-    `https://${HOST}/api/v1/metadata/?guid=${GUID}&chain_id=unknown&protocol_version=${PV}`,
-  );
-  const version = x(meta, /<version>([^<]+)<\/version>/);
-  if (!version) throw new Error(`no metadata version for ${GUID}`);
-  // Some publishers redirect the app id (Lesta: WOT.RU.PRODUCTION -> MT.RU...).
-  const appId = x(meta, /<redirect_application_id>([^<]+)<\/redirect_application_id>/) ?? GUID;
-  // Language must be one the build supports (Lesta is RU-only, not EN).
-  const lang = x(meta, /<default_language>([^<]+)<\/default_language>/) ?? "EN";
-  // client_type "hd" carries every part id we must declare a version for.
-  const hdBlock = x(meta, /<client_type\b[^>]*\bid="hd"[^>]*>([\s\S]*?)<\/client_type>/) ?? "";
-  const parts = xAll(hdBlock, /<client_part\b[^>]*\bid="([^"]+)"/g).map((m) => m[1]);
+type Client = { version: string; getVolumes: (part: string) => Volume[] };
 
-  const q = new URLSearchParams({
-    game_id: appId,
-    protocol_version: PV,
-    metadata_protocol_version: PV,
-    installation_id: "python-wgus",
-    client_type: "hd",
-    lang,
-    metadata_version: version,
-  });
-  for (const p of parts) q.set(`${p}_current_version`, "0");
-  const chain = await getText(`https://${HOST}/api/v1/patches_chain/?${q}`);
+// A branch can be served by a host other than the one we ask. WGUS answers the
+// move with a `redirect_url` in `patches_chain` instead of a chain, and leaves
+// the old host serving a frozen metadata: that is how the Common Test left
+// `wgus-wotct` (stuck on an April 2021 manifest still pointing at the pre-split
+// RU infra) for `wgus-eu`. We follow the pointer and re-resolve from scratch,
+// because the new host carries its own metadata version. This is a different
+// mechanism from `redirect_application_id`, which swaps the app id in place.
+const MAX_WGUS_REDIRECTS = 3;
 
-  const seedBase = x(chain, /<web_seeds>[\s\S]*?<url[^>]*>([^<]+)<\/url>/);
-  // A branch with no live build (e.g. Common Test between tests) returns a
-  // stale/empty chain with no seeds.
-  if (!seedBase) throw new Error(`no install chain for ${appId} (no active build?)`);
+// Resolves to `null` when the branch has no build to mirror, which is a normal
+// state (the Common Test is only published while a test runs), not a failure.
+async function resolveClient(): Promise<Client | null> {
+  let host = HOST;
+  for (let hop = 0; ; hop++) {
+    const meta = await getText(
+      `https://${host}/api/v1/metadata/?guid=${GUID}&chain_id=unknown&protocol_version=${PV}`,
+    );
+    const version = x(meta, /<version>([^<]+)<\/version>/);
+    if (!version) throw new Error(`no metadata version for ${GUID} on ${host}`);
+    // Some publishers redirect the app id (Lesta: WOT.RU.PRODUCTION -> MT.RU...).
+    const appId = x(meta, /<redirect_application_id>([^<]+)<\/redirect_application_id>/) ?? GUID;
+    // Language must be one the build supports (Lesta is RU-only, not EN).
+    const lang = x(meta, /<default_language>([^<]+)<\/default_language>/) ?? "EN";
+    // client_type "hd" carries every part id we must declare a version for.
+    const hdBlock = x(meta, /<client_type\b[^>]*\bid="hd"[^>]*>([\s\S]*?)<\/client_type>/) ?? "";
+    const parts = xAll(hdBlock, /<client_part\b[^>]*\bid="([^"]+)"/g).map((m) => m[1]);
 
-  // Map each part to its full-install .wgpkg volumes. Map minimaps live across
-  // two parts: `client` (the classic maps) and `sdcontent` (everything else). A
-  // part can list several patches (a full install plus small incremental diffs);
-  // we keep the largest, which is always the full install (WG tags diffs with
-  // `version_from`, Lesta omits it, so total size is the reliable discriminator).
-  const total = (v: Volume[]) => v.reduce((s, vol) => s + vol.size, 0);
-  const byPart = new Map<string, Volume[]>();
-  for (const [, patch] of xAll(chain, /<patch>([\s\S]*?)<\/patch>/g)) {
-    const part = x(patch, /<part>([^<]+)<\/part>/);
-    if (!part) continue;
-    const vols = xAll(patch, /<file>([\s\S]*?)<\/file>/g).map((m): Volume => ({
-      url: seedBase + (x(m[1], /<name>([^<]+)<\/name>/) ?? "").trim(),
-      size: Number(x(m[1], /<size>([^<]+)<\/size>/)),
-    }));
-    const cur = byPart.get(part);
-    if (!cur || total(vols) > total(cur)) byPart.set(part, vols);
+    const q = new URLSearchParams({
+      game_id: appId,
+      protocol_version: PV,
+      metadata_protocol_version: PV,
+      installation_id: "python-wgus",
+      client_type: "hd",
+      lang,
+      metadata_version: version,
+    });
+    for (const p of parts) q.set(`${p}_current_version`, "0");
+    const chain = await getText(`https://${host}/api/v1/patches_chain/?${q}`);
+
+    const moved = x(chain, /<redirect_url>([^<]+)<\/redirect_url>/);
+    if (moved) {
+      const next = new URL(moved.trim()).host;
+      if (next && next !== host) {
+        if (hop >= MAX_WGUS_REDIRECTS) throw new Error(`WGUS redirect loop for ${GUID}`);
+        console.log(`[wot.maps] ${GUID} moved: ${host} -> ${next}`);
+        host = next;
+        continue;
+      }
+    }
+
+    // Scope the seed lookup to the `<web_seeds>` block: a chain also carries
+    // `<url>` entries for its torrents, which are not range-servable mirrors.
+    const seeds = x(chain, /<web_seeds>([\s\S]*?)<\/web_seeds>/) ?? "";
+    const seedBase = x(seeds, /<url[^>]*>([^<]+)<\/url>/);
+    // No seed means no build to install: the branch is idle, not broken.
+    if (!seedBase) return null;
+
+    // Map each part to its full-install .wgpkg volumes. Map minimaps live across
+    // two parts: `client` (the classic maps) and `sdcontent` (everything else). A
+    // part can list several patches (a full install plus small incremental diffs);
+    // we keep the largest, which is always the full install (WG tags diffs with
+    // `version_from`, Lesta omits it, so total size is the reliable discriminator).
+    const total = (v: Volume[]) => v.reduce((s, vol) => s + vol.size, 0);
+    const byPart = new Map<string, Volume[]>();
+    for (const [, patch] of xAll(chain, /<patch>([\s\S]*?)<\/patch>/g)) {
+      const part = x(patch, /<part>([^<]+)<\/part>/);
+      if (!part) continue;
+      const vols = xAll(patch, /<file>([\s\S]*?)<\/file>/g).map((m): Volume => ({
+        url: seedBase + (x(m[1], /<name>([^<]+)<\/name>/) ?? "").trim(),
+        size: Number(x(m[1], /<size>([^<]+)<\/size>/)),
+      }));
+      const cur = byPart.get(part);
+      if (!cur || total(vols) > total(cur)) byPart.set(part, vols);
+    }
+    return { version, getVolumes: (part) => byPart.get(part) ?? [] };
   }
-  return { version, getVolumes: (part) => byPart.get(part) ?? [] };
 }
 
 // ---- Sparse 7z: build volumes with only the header filled, then list ---------
@@ -468,7 +494,12 @@ type PartArchive = { volumes: Volume[]; sizes: number[]; dir: string };
 
 async function main(): Promise<void> {
   console.log("[wot.maps] resolving install chain via WGUS...");
-  const { version, getVolumes } = await resolveClient();
+  const client = await resolveClient();
+  if (!client) {
+    console.log(`[wot.maps] ${GUID}: no build published, nothing to mirror`);
+    return;
+  }
+  const { version, getVolumes } = client;
   console.log(`[wot.maps] client ${version}`);
 
   // Cheap up-to-date guard for the sync cron: if the mirror already holds this

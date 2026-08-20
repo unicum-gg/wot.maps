@@ -17,6 +17,12 @@ Each game/publisher has its own branch, mirroring
 | `Lesta` | Lesta / Мир танков release | `lstus-ru.lesta.ru` | `MT.RU.PRODUCTION` |
 | `Lesta_PT` | Lesta Public Test | `lstus-ru.lesta.ru` | `MT.PT.PRODUCTION` |
 
+The host column is the entry point, not necessarily where the build is served:
+WGUS answers a moved branch with a `redirect_url` that `generate.ts` follows.
+The Common Test is currently redirected from `wgus-wotct.wargaming.net` to
+`wgus-eu.wargaming.net`, and is only published while a test is running, so
+between two tests its sync is a no-op rather than a failure.
+
 ### How it's built
 
 Fully self-contained, no game client needed. `generate.ts` pulls the game's own
