@@ -12,10 +12,10 @@ Each game/publisher has its own branch, mirroring
 
 | Branch | Client | WGUS host | guid |
 | --- | --- | --- | --- |
-| `WG` | Wargaming release | `wgus-woteu.wargaming.net` | `WOT.EU.PRODUCTION` |
-| `WG_CT` | Wargaming Common Test | `wgus-wotct.wargaming.net` | `WOT.CT.PRODUCTION` |
-| `Lesta` | Lesta / Мир танков release | `lstus-ru.lesta.ru` | `MT.RU.PRODUCTION` |
-| `Lesta_PT` | Lesta Public Test | `lstus-ru.lesta.ru` | `MT.PT.PRODUCTION` |
+| [`WG`](https://github.com/unicum-gg/wot.maps/tree/WG) | Wargaming release | `wgus-woteu.wargaming.net` | `WOT.EU.PRODUCTION` |
+| [`WG_CT`](https://github.com/unicum-gg/wot.maps/tree/WG_CT) | Wargaming Common Test | `wgus-wotct.wargaming.net` | `WOT.CT.PRODUCTION` |
+| [`Lesta`](https://github.com/unicum-gg/wot.maps/tree/Lesta) | Lesta / Мир танков release | `lstus-ru.lesta.ru` | `MT.RU.PRODUCTION` |
+| [`Lesta_PT`](https://github.com/unicum-gg/wot.maps/tree/Lesta_PT) | Lesta Public Test | `lstus-ru.lesta.ru` | `MT.PT.PRODUCTION` |
 
 The host column is the entry point, not necessarily where the build is served:
 WGUS answers a moved branch with a `redirect_url` that `generate.ts` follows.
