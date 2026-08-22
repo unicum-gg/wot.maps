@@ -19,10 +19,10 @@ A new map appears on the test branch first, which is what that one is for.
 
 ## What is published
 
-- `maps/<arena_id>.webp` — the minimap, 2048² by default
-- `maps/<arena_id>_comp7.webp` — the Onslaught night variant, for the handful of
+- `maps/<arena_id>.webp`: the minimap, 2048² by default
+- `maps/<arena_id>_comp7.webp`: the Onslaught night variant, for the handful of
   arenas that have one
-- `markers/` — the game's own minimap entries (base flags, numbered spawn
+- `markers/`: the game's own minimap entries (base flags, numbered spawn
   diamonds, control point), cropped from the client's battle atlas. Region
   agnostic, so a single set is published on `WG`.
 
