@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<name>#arenas:102_deathtrack/name</name>
+	<description>#arenas:102_deathtrack/description</description>
+	<geometry>spaces/102_deathtrack</geometry>
+	<boundingBox>
+		<bottomLeft>
+			-400.0 -430.0
+			<!--BW_String-->
+		</bottomLeft>
+		<upperRight>
+			430.0 400.0
+			<!--BW_String-->
+		</upperRight>
+	</boundingBox>
+	<roundLength>900</roundLength>
+	<minimap>spaces/102_deathtrack/mmap.dds</minimap>
+	<vehicleCamouflageKind>summer</vehicleCamouflageKind>
+	<maxPlayersInTeam>15</maxPlayersInTeam>
+	<loadingMusic>/vehicles2/music/intro</loadingMusic>
+	<ambientSound>/wind/wind/wind_summer_01</ambientSound>
+	<soundRemapping>
+		<remap>
+			<old>/guns/pc/guns/medium_gun_50-75mm/medium_gun_50-75mm</old>
+			<new>/vehicles2/guns/pc/guns/medium_gun_50-75mm/medium_gun_50-75mm</new>
+		</remap>
+		<remap>
+			<old>/guns/pc/guns/medium_gun_50-75mm/medium_gun_50-75mm_mb</old>
+			<new>/vehicles2/guns/pc/guns/medium_gun_50-75mm/medium_gun_50-75mm_mb</new>
+		</remap>
+		<remap>
+			<old>/guns/npc/guns/medium_gun_50-75mm/medium_gun_50-75mm</old>
+			<new>/vehicles2/guns/npc/guns/medium_gun_50-75mm/medium_gun_50-75mm</new>
+		</remap>
+		<remap>
+			<old>/guns/npc/guns/medium_gun_50-75mm/medium_gun_50-75mm_mb</old>
+			<new>/vehicles2/guns/npc/guns/medium_gun_50-75mm/medium_gun_50-75mm_mb</new>
+		</remap>
+	</soundRemapping>
+	<water>
+		<texScale>0</texScale>
+		<freqX>0</freqX>
+		<freqZ>0</freqZ>
+	</water>
+	<gameplayTypes>
+		<domination>
+			<teamSpawnPoints>
+				<team1>
+					<position>
+						-362.730 273.380
+						<!--BW_String-->
+					</position>
+				</team1>
+				<team2>
+					<position>
+						-383.246 240.500
+						<!--BW_String-->
+					</position>
+				</team2>
+			</teamSpawnPoints>
+			<teamBasePositions>
+				<team1/>
+				<team2/>
+			</teamBasePositions>
+			<controlPoint>
+				355.165 -210.444
+				<!--BW_String-->
+			</controlPoint>
+		</domination>
+	</gameplayTypes>
+	<explicitRequestOnly>true</explicitRequestOnly>
+</root>

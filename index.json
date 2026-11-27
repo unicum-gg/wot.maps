@@ -1,0 +1,1058 @@
+{
+  "00_tank_tutorial": {
+    "name": "Training area",
+    "description": null,
+    "firstVersion": "0.8.4",
+    "lastVersion": "0.9.22",
+    "lastDate": "2018-02-01",
+    "minimap": "ARCHIVE"
+  },
+  "01_karelia_fp": {
+    "name": "Karelia (Winter)",
+    "description": null,
+    "firstVersion": "1.19.0",
+    "lastVersion": "2.1.1",
+    "lastDate": "2026-02-19",
+    "minimap": "ARCHIVE"
+  },
+  "02_malinovka_fp": {
+    "name": "Malinovka (Winter)",
+    "description": null,
+    "firstVersion": "1.19.0",
+    "lastVersion": "2.1.1",
+    "lastDate": "2026-02-19",
+    "minimap": "ARCHIVE"
+  },
+  "03_campania": {
+    "name": "Province",
+    "description": null,
+    "firstVersion": "0.7.2",
+    "lastVersion": "0.9.12",
+    "lastDate": "2015-11-01",
+    "minimap": "ARCHIVE"
+  },
+  "04_himmelsdorf_mb": {
+    "name": "Himmelsdorf",
+    "description": null,
+    "firstVersion": "1.20.1",
+    "lastVersion": "1.20.1",
+    "lastDate": "2023-05-22",
+    "minimap": "ARCHIVE"
+  },
+  "05_prohorovka_fp": {
+    "name": "Prokhorovka (Winter)",
+    "description": null,
+    "firstVersion": "1.19.0",
+    "lastVersion": "2.1.1",
+    "lastDate": "2026-02-19",
+    "minimap": "ARCHIVE"
+  },
+  "05_prohorovka_mb": {
+    "name": "Prokhorovka",
+    "description": null,
+    "firstVersion": "1.20.1",
+    "lastVersion": "1.20.1",
+    "lastDate": "2023-05-22",
+    "minimap": "ARCHIVE"
+  },
+  "05_prohorovka_se": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.5.1",
+    "lastVersion": "1.5.1",
+    "lastDate": "2019-06-01",
+    "minimap": null
+  },
+  "06_ensk_se": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.5.1",
+    "lastVersion": "1.5.1",
+    "lastDate": "2019-06-01",
+    "minimap": null
+  },
+  "07_lakeville_nb": {
+    "name": "Lakeville",
+    "description": null,
+    "firstVersion": "1.21.0",
+    "lastVersion": "1.25.0",
+    "lastDate": "2024-06-20",
+    "minimap": "ARCHIVE"
+  },
+  "08_ruinberg_hw22": {
+    "name": "Ruinberg",
+    "description": null,
+    "firstVersion": "1.18.1",
+    "lastVersion": "1.18.1",
+    "lastDate": "2022-11-21",
+    "minimap": null
+  },
+  "08_ruinberg_mb": {
+    "name": "Ruinberg",
+    "description": null,
+    "firstVersion": "1.20.1",
+    "lastVersion": "1.20.1",
+    "lastDate": "2023-05-22",
+    "minimap": "ARCHIVE"
+  },
+  "08_ruinberg_se20": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.9.0",
+    "lastVersion": "1.9.0",
+    "lastDate": "2020-04-01",
+    "minimap": null
+  },
+  "10_hills_lunar_26": {
+    "name": "Mines",
+    "description": null,
+    "firstVersion": "2.1.1",
+    "lastVersion": "2.1.1",
+    "lastDate": "2026-02-19",
+    "minimap": "ARCHIVE"
+  },
+  "10_hills_rts_1x1": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.16.1",
+    "lastVersion": "1.16.1",
+    "lastDate": "2022-05-17",
+    "minimap": null
+  },
+  "100_thepit": {
+    "name": "Mittengard",
+    "description": null,
+    "firstVersion": "0.9.7",
+    "lastVersion": "0.9.22",
+    "lastDate": "2018-02-01",
+    "minimap": "ARCHIVE"
+  },
+  "1001_frontline_testmap": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.0.1",
+    "lastVersion": "1.0.2",
+    "lastDate": "2018-06-01",
+    "minimap": null
+  },
+  "1002_ai_test": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.2.0",
+    "lastVersion": "1.15.0",
+    "lastDate": "2022-02-17",
+    "minimap": null
+  },
+  "1003_cgf_test": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.12.1",
+    "lastVersion": "1.15.0",
+    "lastDate": "2022-02-17",
+    "minimap": null
+  },
+  "1004_test_physics": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.14.1",
+    "lastVersion": "1.15.0",
+    "lastDate": "2022-02-17",
+    "minimap": null
+  },
+  "102_deathtrack": {
+    "name": "Tank Rally",
+    "description": "Fasten your seat belts! On your marks! Get set! Go!",
+    "firstVersion": "0.9.3",
+    "lastVersion": "0.9.3",
+    "lastDate": "2014-09-01",
+    "minimap": "ARCHIVE"
+  },
+  "102_race": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.6.0",
+    "lastVersion": "1.6.0",
+    "lastDate": "2019-08-01",
+    "minimap": null
+  },
+  "103_ruinberg_winter": {
+    "name": "Winterberg",
+    "description": null,
+    "firstVersion": "0.9.7",
+    "lastVersion": "0.9.22",
+    "lastDate": "2018-02-01",
+    "minimap": "ARCHIVE"
+  },
+  "105_germany_se20": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.9.0",
+    "lastVersion": "1.9.0",
+    "lastDate": "2020-04-01",
+    "minimap": null
+  },
+  "106_ensk_tutorial": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.16.1",
+    "lastVersion": "1.16.1",
+    "lastDate": "2022-05-17",
+    "minimap": null
+  },
+  "108_normandy_se20": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.9.0",
+    "lastVersion": "1.9.0",
+    "lastDate": "2020-04-01",
+    "minimap": null
+  },
+  "11_murovanka_hw22": {
+    "name": "Murovanka",
+    "description": null,
+    "firstVersion": "1.18.1",
+    "lastVersion": "1.18.1",
+    "lastDate": "2022-11-21",
+    "minimap": null
+  },
+  "11_murovanka_mb": {
+    "name": "Murovanka",
+    "description": null,
+    "firstVersion": "1.26.1",
+    "lastVersion": "1.26.1",
+    "lastDate": "2024-11-07",
+    "minimap": "ARCHIVE"
+  },
+  "11_murovanka_wt": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.18.0",
+    "lastVersion": "1.18.0",
+    "lastDate": "2022-09-29",
+    "minimap": null
+  },
+  "111_paris": {
+    "name": null,
+    "description": null,
+    "firstVersion": "0.9.12",
+    "lastVersion": "0.9.15",
+    "lastDate": "2016-05-01",
+    "minimap": null
+  },
+  "112_eiffel_tower": {
+    "name": null,
+    "description": null,
+    "firstVersion": "0.9.12",
+    "lastVersion": "0.9.15",
+    "lastDate": "2016-05-01",
+    "minimap": null
+  },
+  "112_eiffel_tower_rts_1x1": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.16.1",
+    "lastVersion": "1.16.1",
+    "lastDate": "2022-05-17",
+    "minimap": null
+  },
+  "114_czech_hw22": {
+    "name": "Pilsen",
+    "description": null,
+    "firstVersion": "1.18.1",
+    "lastVersion": "1.18.1",
+    "lastDate": "2022-11-21",
+    "minimap": null
+  },
+  "115_sweden_nb": {
+    "name": "Glacier",
+    "description": null,
+    "firstVersion": "1.21.0",
+    "lastVersion": "1.25.0",
+    "lastDate": "2024-06-20",
+    "minimap": "ARCHIVE"
+  },
+  "116_himmelball": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.0.2",
+    "lastVersion": "1.0.2",
+    "lastDate": "2018-06-01",
+    "minimap": null
+  },
+  "117_canyon_ish": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.13.0",
+    "lastVersion": "1.17.0",
+    "lastDate": "2022-06-23",
+    "minimap": null
+  },
+  "119_lostcityball": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.0.2",
+    "lastVersion": "1.0.2",
+    "lastDate": "2018-06-01",
+    "minimap": null
+  },
+  "119_moon_pool": {
+    "name": null,
+    "description": null,
+    "firstVersion": "0.9.14",
+    "lastVersion": "0.9.14",
+    "lastDate": "2016-03-01",
+    "minimap": null
+  },
+  "119_turning_point_if": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.13.0",
+    "lastVersion": "1.14.0",
+    "lastDate": "2021-09-30",
+    "minimap": null
+  },
+  "120_graf_zeppelin_ish": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.13.0",
+    "lastVersion": "1.17.0",
+    "lastDate": "2022-06-23",
+    "minimap": null
+  },
+  "120_kharkiv_halloween": {
+    "name": null,
+    "description": null,
+    "firstVersion": "0.9.20",
+    "lastVersion": "0.9.20",
+    "lastDate": "2017-08-01",
+    "minimap": null
+  },
+  "120_moscowball": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.0.2",
+    "lastVersion": "1.0.2",
+    "lastDate": "2018-06-01",
+    "minimap": null
+  },
+  "122_frozen_land": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.13.0",
+    "lastVersion": "1.14.0",
+    "lastDate": "2021-09-30",
+    "minimap": null
+  },
+  "122_somme": {
+    "name": null,
+    "description": null,
+    "firstVersion": "0.9.15",
+    "lastVersion": "0.9.15",
+    "lastDate": "2016-05-01",
+    "minimap": null
+  },
+  "123_dalny_gg": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.13.0",
+    "lastVersion": "1.17.0",
+    "lastDate": "2022-06-23",
+    "minimap": null
+  },
+  "125_highground_v": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.13.0",
+    "lastVersion": "1.14.0",
+    "lastDate": "2021-09-30",
+    "minimap": null
+  },
+  "126_asia_ravine_ish": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.13.0",
+    "lastVersion": "1.14.0",
+    "lastDate": "2021-09-30",
+    "minimap": null
+  },
+  "127_japort_mb": {
+    "name": "Safe haven",
+    "description": null,
+    "firstVersion": "1.20.1",
+    "lastVersion": "1.20.1",
+    "lastDate": "2023-05-22",
+    "minimap": "ARCHIVE"
+  },
+  "128_last_frontier_v_mb": {
+    "name": "Outpost",
+    "description": null,
+    "firstVersion": "1.26.1",
+    "lastVersion": "1.26.1",
+    "lastDate": "2024-11-07",
+    "minimap": "ARCHIVE"
+  },
+  "130_anykey_if": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.17.0",
+    "lastVersion": "1.17.0",
+    "lastDate": "2022-06-23",
+    "minimap": null
+  },
+  "132_abruzzo": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.17.0",
+    "lastVersion": "1.17.0",
+    "lastDate": "2022-06-23",
+    "minimap": null
+  },
+  "136_kassel": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.17.0",
+    "lastVersion": "1.17.0",
+    "lastDate": "2022-06-23",
+    "minimap": null
+  },
+  "14_siegfried_line_rts_1x1": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.16.1",
+    "lastVersion": "1.16.1",
+    "lastDate": "2022-05-17",
+    "minimap": null
+  },
+  "14_siegfried_line_rts_1x7": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.16.1",
+    "lastVersion": "1.16.1",
+    "lastDate": "2022-05-17",
+    "minimap": null
+  },
+  "14_siegfried_line_se20": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.9.0",
+    "lastVersion": "1.9.0",
+    "lastDate": "2020-04-01",
+    "minimap": null
+  },
+  "14_siegfried_line_wt": {
+    "name": "Siegfried Line",
+    "description": null,
+    "firstVersion": "1.18.0",
+    "lastVersion": "2.4.0",
+    "lastDate": "2026-10-02",
+    "minimap": "WG"
+  },
+  "140_fall_tanks": {
+    "name": "Old School",
+    "description": null,
+    "firstVersion": "1.28.1",
+    "lastVersion": "2.4.0",
+    "lastDate": "2026-10-02",
+    "minimap": "WG"
+  },
+  "141_dash_to_go": {
+    "name": "New School",
+    "description": null,
+    "firstVersion": "2.2.0",
+    "lastVersion": "2.4.0",
+    "lastDate": "2026-10-02",
+    "minimap": "WG"
+  },
+  "142_road_to_dash": {
+    "name": "Brawl School",
+    "description": null,
+    "firstVersion": "2.2.0",
+    "lastVersion": "2.4.0",
+    "lastDate": "2026-10-02",
+    "minimap": "WG"
+  },
+  "15_komarin": {
+    "name": "Komarin",
+    "description": null,
+    "firstVersion": "0.6.2",
+    "lastVersion": "0.9.7",
+    "lastDate": "2015-04-01",
+    "minimap": "ARCHIVE"
+  },
+  "18_cliff_rts_1x1": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.16.1",
+    "lastVersion": "1.16.1",
+    "lastDate": "2022-05-17",
+    "minimap": null
+  },
+  "18_cliff_rts_1x7": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.16.1",
+    "lastVersion": "1.16.1",
+    "lastDate": "2022-05-17",
+    "minimap": null
+  },
+  "19_monastery_rts_1x7": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.16.1",
+    "lastVersion": "1.16.1",
+    "lastDate": "2022-05-17",
+    "minimap": null
+  },
+  "212_epic_random_valley_halloween": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.2.0",
+    "lastVersion": "1.2.0",
+    "lastDate": "2018-10-01",
+    "minimap": null
+  },
+  "22_slough": {
+    "name": "Swamp",
+    "description": null,
+    "firstVersion": "0.7.0",
+    "lastVersion": "0.9.22",
+    "lastDate": "2018-02-01",
+    "minimap": "ARCHIVE"
+  },
+  "222_er_clime": {
+    "name": "Hinterland",
+    "description": null,
+    "firstVersion": "1.3.0",
+    "lastVersion": "1.29.1",
+    "lastDate": "2025-08-07",
+    "minimap": "ARCHIVE"
+  },
+  "226_gift_attack": {
+    "name": "Paperland",
+    "description": null,
+    "firstVersion": "1.27.0",
+    "lastVersion": "1.27.0",
+    "lastDate": "2024-12-26",
+    "minimap": "ARCHIVE"
+  },
+  "227_gift_defend": {
+    "name": "Gift Factory",
+    "description": null,
+    "firstVersion": "2.1.0",
+    "lastVersion": "2.1.0",
+    "lastDate": "2025-12-18",
+    "minimap": "ARCHIVE"
+  },
+  "228_last_gift_standing": {
+    "name": "Paperspace",
+    "description": null,
+    "firstVersion": "2.1.0",
+    "lastVersion": "2.1.0",
+    "lastDate": "2025-12-18",
+    "minimap": "ARCHIVE"
+  },
+  "23_westfeld_mb": {
+    "name": "Westfield",
+    "description": null,
+    "firstVersion": "1.26.1",
+    "lastVersion": "1.26.1",
+    "lastDate": "2024-11-07",
+    "minimap": "ARCHIVE"
+  },
+  "251_br_battle_city3_hw24_classic": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.26.1",
+    "lastVersion": "1.26.1",
+    "lastDate": "2024-11-07",
+    "minimap": "ARCHIVE"
+  },
+  "251_br_battle_city3_hw24_defense": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.26.1",
+    "lastVersion": "1.26.1",
+    "lastDate": "2024-11-07",
+    "minimap": "ARCHIVE"
+  },
+  "251_br_battle_city3_ls_2_0": {
+    "name": null,
+    "description": null,
+    "firstVersion": "2.0.0",
+    "lastVersion": "2.0.0",
+    "lastDate": "2025-10-02",
+    "minimap": "ARCHIVE"
+  },
+  "251_br_battle_city3_ls25": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.28.1",
+    "lastVersion": "1.28.1",
+    "lastDate": "2025-05-15",
+    "minimap": "ARCHIVE"
+  },
+  "28_desert_lunar_26": {
+    "name": "Sand River",
+    "description": null,
+    "firstVersion": "2.1.1",
+    "lastVersion": "2.1.1",
+    "lastDate": "2026-02-19",
+    "minimap": "ARCHIVE"
+  },
+  "28_desert_mb": {
+    "name": "Sand River",
+    "description": null,
+    "firstVersion": "1.26.1",
+    "lastVersion": "1.26.1",
+    "lastDate": "2024-11-07",
+    "minimap": "ARCHIVE"
+  },
+  "28_desert_nb": {
+    "name": "Sand River",
+    "description": null,
+    "firstVersion": "1.21.0",
+    "lastVersion": "1.25.0",
+    "lastDate": "2024-06-20",
+    "minimap": "ARCHIVE"
+  },
+  "28_desert_se": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.5.1",
+    "lastVersion": "1.5.1",
+    "lastDate": "2019-06-01",
+    "minimap": null
+  },
+  "280_cosmic": {
+    "name": "Encounter Area",
+    "description": null,
+    "firstVersion": "1.20.1",
+    "lastVersion": "1.20.1",
+    "lastDate": "2023-05-22",
+    "minimap": "ARCHIVE"
+  },
+  "281_cosmic": {
+    "name": "Mission Area",
+    "description": null,
+    "firstVersion": "1.24.1",
+    "lastVersion": "1.24.1",
+    "lastDate": "2024-05-16",
+    "minimap": "ARCHIVE"
+  },
+  "31_airfield_rts_1x1": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.16.1",
+    "lastVersion": "1.16.1",
+    "lastDate": "2022-05-17",
+    "minimap": null
+  },
+  "31_airfield_rts_1x7": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.16.1",
+    "lastVersion": "1.16.1",
+    "lastDate": "2022-05-17",
+    "minimap": null
+  },
+  "33_fjord_mb": {
+    "name": "Fjords",
+    "description": null,
+    "firstVersion": "1.26.1",
+    "lastVersion": "1.26.1",
+    "lastDate": "2024-11-07",
+    "minimap": "ARCHIVE"
+  },
+  "33_fjord_nb": {
+    "name": "Fjords",
+    "description": null,
+    "firstVersion": "1.25.0",
+    "lastVersion": "1.25.0",
+    "lastDate": "2024-06-20",
+    "minimap": "ARCHIVE"
+  },
+  "34_redshire_wt": {
+    "name": "Redshire",
+    "description": null,
+    "firstVersion": "1.10.0",
+    "lastVersion": "2.4.0",
+    "lastDate": "2026-10-02",
+    "minimap": "WG"
+  },
+  "35_steppes_lunar_26": {
+    "name": "Steppes",
+    "description": null,
+    "firstVersion": "2.1.1",
+    "lastVersion": "2.1.1",
+    "lastDate": "2026-02-19",
+    "minimap": "ARCHIVE"
+  },
+  "35_steppes_rts_1x1": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.16.1",
+    "lastVersion": "1.16.1",
+    "lastDate": "2022-05-17",
+    "minimap": null
+  },
+  "35_steppes_rts_1x7": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.16.1",
+    "lastVersion": "1.16.1",
+    "lastDate": "2022-05-17",
+    "minimap": null
+  },
+  "35_steppes_wt": {
+    "name": "Steppes",
+    "description": null,
+    "firstVersion": "1.18.0",
+    "lastVersion": "2.4.0",
+    "lastDate": "2026-10-02",
+    "minimap": "WG"
+  },
+  "36_fishing_bay_mb": {
+    "name": "Fisherman's Bay",
+    "description": null,
+    "firstVersion": "1.26.1",
+    "lastVersion": "1.26.1",
+    "lastDate": "2024-11-07",
+    "minimap": "ARCHIVE"
+  },
+  "36_fishing_bay_se": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.5.1",
+    "lastVersion": "1.5.1",
+    "lastDate": "2019-06-01",
+    "minimap": null
+  },
+  "36_fishing_bay_wt": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.10.0",
+    "lastVersion": "1.10.0",
+    "lastDate": "2020-08-01",
+    "minimap": null
+  },
+  "38_mannerheim_line_rts_1x7": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.16.1",
+    "lastVersion": "1.16.1",
+    "lastDate": "2022-05-17",
+    "minimap": null
+  },
+  "39_crimea": {
+    "name": "South Coast",
+    "description": null,
+    "firstVersion": "0.7.3",
+    "lastVersion": "0.9.12",
+    "lastDate": "2015-11-01",
+    "minimap": "ARCHIVE"
+  },
+  "42_north_america": {
+    "name": "Port",
+    "description": null,
+    "firstVersion": "0.7.5",
+    "lastVersion": "0.8.10",
+    "lastDate": "2013-12-01",
+    "minimap": "ARCHIVE"
+  },
+  "43_north_america": {
+    "name": "Northwest",
+    "description": null,
+    "firstVersion": "0.8.9",
+    "lastVersion": "0.9.7",
+    "lastDate": "2015-04-01",
+    "minimap": "ARCHIVE"
+  },
+  "51_asia": {
+    "name": "Dragon Ridge",
+    "description": null,
+    "firstVersion": "0.7.3",
+    "lastVersion": "0.9.4",
+    "lastDate": "2014-11-01",
+    "minimap": "ARCHIVE"
+  },
+  "53_japan": {
+    "name": "Hidden Village",
+    "description": "Japan",
+    "firstVersion": "0.8.10",
+    "lastVersion": "0.9.7",
+    "lastDate": "2015-04-01",
+    "minimap": "ARCHIVE"
+  },
+  "59_asia_great_wall_lunar_26": {
+    "name": "Empire's Border",
+    "description": null,
+    "firstVersion": "2.1.1",
+    "lastVersion": "2.1.1",
+    "lastDate": "2026-02-19",
+    "minimap": "ARCHIVE"
+  },
+  "73_asia_korea": {
+    "name": "Sacred Valley",
+    "description": "Jochisan lowland",
+    "firstVersion": "0.8.6",
+    "lastVersion": "0.9.22",
+    "lastDate": "2018-02-01",
+    "minimap": "ARCHIVE"
+  },
+  "83_kharkiv": {
+    "name": "Kharkov",
+    "description": null,
+    "firstVersion": "0.9.1",
+    "lastVersion": "1.29.1",
+    "lastDate": "2025-08-07",
+    "minimap": "ARCHIVE"
+  },
+  "84_winter": {
+    "name": "Windstorm",
+    "description": null,
+    "firstVersion": "0.8.11",
+    "lastVersion": "0.9.22",
+    "lastDate": "2018-02-01",
+    "minimap": "ARCHIVE"
+  },
+  "85_winter": {
+    "name": "Severogorsk",
+    "description": "Belogorsk-19",
+    "firstVersion": "0.8.7",
+    "lastVersion": "0.9.4",
+    "lastDate": "2014-11-01",
+    "minimap": "ARCHIVE"
+  },
+  "86_himmelsdorf_winter": {
+    "name": "Winter Himmelsdorf",
+    "description": null,
+    "firstVersion": "0.8.11",
+    "lastVersion": "0.9.22",
+    "lastDate": "2018-02-01",
+    "minimap": "ARCHIVE"
+  },
+  "87_ruinberg_on_fire": {
+    "name": "Ruinberg on Fire",
+    "description": null,
+    "firstVersion": "0.8.11",
+    "lastVersion": "0.9.4",
+    "lastDate": "2014-11-01",
+    "minimap": "ARCHIVE"
+  },
+  "90_minsk": {
+    "name": "Minsk",
+    "description": null,
+    "firstVersion": "1.1.0",
+    "lastVersion": "1.29.1",
+    "lastDate": "2025-08-07",
+    "minimap": "ARCHIVE"
+  },
+  "92_stalingrad": {
+    "name": "Stalingrad",
+    "description": null,
+    "firstVersion": "0.9.4",
+    "lastVersion": "0.9.22",
+    "lastDate": "2018-02-01",
+    "minimap": "ARCHIVE"
+  },
+  "95_lost_city": {
+    "name": "Lost City",
+    "description": null,
+    "firstVersion": "0.9.7",
+    "lastVersion": "0.9.22",
+    "lastDate": "2018-02-01",
+    "minimap": "ARCHIVE"
+  },
+  "95_lost_city_ctf_h19": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.10.1",
+    "lastVersion": "1.14.1",
+    "lastDate": "2021-11-24",
+    "minimap": null
+  },
+  "95_lost_city_ctf_h23": {
+    "name": "Mirny-13",
+    "description": null,
+    "firstVersion": "1.22.1",
+    "lastVersion": "1.22.1",
+    "lastDate": "2023-11-10",
+    "minimap": "ARCHIVE"
+  },
+  "95_lost_city_rts_1x1": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.16.1",
+    "lastVersion": "1.16.1",
+    "lastDate": "2022-05-17",
+    "minimap": null
+  },
+  "95_lost_city_rts_1x7": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.16.1",
+    "lastVersion": "1.16.1",
+    "lastDate": "2022-05-17",
+    "minimap": null
+  },
+  "96_prohorovka_defense": {
+    "name": "Fiery Salient",
+    "description": null,
+    "firstVersion": "0.9.2",
+    "lastVersion": "0.9.22",
+    "lastDate": "2018-02-01",
+    "minimap": "ARCHIVE"
+  },
+  "99_himmelball": {
+    "name": "Himmelsdorf Championship",
+    "description": null,
+    "firstVersion": "0.9.1",
+    "lastVersion": "0.9.1",
+    "lastDate": "2014-06-01",
+    "minimap": "ARCHIVE"
+  },
+  "99_poland_hw22": {
+    "name": "Studzianki",
+    "description": null,
+    "firstVersion": "1.18.1",
+    "lastVersion": "1.18.1",
+    "lastDate": "2022-11-21",
+    "minimap": null
+  },
+  "99_poland_se": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.5.1",
+    "lastVersion": "1.5.1",
+    "lastDate": "2019-06-01",
+    "minimap": null
+  },
+  "99_poland_wt": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.10.0",
+    "lastVersion": "1.10.0",
+    "lastDate": "2020-08-01",
+    "minimap": null
+  },
+  "h02_tmday_2015": {
+    "name": null,
+    "description": null,
+    "firstVersion": "0.9.15",
+    "lastVersion": "1.1.0",
+    "lastDate": "2018-08-01",
+    "minimap": null
+  },
+  "h04_remday_2015": {
+    "name": null,
+    "description": null,
+    "firstVersion": "0.9.12",
+    "lastVersion": "1.22.1",
+    "lastDate": "2023-11-10",
+    "minimap": null
+  },
+  "h15_gamescom_2016": {
+    "name": null,
+    "description": null,
+    "firstVersion": "0.9.15",
+    "lastVersion": "1.1.0",
+    "lastDate": "2018-08-01",
+    "minimap": null
+  },
+  "h20_wot_bday": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.0.2",
+    "lastVersion": "1.6.0",
+    "lastDate": "2019-08-01",
+    "minimap": null
+  },
+  "h20_wot_bday_2020": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.10.0",
+    "lastVersion": "1.10.0",
+    "lastDate": "2020-08-01",
+    "minimap": null
+  },
+  "h20_wot_bday_2020_wt": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.10.0",
+    "lastVersion": "1.10.0",
+    "lastDate": "2020-08-01",
+    "minimap": null
+  },
+  "h20_wot_bday_2022": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.17.1",
+    "lastVersion": "1.17.1",
+    "lastDate": "2022-08-11",
+    "minimap": null
+  },
+  "h20_wot_bday_2023": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.21.1",
+    "lastVersion": "1.21.1",
+    "lastDate": "2023-08-10",
+    "minimap": "ARCHIVE"
+  },
+  "h20_wot_bday_2024": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.25.1",
+    "lastVersion": "1.25.1",
+    "lastDate": "2024-08-08",
+    "minimap": "ARCHIVE"
+  },
+  "h20_wot_bday_night": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.0.2",
+    "lastVersion": "1.6.0",
+    "lastDate": "2019-08-01",
+    "minimap": null
+  },
+  "h23_newyear": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.3.0",
+    "lastVersion": "1.3.0",
+    "lastDate": "2018-12-01",
+    "minimap": null
+  },
+  "h23_newyear_2020": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.7.0",
+    "lastVersion": "1.7.0",
+    "lastDate": "2019-12-01",
+    "minimap": null
+  },
+  "h29_se20": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.9.0",
+    "lastVersion": "1.9.0",
+    "lastDate": "2020-04-01",
+    "minimap": null
+  },
+  "h30_newyear_2021": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.11.0",
+    "lastVersion": "1.11.0",
+    "lastDate": "2020-12-01",
+    "minimap": null
+  },
+  "h32_China_National_Day_2020": {
+    "name": null,
+    "description": null,
+    "firstVersion": "1.10.0",
+    "lastVersion": "1.10.0",
+    "lastDate": "2020-08-01",
+    "minimap": null
+  }
+}

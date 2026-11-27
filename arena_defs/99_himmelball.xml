@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<name>#arenas:99_himmelball/name</name>
+	<description>#arenas:99_himmelball/description</description>
+	<geometry>spaces/99_himmelball</geometry>
+	<boundingBox>
+		<bottomLeft>
+			-149.0 -113.0
+			<!--BW_String-->
+		</bottomLeft>
+		<upperRight>
+			181.0 217.0
+			<!--BW_String-->
+		</upperRight>
+	</boundingBox>
+	<maxPlayersInTeam>3</maxPlayersInTeam>
+	<roundLength>900</roundLength>
+	<minimap>spaces/99_himmelball/mmap.dds</minimap>
+	<vehicleCamouflageKind>winter</vehicleCamouflageKind>
+	<defaultGroundEffect>None</defaultGroundEffect>
+	<loadingMusic>/music/intro/Intro_Himmelsdorf</loadingMusic>
+	<ambientSound>/wind/wind/wind_winter_02</ambientSound>
+	<soundRemapping>
+		<remap>
+			<old>/GUI/notifications_FX/base_capture_1</old>
+			<new>/fwc/fans/fans_ally_goal</new>
+		</remap>
+		<remap>
+			<old>/GUI/notifications_FX/base_capture_2</old>
+			<new>/fwc/fans/fans_goal_of_the_enemy</new>
+		</remap>
+		<remap>
+			<old>/music/combat/combat</old>
+			<new>/fwc/music/silence</new>
+		</remap>
+	</soundRemapping>
+	<umbraEnabled>1</umbraEnabled>
+	<batchingEnabled>0</batchingEnabled>
+	<gameplayTypes>
+		<ctf/>
+	</gameplayTypes>
+	<explicitRequestOnly>true</explicitRequestOnly>
+</root>

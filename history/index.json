@@ -1,0 +1,8473 @@
+{
+  "h34_lunar_ny_2023": [
+    {
+      "version": "1.19.1",
+      "from": "1.19.0",
+      "bytes": 153237909,
+      "hdBytes": 92605012,
+      "replaced": true,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    }
+  ],
+  "209_wg_epic_suburbia": [
+    {
+      "version": "1.19.1",
+      "from": "1.19.0",
+      "bytes": 35764828,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "1.21.0",
+      "from": "1.20.1",
+      "bytes": 8756098,
+      "hdBytes": 2513,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "1.22.0",
+      "from": "1.21.1",
+      "bytes": 8312872,
+      "hdBytes": 9488223,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "1.24.0",
+      "from": "1.23.1",
+      "bytes": 16342968,
+      "hdBytes": 5607571,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 24.7,
+        "drop": 3.2,
+        "area": 12454,
+        "threshold": 0.25,
+        "base": "history/209_wg_epic_suburbia/1.24.0.webp",
+        "overlay": "history/209_wg_epic_suburbia/1.24.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 15,
+          "buildings": 12,
+          "military": 1,
+          "rocks": 3
+        },
+        "removed": {
+          "military": 1,
+          "props": 4,
+          "rocks": 1,
+          "fences": 6
+        },
+        "rebuilt": false,
+        "base": "history/209_wg_epic_suburbia/1.24.0.webp",
+        "overlay": "history/209_wg_epic_suburbia/1.24.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "models",
+        "sky",
+        "water"
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "from": "1.29.1",
+      "bytes": 30647201,
+      "hdBytes": 53238652,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "2.0.1",
+      "from": "2.0.0",
+      "bytes": 4564363,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "2.1.0",
+      "from": "2.0.1",
+      "bytes": 3075635,
+      "hdBytes": 3436508,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "2.4.0",
+      "from": "2.3.1",
+      "bytes": 2765501,
+      "hdBytes": 7627,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 3,
+        "drop": 2.5,
+        "area": 807,
+        "threshold": 0.25,
+        "base": "history/209_wg_epic_suburbia/2.4.0.webp",
+        "overlay": "history/209_wg_epic_suburbia/2.4.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 2,
+          "props": 2,
+          "buildings": 2
+        },
+        "removed": {
+          "rocks": 1
+        },
+        "rebuilt": false,
+        "base": "history/209_wg_epic_suburbia/2.4.0.webp",
+        "overlay": "history/209_wg_epic_suburbia/2.4.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "sky",
+        "sound"
+      ]
+    }
+  ],
+  "222_er_clime": [
+    {
+      "version": "1.19.1",
+      "from": "1.19.0",
+      "bytes": 3295753,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "1.22.0",
+      "from": "1.21.1",
+      "bytes": 3979962,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "1.24.0",
+      "from": "1.23.1",
+      "bytes": 712675,
+      "hdBytes": 1128026,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "1.29.1",
+      "from": "1.29.0",
+      "bytes": 1109241,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 2.8,
+        "drop": 1.9,
+        "area": 905,
+        "threshold": 0.25,
+        "base": "history/222_er_clime/1.29.1.webp",
+        "overlay": "history/222_er_clime/1.29.1-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "buildings": 1,
+          "props": 23,
+          "fences": 1
+        },
+        "removed": {
+          "props": 5,
+          "fences": 2
+        },
+        "rebuilt": false,
+        "base": "history/222_er_clime/1.29.1.webp",
+        "overlay": "history/222_er_clime/1.29.1-objects.webp"
+      },
+      "aspects": [
+        "models",
+        "sky"
+      ]
+    }
+  ],
+  "10_hills": [
+    {
+      "version": "0.8.0",
+      "from": "0.7.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/10_hills/0.7.0.webp",
+        "after": "history/10_hills/0.8.0.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "0.8.10",
+      "from": "0.8.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/10_hills/0.8.0.webp",
+        "after": "history/10_hills/0.8.10.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "1.0.0",
+      "from": "0.9.7",
+      "through": "1.15.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/10_hills/0.8.10.webp",
+        "after": "history/10_hills/1.15.0.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 22.7,
+        "drop": 42,
+        "area": 148436,
+        "threshold": 0.25,
+        "base": "history/10_hills/1.15.0.webp",
+        "overlay": "history/10_hills/1.0.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 2234,
+          "rocks": 1954,
+          "buildings": 572,
+          "fences": 2316,
+          "bridges": 8,
+          "vegetation": 67,
+          "military": 2
+        },
+        "removed": {
+          "props": 364,
+          "rocks": 200,
+          "military": 72,
+          "buildings": 51,
+          "fences": 1059,
+          "bridges": 5
+        },
+        "rebuilt": true,
+        "base": "history/10_hills/1.15.0.webp",
+        "overlay": null
+      },
+      "aspects": []
+    },
+    {
+      "version": "1.20.0",
+      "from": "1.19.1",
+      "bytes": 31111814,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 18.6,
+        "drop": 3.6,
+        "area": 20635,
+        "threshold": 0.25,
+        "base": "history/10_hills/1.20.0.webp",
+        "overlay": "history/10_hills/1.20.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 53,
+          "rocks": 57,
+          "buildings": 38,
+          "fences": 32
+        },
+        "removed": {
+          "rocks": 11,
+          "props": 12,
+          "buildings": 14,
+          "fences": 68
+        },
+        "rebuilt": false,
+        "base": "history/10_hills/1.20.0.webp",
+        "overlay": "history/10_hills/1.20.0-objects.webp"
+      },
+      "aspects": [
+        "ground"
+      ]
+    },
+    {
+      "version": "1.22.0",
+      "from": "1.21.1",
+      "bytes": 15474819,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "military": 10,
+          "rocks": 115,
+          "fences": 25,
+          "props": 42,
+          "buildings": 13
+        },
+        "removed": {},
+        "rebuilt": false,
+        "base": "history/10_hills/1.22.0.webp",
+        "overlay": "history/10_hills/1.22.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "models",
+        "sky"
+      ]
+    },
+    {
+      "version": "1.24.1",
+      "from": "1.24.0",
+      "bytes": 25583357,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 1.6,
+        "drop": 4.2,
+        "area": 1097,
+        "threshold": 0.25,
+        "base": "history/10_hills/1.24.1.webp",
+        "overlay": "history/10_hills/1.24.1-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "buildings": 10,
+          "props": 4,
+          "fences": 2,
+          "rocks": 11
+        },
+        "removed": {
+          "buildings": 4,
+          "fences": 9,
+          "rocks": 5,
+          "props": 2
+        },
+        "rebuilt": false,
+        "base": "history/10_hills/1.24.1.webp",
+        "overlay": "history/10_hills/1.24.1-objects.webp"
+      },
+      "aspects": [
+        "vegetation"
+      ]
+    },
+    {
+      "version": "1.26.0",
+      "from": "1.25.1",
+      "bytes": 1223988,
+      "hdBytes": 302,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "rocks": 10
+        },
+        "removed": {
+          "rocks": 8
+        },
+        "rebuilt": false,
+        "base": "history/10_hills/1.26.0.webp",
+        "overlay": "history/10_hills/1.26.0-objects.webp"
+      },
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "1.28.1",
+      "from": "1.28.0",
+      "bytes": 14185276,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 8.7,
+        "drop": 3.5,
+        "area": 2363,
+        "threshold": 0.25,
+        "base": "history/10_hills/1.28.1.webp",
+        "overlay": "history/10_hills/1.28.1-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 32
+        },
+        "removed": {
+          "rocks": 1
+        },
+        "rebuilt": false,
+        "base": "history/10_hills/1.28.1.webp",
+        "overlay": "history/10_hills/1.28.1-objects.webp"
+      },
+      "aspects": [
+        "ground",
+        "sky"
+      ]
+    },
+    {
+      "version": "2.1.1",
+      "from": "2.1.0",
+      "bytes": 26839125,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "military": 3,
+          "rocks": 97,
+          "props": 2
+        },
+        "removed": {
+          "rocks": 15,
+          "military": 3
+        },
+        "rebuilt": false,
+        "base": "history/10_hills/2.1.1.webp",
+        "overlay": "history/10_hills/2.1.1-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "sky"
+      ]
+    }
+  ],
+  "31_airfield": [
+    {
+      "version": "0.8.6",
+      "from": "0.7.4",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/31_airfield/0.7.4.webp",
+        "after": "history/31_airfield/0.8.6.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "1.0.0",
+      "from": "0.9.7",
+      "through": "1.15.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/31_airfield/0.8.6.webp",
+        "after": "history/31_airfield/1.15.0.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 26.7,
+        "drop": 23.7,
+        "area": 255630,
+        "threshold": 0.25,
+        "base": "history/31_airfield/1.15.0.webp",
+        "overlay": "history/31_airfield/1.0.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 1517,
+          "props": 1206,
+          "vegetation": 11,
+          "buildings": 779,
+          "military": 346,
+          "fences": 775
+        },
+        "removed": {
+          "rocks": 165,
+          "fences": 770,
+          "military": 247,
+          "props": 606,
+          "buildings": 110,
+          "vegetation": 13
+        },
+        "rebuilt": true,
+        "base": "history/31_airfield/1.15.0.webp",
+        "overlay": null
+      },
+      "aspects": []
+    },
+    {
+      "version": "1.20.0",
+      "from": "1.19.1",
+      "bytes": 21503687,
+      "hdBytes": 181,
+      "replaced": false,
+      "minimap": {
+        "before": "history/31_airfield/1.19.1.webp",
+        "after": "history/31_airfield/1.20.0.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 22.4,
+        "drop": 19.1,
+        "area": 144325,
+        "threshold": 0.25,
+        "base": "history/31_airfield/1.20.0.webp",
+        "overlay": "history/31_airfield/1.20.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 37,
+          "rocks": 505,
+          "military": 30,
+          "fences": 7,
+          "buildings": 25
+        },
+        "removed": {
+          "rocks": 326,
+          "props": 142,
+          "fences": 18,
+          "military": 144,
+          "buildings": 99
+        },
+        "rebuilt": false,
+        "base": "history/31_airfield/1.20.0.webp",
+        "overlay": "history/31_airfield/1.20.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "models",
+        "sky",
+        "vegetation"
+      ]
+    },
+    {
+      "version": "1.20.1",
+      "from": "1.20.0",
+      "bytes": 2042137,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 3.2,
+        "drop": 2,
+        "area": 893,
+        "threshold": 0.25,
+        "base": "history/31_airfield/1.20.1.webp",
+        "overlay": "history/31_airfield/1.20.1-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "military": 9,
+          "rocks": 3,
+          "buildings": 6
+        },
+        "removed": {},
+        "rebuilt": false,
+        "base": "history/31_airfield/1.20.1.webp",
+        "overlay": "history/31_airfield/1.20.1-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "models",
+        "sky"
+      ]
+    },
+    {
+      "version": "1.23.1",
+      "from": "1.23.0",
+      "bytes": 1003714,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 9.3,
+        "drop": 1.6,
+        "area": 649,
+        "threshold": 0.25,
+        "base": "history/31_airfield/1.23.1.webp",
+        "overlay": "history/31_airfield/1.23.1-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "military": 6,
+          "props": 1,
+          "rocks": 10
+        },
+        "removed": {
+          "props": 7,
+          "military": 8
+        },
+        "rebuilt": false,
+        "base": "history/31_airfield/1.23.1.webp",
+        "overlay": "history/31_airfield/1.23.1-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "sky"
+      ]
+    },
+    {
+      "version": "1.27.0",
+      "from": "1.26.1",
+      "bytes": 1470400,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "1.29.1",
+      "from": "1.29.0",
+      "bytes": 1121620,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models",
+        "sky"
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "from": "1.29.1",
+      "bytes": 3624033,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 3.5,
+        "drop": 1.5,
+        "area": 853,
+        "threshold": 0.25,
+        "base": "history/31_airfield/2.0.0.webp",
+        "overlay": "history/31_airfield/2.0.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 63,
+          "military": 12,
+          "props": 8,
+          "buildings": 9
+        },
+        "removed": {
+          "military": 6,
+          "buildings": 6,
+          "props": 1
+        },
+        "rebuilt": false,
+        "base": "history/31_airfield/2.0.0.webp",
+        "overlay": "history/31_airfield/2.0.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "models"
+      ]
+    },
+    {
+      "version": "2.0.1",
+      "from": "2.0.0",
+      "bytes": 29767520,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 4.5,
+        "drop": 5.6,
+        "area": 6478,
+        "threshold": 0.25,
+        "base": "history/31_airfield/2.0.1.webp",
+        "overlay": "history/31_airfield/2.0.1-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 52,
+          "military": 3,
+          "props": 11,
+          "fences": 8
+        },
+        "removed": {
+          "rocks": 25,
+          "military": 2,
+          "props": 2
+        },
+        "rebuilt": false,
+        "base": "history/31_airfield/2.0.1.webp",
+        "overlay": "history/31_airfield/2.0.1-objects.webp"
+      },
+      "aspects": [
+        "ground",
+        "sky"
+      ]
+    },
+    {
+      "version": "2.2.1",
+      "from": "2.2.0",
+      "bytes": 23994792,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "rocks": 51,
+          "military": 30,
+          "buildings": 6,
+          "props": 2
+        },
+        "removed": {
+          "rocks": 1,
+          "military": 12,
+          "buildings": 6
+        },
+        "rebuilt": false,
+        "base": "history/31_airfield/2.2.1.webp",
+        "overlay": "history/31_airfield/2.2.1-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "models",
+        "sky",
+        "sound",
+        "water"
+      ]
+    }
+  ],
+  "112_eiffel_tower_ctf": [
+    {
+      "version": "1.20.0",
+      "from": "1.19.1",
+      "bytes": 4129146,
+      "hdBytes": 177,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 3.2,
+        "drop": 0.3,
+        "area": 3828,
+        "threshold": 0.25,
+        "base": "history/112_eiffel_tower_ctf/1.20.0.webp",
+        "overlay": "history/112_eiffel_tower_ctf/1.20.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 20,
+          "buildings": 2
+        },
+        "removed": {
+          "props": 13,
+          "bridges": 4,
+          "buildings": 2
+        },
+        "rebuilt": false,
+        "base": "history/112_eiffel_tower_ctf/1.20.0.webp",
+        "overlay": "history/112_eiffel_tower_ctf/1.20.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground"
+      ]
+    },
+    {
+      "version": "1.28.1",
+      "from": "1.28.0",
+      "bytes": 46571748,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 6.9,
+        "drop": 10.9,
+        "area": 107878,
+        "threshold": 0.25,
+        "base": "history/112_eiffel_tower_ctf/1.28.1.webp",
+        "overlay": "history/112_eiffel_tower_ctf/1.28.1-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 245,
+          "military": 4
+        },
+        "removed": {
+          "props": 280,
+          "vegetation": 2,
+          "military": 11
+        },
+        "rebuilt": false,
+        "base": "history/112_eiffel_tower_ctf/1.28.1.webp",
+        "overlay": "history/112_eiffel_tower_ctf/1.28.1-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "sky",
+        "water"
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "from": "1.29.1",
+      "bytes": 94094043,
+      "hdBytes": 10903519,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 8.1,
+        "drop": 8.4,
+        "area": 505,
+        "threshold": 0.25,
+        "base": "history/112_eiffel_tower_ctf/2.0.0.webp",
+        "overlay": "history/112_eiffel_tower_ctf/2.0.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 32,
+          "fences": 32,
+          "rocks": 4
+        },
+        "removed": {
+          "props": 66,
+          "vegetation": 6,
+          "bridges": 20,
+          "buildings": 1,
+          "fences": 33
+        },
+        "rebuilt": false,
+        "base": "history/112_eiffel_tower_ctf/2.0.0.webp",
+        "overlay": "history/112_eiffel_tower_ctf/2.0.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "models",
+        "sky",
+        "vegetation",
+        "water"
+      ]
+    },
+    {
+      "version": "2.3.1",
+      "from": "2.3.0",
+      "bytes": 1231354,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "sound"
+      ]
+    }
+  ],
+  "114_czech": [
+    {
+      "version": "1.20.0",
+      "from": "1.19.1",
+      "bytes": 3939665,
+      "hdBytes": 10898635,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "1.23.1",
+      "from": "1.23.0",
+      "bytes": 3690919,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "props": 1
+        },
+        "removed": {},
+        "rebuilt": false,
+        "base": "history/114_czech/1.23.1.webp",
+        "overlay": "history/114_czech/1.23.1-objects.webp"
+      },
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "1.26.0",
+      "from": "1.25.1",
+      "bytes": 86452667,
+      "hdBytes": 17268265,
+      "replaced": false,
+      "minimap": {
+        "before": "history/114_czech/1.25.1.webp",
+        "after": "history/114_czech/1.26.0.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 1.2,
+        "drop": 1,
+        "area": 1466,
+        "threshold": 0.25,
+        "base": "history/114_czech/1.26.0.webp",
+        "overlay": "history/114_czech/1.26.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "fences": 48,
+          "buildings": 70,
+          "props": 276,
+          "military": 23,
+          "vegetation": 5
+        },
+        "removed": {
+          "fences": 17,
+          "buildings": 18,
+          "props": 157,
+          "military": 1
+        },
+        "rebuilt": false,
+        "base": "history/114_czech/1.26.0.webp",
+        "overlay": "history/114_czech/1.26.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "models",
+        "sky",
+        "vegetation"
+      ]
+    },
+    {
+      "version": "1.27.0",
+      "from": "1.26.1",
+      "bytes": 965156,
+      "hdBytes": 3421308,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "2.0.0",
+      "from": "1.29.1",
+      "bytes": 3420195,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "2.2.1",
+      "from": "2.2.0",
+      "bytes": 4266543,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "2.3.1",
+      "from": "2.3.0",
+      "bytes": 9280131,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "sound"
+      ]
+    },
+    {
+      "version": "2.4.0",
+      "from": "2.3.1",
+      "bytes": 32107109,
+      "hdBytes": 2600,
+      "replaced": false,
+      "minimap": {
+        "before": "history/114_czech/2.3.1.webp",
+        "after": "history/114_czech/2.4.0.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 34.7,
+        "drop": 40,
+        "area": 359723,
+        "threshold": 2,
+        "base": "history/114_czech/2.4.0.webp",
+        "overlay": "history/114_czech/2.4.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 6695,
+          "buildings": 1028,
+          "fences": 762,
+          "military": 227,
+          "vegetation": 36
+        },
+        "removed": {
+          "props": 6631,
+          "fences": 873,
+          "buildings": 1073,
+          "military": 225,
+          "bridges": 2,
+          "vegetation": 36
+        },
+        "rebuilt": true,
+        "base": "history/114_czech/2.4.0.webp",
+        "overlay": null
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "sky",
+        "sound",
+        "vegetation",
+        "water"
+      ]
+    }
+  ],
+  "127_japort": [
+    {
+      "version": "1.20.0",
+      "from": "1.19.1",
+      "bytes": 4753043,
+      "hdBytes": 3501,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 4.4,
+        "drop": 3.7,
+        "area": 2313,
+        "threshold": 0.25,
+        "base": "history/127_japort/1.20.0.webp",
+        "overlay": "history/127_japort/1.20.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 60,
+          "rocks": 11
+        },
+        "removed": {
+          "props": 15,
+          "rocks": 2
+        },
+        "rebuilt": false,
+        "base": "history/127_japort/1.20.0.webp",
+        "overlay": "history/127_japort/1.20.0-objects.webp"
+      },
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "1.22.0",
+      "from": "1.21.1",
+      "bytes": 3612531,
+      "hdBytes": 6169553,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "rocks": 6,
+          "props": 1
+        },
+        "removed": {
+          "fences": 5,
+          "props": 9,
+          "rocks": 9
+        },
+        "rebuilt": false,
+        "base": "history/127_japort/1.22.0.webp",
+        "overlay": "history/127_japort/1.22.0-objects.webp"
+      },
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "1.23.0",
+      "from": "1.22.1",
+      "bytes": 47018665,
+      "hdBytes": 1279684,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 3.4,
+        "drop": 3.3,
+        "area": 321,
+        "threshold": 0.25,
+        "base": "history/127_japort/1.23.0.webp",
+        "overlay": "history/127_japort/1.23.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 1,
+          "props": 12
+        },
+        "removed": {
+          "props": 121,
+          "rocks": 1,
+          "vegetation": 2,
+          "buildings": 50,
+          "military": 1
+        },
+        "rebuilt": false,
+        "base": "history/127_japort/1.23.0.webp",
+        "overlay": "history/127_japort/1.23.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "models",
+        "vegetation"
+      ]
+    },
+    {
+      "version": "1.23.1",
+      "from": "1.23.0",
+      "bytes": 1361591,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "1.24.0",
+      "from": "1.23.1",
+      "bytes": 1778092,
+      "hdBytes": 3635784,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "1.28.1",
+      "from": "1.28.0",
+      "bytes": 4058188,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 11.1,
+        "drop": 4.6,
+        "area": 3413,
+        "threshold": 0.25,
+        "base": "history/127_japort/1.28.1.webp",
+        "overlay": "history/127_japort/1.28.1-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "buildings": 66,
+          "military": 22,
+          "props": 71,
+          "rocks": 3,
+          "fences": 22,
+          "vegetation": 1
+        },
+        "removed": {
+          "props": 4,
+          "rocks": 1
+        },
+        "rebuilt": false,
+        "base": "history/127_japort/1.28.1.webp",
+        "overlay": "history/127_japort/1.28.1-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "models",
+        "vegetation"
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "from": "1.29.1",
+      "bytes": 1547155,
+      "hdBytes": 2694307,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    }
+  ],
+  "128_last_frontier_v": [
+    {
+      "version": "1.20.0",
+      "from": "1.19.1",
+      "bytes": 10060549,
+      "hdBytes": 9059,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 9.2,
+        "drop": 2.3,
+        "area": 2187,
+        "threshold": 0.25,
+        "base": "history/128_last_frontier_v/1.20.0.webp",
+        "overlay": "history/128_last_frontier_v/1.20.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 25,
+          "buildings": 5,
+          "fences": 2,
+          "rocks": 2
+        },
+        "removed": {
+          "buildings": 6,
+          "fences": 2,
+          "rocks": 2,
+          "props": 2
+        },
+        "rebuilt": false,
+        "base": "history/128_last_frontier_v/1.20.0.webp",
+        "overlay": "history/128_last_frontier_v/1.20.0-objects.webp"
+      },
+      "aspects": [
+        "ground",
+        "models",
+        "sky"
+      ]
+    },
+    {
+      "version": "1.21.0",
+      "from": "1.20.1",
+      "bytes": 1008909,
+      "hdBytes": 8524,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "1.23.1",
+      "from": "1.23.0",
+      "bytes": 2238590,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "props": 66,
+          "rocks": 68,
+          "fences": 69,
+          "buildings": 13,
+          "military": 19
+        },
+        "removed": {
+          "fences": 1
+        },
+        "rebuilt": false,
+        "base": "history/128_last_frontier_v/1.23.1.webp",
+        "overlay": "history/128_last_frontier_v/1.23.1-objects.webp"
+      },
+      "aspects": [
+        "effects"
+      ]
+    },
+    {
+      "version": "1.24.1",
+      "from": "1.24.0",
+      "bytes": 19111208,
+      "hdBytes": 6332,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 2.4,
+        "drop": 0.3,
+        "area": 912,
+        "threshold": 0.25,
+        "base": "history/128_last_frontier_v/1.24.1.webp",
+        "overlay": "history/128_last_frontier_v/1.24.1-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 23,
+          "fences": 10,
+          "props": 111,
+          "buildings": 4
+        },
+        "removed": {
+          "rocks": 10,
+          "props": 8,
+          "buildings": 1,
+          "fences": 1
+        },
+        "rebuilt": false,
+        "base": "history/128_last_frontier_v/1.24.1.webp",
+        "overlay": "history/128_last_frontier_v/1.24.1-objects.webp"
+      },
+      "aspects": [
+        "ground",
+        "models",
+        "sky",
+        "vegetation"
+      ]
+    },
+    {
+      "version": "1.26.0",
+      "from": "1.25.1",
+      "bytes": 22286627,
+      "hdBytes": 6093,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 7.2,
+        "drop": 5.8,
+        "area": 21941,
+        "threshold": 0.25,
+        "base": "history/128_last_frontier_v/1.26.0.webp",
+        "overlay": "history/128_last_frontier_v/1.26.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 246,
+          "buildings": 61,
+          "fences": 84,
+          "rocks": 224,
+          "bridges": 5
+        },
+        "removed": {
+          "props": 150,
+          "fences": 19,
+          "rocks": 34,
+          "buildings": 9,
+          "vegetation": 1
+        },
+        "rebuilt": false,
+        "base": "history/128_last_frontier_v/1.26.0.webp",
+        "overlay": "history/128_last_frontier_v/1.26.0-objects.webp"
+      },
+      "aspects": [
+        "ground",
+        "models",
+        "sky",
+        "sound",
+        "vegetation",
+        "water"
+      ]
+    },
+    {
+      "version": "1.27.1",
+      "from": "1.27.0",
+      "bytes": 29186983,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 8.1,
+        "drop": 1.2,
+        "area": 771,
+        "threshold": 0.25,
+        "base": "history/128_last_frontier_v/1.27.1.webp",
+        "overlay": "history/128_last_frontier_v/1.27.1-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "fences": 26,
+          "buildings": 42,
+          "props": 74,
+          "rocks": 57,
+          "military": 6
+        },
+        "removed": {
+          "props": 3,
+          "fences": 1,
+          "military": 6,
+          "buildings": 7
+        },
+        "rebuilt": false,
+        "base": "history/128_last_frontier_v/1.27.1.webp",
+        "overlay": "history/128_last_frontier_v/1.27.1-objects.webp"
+      },
+      "aspects": [
+        "ground",
+        "sky",
+        "vegetation"
+      ]
+    },
+    {
+      "version": "2.4.0",
+      "from": "2.3.1",
+      "bytes": 6910795,
+      "hdBytes": 5628,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "ground",
+        "models",
+        "sky",
+        "sound",
+        "vegetation",
+        "water"
+      ]
+    }
+  ],
+  "07_lakeville": [
+    {
+      "version": "0.7.4",
+      "from": "0.7.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/07_lakeville/0.7.0.webp",
+        "after": "history/07_lakeville/0.7.4.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "0.8.0",
+      "from": "0.7.4",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/07_lakeville/0.7.4.webp",
+        "after": "history/07_lakeville/0.8.0.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "1.0.0",
+      "from": "0.9.7",
+      "through": "1.15.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/07_lakeville/0.8.0.webp",
+        "after": "history/07_lakeville/1.15.0.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 34.1,
+        "drop": 13.2,
+        "area": 64734,
+        "threshold": 2,
+        "base": "history/07_lakeville/1.15.0.webp",
+        "overlay": "history/07_lakeville/1.0.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "vegetation": 71,
+          "rocks": 593,
+          "props": 3003,
+          "buildings": 292,
+          "fences": 987,
+          "military": 2
+        },
+        "removed": {
+          "rocks": 92,
+          "buildings": 209,
+          "props": 1069,
+          "fences": 1054,
+          "military": 10,
+          "vegetation": 132
+        },
+        "rebuilt": true,
+        "base": "history/07_lakeville/1.15.0.webp",
+        "overlay": null
+      },
+      "aspects": []
+    },
+    {
+      "version": "1.20.0",
+      "from": "1.19.1",
+      "bytes": 2961577,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 3.5,
+        "drop": 1.6,
+        "area": 1272,
+        "threshold": 0.25,
+        "base": "history/07_lakeville/1.20.0.webp",
+        "overlay": "history/07_lakeville/1.20.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 5,
+          "rocks": 15
+        },
+        "removed": {
+          "rocks": 2,
+          "props": 11
+        },
+        "rebuilt": false,
+        "base": "history/07_lakeville/1.20.0.webp",
+        "overlay": "history/07_lakeville/1.20.0-objects.webp"
+      },
+      "aspects": []
+    },
+    {
+      "version": "1.22.0",
+      "from": "1.21.1",
+      "bytes": 30361060,
+      "hdBytes": 1043,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "props": 6,
+          "rocks": 8
+        },
+        "removed": {
+          "props": 3
+        },
+        "rebuilt": false,
+        "base": "history/07_lakeville/1.22.0.webp",
+        "overlay": "history/07_lakeville/1.22.0-objects.webp"
+      },
+      "aspects": [
+        "ground",
+        "models",
+        "sky",
+        "vegetation"
+      ]
+    },
+    {
+      "version": "1.26.0",
+      "from": "1.25.1",
+      "bytes": 2852810,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 1.4,
+        "drop": 1.6,
+        "area": 370,
+        "threshold": 0.25,
+        "base": "history/07_lakeville/1.26.0.webp",
+        "overlay": "history/07_lakeville/1.26.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 5,
+          "rocks": 5
+        },
+        "removed": {},
+        "rebuilt": false,
+        "base": "history/07_lakeville/1.26.0.webp",
+        "overlay": "history/07_lakeville/1.26.0-objects.webp"
+      },
+      "aspects": [
+        "ground",
+        "sky"
+      ]
+    }
+  ],
+  "115_sweden": [
+    {
+      "version": "1.20.0",
+      "from": "1.19.1",
+      "bytes": 73353446,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 10.8,
+        "drop": 3.1,
+        "area": 3398,
+        "threshold": 0.25,
+        "base": "history/115_sweden/1.20.0.webp",
+        "overlay": "history/115_sweden/1.20.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 7,
+          "rocks": 6,
+          "military": 1
+        },
+        "removed": {
+          "props": 76,
+          "military": 1,
+          "rocks": 1
+        },
+        "rebuilt": false,
+        "base": "history/115_sweden/1.20.0.webp",
+        "overlay": "history/115_sweden/1.20.0-objects.webp"
+      },
+      "aspects": [
+        "models",
+        "vegetation"
+      ]
+    },
+    {
+      "version": "1.20.1",
+      "from": "1.20.0",
+      "bytes": 1625829,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "military": 11,
+          "buildings": 6
+        },
+        "removed": {},
+        "rebuilt": false,
+        "base": "history/115_sweden/1.20.1.webp",
+        "overlay": "history/115_sweden/1.20.1-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "sky"
+      ]
+    },
+    {
+      "version": "1.22.0",
+      "from": "1.21.1",
+      "bytes": 5629866,
+      "hdBytes": 5043588,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "1.23.1",
+      "from": "1.23.0",
+      "bytes": 7808421,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 4.3,
+        "drop": 3.6,
+        "area": 1467,
+        "threshold": 0.25,
+        "base": "history/115_sweden/1.23.1.webp",
+        "overlay": "history/115_sweden/1.23.1-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 11,
+          "rocks": 9
+        },
+        "removed": {},
+        "rebuilt": false,
+        "base": "history/115_sweden/1.23.1.webp",
+        "overlay": "history/115_sweden/1.23.1-objects.webp"
+      },
+      "aspects": [
+        "ground",
+        "sky",
+        "water"
+      ]
+    },
+    {
+      "version": "1.26.0",
+      "from": "1.25.1",
+      "bytes": 4087436,
+      "hdBytes": 1980,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 1.5,
+        "drop": 2.8,
+        "area": 369,
+        "threshold": 0.25,
+        "base": "history/115_sweden/1.26.0.webp",
+        "overlay": "history/115_sweden/1.26.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 79,
+          "rocks": 39,
+          "military": 32
+        },
+        "removed": {
+          "military": 10
+        },
+        "rebuilt": false,
+        "base": "history/115_sweden/1.26.0.webp",
+        "overlay": "history/115_sweden/1.26.0-objects.webp"
+      },
+      "aspects": [
+        "models",
+        "sky"
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "from": "1.29.1",
+      "bytes": 2457576,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "2.2.1",
+      "from": "2.2.0",
+      "bytes": 1895128,
+      "hdBytes": 3737298,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    }
+  ],
+  "212_epic_random_valley": [
+    {
+      "version": "1.20.0",
+      "from": "1.19.1",
+      "bytes": 6111869,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 6.5,
+        "drop": 2,
+        "area": 10875,
+        "threshold": 0.25,
+        "base": "history/212_epic_random_valley/1.20.0.webp",
+        "overlay": "history/212_epic_random_valley/1.20.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 3,
+          "rocks": 31,
+          "buildings": 5
+        },
+        "removed": {
+          "rocks": 8,
+          "buildings": 4
+        },
+        "rebuilt": false,
+        "base": "history/212_epic_random_valley/1.20.0.webp",
+        "overlay": "history/212_epic_random_valley/1.20.0-objects.webp"
+      },
+      "aspects": [
+        "sky",
+        "water"
+      ]
+    }
+  ],
+  "34_redshire": [
+    {
+      "version": "0.8.2",
+      "from": "0.7.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/34_redshire/0.7.0.webp",
+        "after": "history/34_redshire/0.8.2.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "0.8.11",
+      "from": "0.8.2",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/34_redshire/0.8.2.webp",
+        "after": "history/34_redshire/0.8.11.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "1.0.0",
+      "from": "0.9.7",
+      "through": "1.15.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/34_redshire/0.8.11.webp",
+        "after": "history/34_redshire/1.15.0.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 30.8,
+        "drop": 32.8,
+        "area": 251411,
+        "threshold": 2,
+        "base": "history/34_redshire/1.15.0.webp",
+        "overlay": "history/34_redshire/1.0.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 3754,
+          "fences": 4558,
+          "buildings": 337,
+          "rocks": 1740,
+          "vegetation": 29,
+          "bridges": 2
+        },
+        "removed": {
+          "buildings": 72,
+          "rocks": 106,
+          "props": 469,
+          "fences": 1147,
+          "vegetation": 118,
+          "bridges": 1
+        },
+        "rebuilt": true,
+        "base": "history/34_redshire/1.15.0.webp",
+        "overlay": null
+      },
+      "aspects": []
+    },
+    {
+      "version": "1.20.0",
+      "from": "1.19.1",
+      "bytes": 3129510,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/34_redshire/1.19.1.webp",
+        "after": "history/34_redshire/1.20.0.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 14,
+        "drop": 0,
+        "area": 3413,
+        "threshold": 0.25,
+        "base": "history/34_redshire/1.20.0.webp",
+        "overlay": "history/34_redshire/1.20.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "military": 1
+        },
+        "removed": {
+          "military": 4
+        },
+        "rebuilt": false,
+        "base": "history/34_redshire/1.20.0.webp",
+        "overlay": "history/34_redshire/1.20.0-objects.webp"
+      },
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "1.21.0",
+      "from": "1.20.1",
+      "bytes": 4118783,
+      "hdBytes": 7608758,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "1.22.0",
+      "from": "1.21.1",
+      "bytes": 810117,
+      "hdBytes": 564702,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "1.23.1",
+      "from": "1.23.0",
+      "bytes": 22438863,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "effects"
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "from": "1.29.1",
+      "bytes": 70590638,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 3.5,
+        "drop": 14.2,
+        "area": 13313,
+        "threshold": 0.25,
+        "base": "history/34_redshire/2.0.0.webp",
+        "overlay": "history/34_redshire/2.0.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 41,
+          "military": 3,
+          "fences": 6,
+          "props": 24
+        },
+        "removed": {
+          "fences": 6,
+          "props": 95,
+          "rocks": 152,
+          "buildings": 6,
+          "military": 4,
+          "bridges": 1
+        },
+        "rebuilt": false,
+        "base": "history/34_redshire/2.0.0.webp",
+        "overlay": "history/34_redshire/2.0.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "models",
+        "vegetation"
+      ]
+    },
+    {
+      "version": "2.3.1",
+      "from": "2.3.0",
+      "bytes": 4010452,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "sound"
+      ]
+    }
+  ],
+  "35_steppes": [
+    {
+      "version": "0.8.4",
+      "from": "0.7.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/35_steppes/0.7.0.webp",
+        "after": "history/35_steppes/0.8.4.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "0.8.10",
+      "from": "0.8.4",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/35_steppes/0.8.4.webp",
+        "after": "history/35_steppes/0.8.10.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "1.0.0",
+      "from": "0.9.7",
+      "through": "1.15.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/35_steppes/0.8.10.webp",
+        "after": "history/35_steppes/1.15.0.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 56.5,
+        "drop": 52.1,
+        "area": 143641,
+        "threshold": 2,
+        "base": "history/35_steppes/1.15.0.webp",
+        "overlay": "history/35_steppes/1.0.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 4438,
+          "props": 468,
+          "fences": 98,
+          "military": 43,
+          "buildings": 32
+        },
+        "removed": {
+          "rocks": 145,
+          "props": 117,
+          "vegetation": 4,
+          "fences": 79,
+          "buildings": 7
+        },
+        "rebuilt": true,
+        "base": "history/35_steppes/1.15.0.webp",
+        "overlay": null
+      },
+      "aspects": []
+    },
+    {
+      "version": "1.20.0",
+      "from": "1.19.1",
+      "bytes": 26909993,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 16.2,
+        "drop": 4.2,
+        "area": 22842,
+        "threshold": 0.25,
+        "base": "history/35_steppes/1.20.0.webp",
+        "overlay": "history/35_steppes/1.20.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 123,
+          "fences": 23,
+          "military": 20,
+          "props": 5
+        },
+        "removed": {
+          "rocks": 49,
+          "fences": 14,
+          "military": 34,
+          "props": 10
+        },
+        "rebuilt": false,
+        "base": "history/35_steppes/1.20.0.webp",
+        "overlay": "history/35_steppes/1.20.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "sky",
+        "vegetation"
+      ]
+    },
+    {
+      "version": "1.22.0",
+      "from": "1.21.1",
+      "bytes": 2137151,
+      "hdBytes": 5027084,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "1.26.0",
+      "from": "1.25.1",
+      "bytes": 36963877,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 8.6,
+        "drop": 5.7,
+        "area": 25256,
+        "threshold": 0.25,
+        "base": "history/35_steppes/1.26.0.webp",
+        "overlay": "history/35_steppes/1.26.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 244
+        },
+        "removed": {
+          "rocks": 209,
+          "fences": 1
+        },
+        "rebuilt": false,
+        "base": "history/35_steppes/1.26.0.webp",
+        "overlay": "history/35_steppes/1.26.0-objects.webp"
+      },
+      "aspects": [
+        "ground",
+        "sky",
+        "vegetation",
+        "water"
+      ]
+    },
+    {
+      "version": "1.28.1",
+      "from": "1.28.0",
+      "bytes": 6775663,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "military": 21,
+          "fences": 3,
+          "props": 19,
+          "rocks": 221,
+          "buildings": 6
+        },
+        "removed": {},
+        "rebuilt": false,
+        "base": "history/35_steppes/1.28.1.webp",
+        "overlay": "history/35_steppes/1.28.1-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "sky"
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "from": "1.29.1",
+      "bytes": 28521802,
+      "hdBytes": 584,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "rocks": 6
+        },
+        "removed": {},
+        "rebuilt": false,
+        "base": "history/35_steppes/2.0.0.webp",
+        "overlay": "history/35_steppes/2.0.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "models"
+      ]
+    }
+  ],
+  "47_canada_a": [
+    {
+      "version": "0.8.8",
+      "from": "0.7.5",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/47_canada_a/0.7.5.webp",
+        "after": "history/47_canada_a/0.8.8.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "0.9.0",
+      "from": "0.8.8",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/47_canada_a/0.8.8.webp",
+        "after": "history/47_canada_a/0.9.0.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "1.0.0",
+      "from": "0.9.7",
+      "through": "1.15.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/47_canada_a/0.9.0.webp",
+        "after": "history/47_canada_a/1.15.0.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 59.7,
+        "drop": 135,
+        "area": 301181,
+        "threshold": 0.25,
+        "base": "history/47_canada_a/1.15.0.webp",
+        "overlay": "history/47_canada_a/1.0.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 2497,
+          "props": 1283,
+          "fences": 965,
+          "buildings": 291,
+          "military": 18,
+          "bridges": 2
+        },
+        "removed": {
+          "rocks": 190,
+          "props": 694,
+          "buildings": 80,
+          "military": 1,
+          "fences": 663,
+          "bridges": 2,
+          "vegetation": 44
+        },
+        "rebuilt": true,
+        "base": "history/47_canada_a/1.15.0.webp",
+        "overlay": null
+      },
+      "aspects": []
+    },
+    {
+      "version": "1.20.0",
+      "from": "1.19.1",
+      "bytes": 3869031,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 3.3,
+        "drop": 0,
+        "area": 532,
+        "threshold": 0.25,
+        "base": "history/47_canada_a/1.20.0.webp",
+        "overlay": "history/47_canada_a/1.20.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 1,
+          "rocks": 4
+        },
+        "removed": {
+          "rocks": 2
+        },
+        "rebuilt": false,
+        "base": "history/47_canada_a/1.20.0.webp",
+        "overlay": "history/47_canada_a/1.20.0-objects.webp"
+      },
+      "aspects": []
+    },
+    {
+      "version": "2.2.1",
+      "from": "2.2.0",
+      "bytes": 59487636,
+      "hdBytes": 1463051,
+      "replaced": false,
+      "minimap": {
+        "before": "history/47_canada_a/2.2.0.webp",
+        "after": "history/47_canada_a/2.2.1.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 44.1,
+        "drop": 17.9,
+        "area": 273093,
+        "threshold": 2,
+        "base": "history/47_canada_a/2.2.1.webp",
+        "overlay": "history/47_canada_a/2.2.1-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 1161,
+          "props": 801,
+          "fences": 486,
+          "buildings": 150,
+          "military": 34,
+          "bridges": 1
+        },
+        "removed": {
+          "rocks": 881,
+          "fences": 128,
+          "props": 288,
+          "buildings": 41,
+          "military": 1
+        },
+        "rebuilt": false,
+        "base": "history/47_canada_a/2.2.1.webp",
+        "overlay": "history/47_canada_a/2.2.1-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "models",
+        "sky",
+        "sound",
+        "vegetation",
+        "water"
+      ]
+    }
+  ],
+  "59_asia_great_wall": [
+    {
+      "version": "1.20.0",
+      "from": "1.19.1",
+      "bytes": 6518500,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 20.8,
+        "drop": 5.8,
+        "area": 7767,
+        "threshold": 0.25,
+        "base": "history/59_asia_great_wall/1.20.0.webp",
+        "overlay": "history/59_asia_great_wall/1.20.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 4,
+          "props": 3,
+          "fences": 8
+        },
+        "removed": {
+          "rocks": 3
+        },
+        "rebuilt": false,
+        "base": "history/59_asia_great_wall/1.20.0.webp",
+        "overlay": "history/59_asia_great_wall/1.20.0-objects.webp"
+      },
+      "aspects": [
+        "ground"
+      ]
+    },
+    {
+      "version": "1.22.0",
+      "from": "1.21.1",
+      "bytes": 15131396,
+      "hdBytes": 11185861,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "from": "1.29.1",
+      "bytes": 2228404,
+      "hdBytes": 1735006,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "2.4.0",
+      "from": "2.3.1",
+      "bytes": 7724327,
+      "hdBytes": 8165,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "fences": 2,
+          "props": 3
+        },
+        "removed": {
+          "props": 2
+        },
+        "rebuilt": false,
+        "base": "history/59_asia_great_wall/2.4.0.webp",
+        "overlay": "history/59_asia_great_wall/2.4.0-objects.webp"
+      },
+      "aspects": [
+        "sky",
+        "sound",
+        "vegetation"
+      ]
+    }
+  ],
+  "06_ensk": [
+    {
+      "version": "0.7.4",
+      "from": "0.7.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/06_ensk/0.7.0.webp",
+        "after": "history/06_ensk/0.7.4.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "0.8.4",
+      "from": "0.7.4",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/06_ensk/0.7.4.webp",
+        "after": "history/06_ensk/0.8.4.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "1.0.0",
+      "from": "0.9.7",
+      "through": "1.15.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/06_ensk/0.8.4.webp",
+        "after": "history/06_ensk/1.15.0.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 5.1,
+        "drop": 1.9,
+        "area": 10399,
+        "threshold": 0.25,
+        "base": "history/06_ensk/1.15.0.webp",
+        "overlay": "history/06_ensk/1.0.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "buildings": 615,
+          "props": 8500,
+          "fences": 1774,
+          "vegetation": 280,
+          "military": 242,
+          "bridges": 2,
+          "rocks": 1
+        },
+        "removed": {
+          "fences": 1278,
+          "props": 1736,
+          "buildings": 188,
+          "vegetation": 313,
+          "military": 48
+        },
+        "rebuilt": true,
+        "base": "history/06_ensk/1.15.0.webp",
+        "overlay": null
+      },
+      "aspects": []
+    },
+    {
+      "version": "1.20.1",
+      "from": "1.20.0",
+      "bytes": 2864491,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {},
+        "removed": {
+          "props": 2
+        },
+        "rebuilt": false,
+        "base": "history/06_ensk/1.20.1.webp",
+        "overlay": "history/06_ensk/1.20.1-objects.webp"
+      },
+      "aspects": [
+        "sky"
+      ]
+    },
+    {
+      "version": "1.22.0",
+      "from": "1.21.1",
+      "bytes": 3253682,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "from": "1.29.1",
+      "bytes": 1388743,
+      "hdBytes": 107996,
+      "replaced": true,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    }
+  ],
+  "28_desert": [
+    {
+      "version": "0.8.0",
+      "from": "0.7.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/28_desert/0.7.0.webp",
+        "after": "history/28_desert/0.8.0.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "1.0.0",
+      "from": "0.9.7",
+      "through": "1.15.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/28_desert/0.8.0.webp",
+        "after": "history/28_desert/1.15.0.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 11.4,
+        "drop": 11.3,
+        "area": 262927,
+        "threshold": 0.25,
+        "base": "history/28_desert/1.15.0.webp",
+        "overlay": "history/28_desert/1.0.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 726,
+          "props": 944,
+          "military": 8,
+          "buildings": 523,
+          "fences": 926,
+          "vegetation": 4
+        },
+        "removed": {
+          "rocks": 108,
+          "buildings": 127,
+          "fences": 891,
+          "props": 345,
+          "vegetation": 44
+        },
+        "rebuilt": true,
+        "base": "history/28_desert/1.15.0.webp",
+        "overlay": null
+      },
+      "aspects": []
+    },
+    {
+      "version": "1.20.1",
+      "from": "1.20.0",
+      "bytes": 23789300,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 7.4,
+        "drop": 1.3,
+        "area": 866,
+        "threshold": 0.25,
+        "base": "history/28_desert/1.20.1.webp",
+        "overlay": "history/28_desert/1.20.1-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 3,
+          "military": 6,
+          "props": 12,
+          "fences": 10,
+          "buildings": 9
+        },
+        "removed": {
+          "rocks": 1,
+          "props": 1,
+          "military": 2,
+          "buildings": 6
+        },
+        "rebuilt": false,
+        "base": "history/28_desert/1.20.1.webp",
+        "overlay": "history/28_desert/1.20.1-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "models",
+        "sky",
+        "water"
+      ]
+    },
+    {
+      "version": "1.28.1",
+      "from": "1.28.0",
+      "bytes": 5547297,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "2.1.1",
+      "from": "2.1.0",
+      "bytes": 2320027,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "rocks": 14,
+          "buildings": 6
+        },
+        "removed": {
+          "props": 1
+        },
+        "rebuilt": false,
+        "base": "history/28_desert/2.1.1.webp",
+        "overlay": "history/28_desert/2.1.1-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "vegetation"
+      ]
+    }
+  ],
+  "29_el_hallouf": [
+    {
+      "version": "0.7.4",
+      "from": "0.7.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/29_el_hallouf/0.7.0.webp",
+        "after": "history/29_el_hallouf/0.7.4.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "0.8.0",
+      "from": "0.7.4",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/29_el_hallouf/0.7.4.webp",
+        "after": "history/29_el_hallouf/0.8.0.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "0.8.1",
+      "from": "0.8.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/29_el_hallouf/0.8.0.webp",
+        "after": "history/29_el_hallouf/0.8.1.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "0.8.10",
+      "from": "0.8.1",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/29_el_hallouf/0.8.1.webp",
+        "after": "history/29_el_hallouf/0.8.10.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "0.9.2",
+      "from": "0.8.10",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/29_el_hallouf/0.8.10.webp",
+        "after": "history/29_el_hallouf/0.9.2.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "1.0.0",
+      "from": "0.9.7",
+      "through": "1.15.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/29_el_hallouf/0.9.2.webp",
+        "after": "history/29_el_hallouf/1.15.0.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 11,
+        "drop": 29.1,
+        "area": 167187,
+        "threshold": 0.25,
+        "base": "history/29_el_hallouf/1.15.0.webp",
+        "overlay": "history/29_el_hallouf/1.0.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 884,
+          "props": 876,
+          "buildings": 544,
+          "vegetation": 4,
+          "fences": 270,
+          "military": 12
+        },
+        "removed": {
+          "props": 113,
+          "fences": 507,
+          "buildings": 82,
+          "rocks": 53,
+          "military": 2
+        },
+        "rebuilt": true,
+        "base": "history/29_el_hallouf/1.15.0.webp",
+        "overlay": null
+      },
+      "aspects": []
+    },
+    {
+      "version": "1.20.1",
+      "from": "1.20.0",
+      "bytes": 1100517,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 5,
+        "drop": 0.6,
+        "area": 248,
+        "threshold": 0.25,
+        "base": "history/29_el_hallouf/1.20.1.webp",
+        "overlay": "history/29_el_hallouf/1.20.1-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 1
+        },
+        "removed": {},
+        "rebuilt": false,
+        "base": "history/29_el_hallouf/1.20.1.webp",
+        "overlay": "history/29_el_hallouf/1.20.1-objects.webp"
+      },
+      "aspects": [
+        "effects"
+      ]
+    },
+    {
+      "version": "1.22.0",
+      "from": "1.21.1",
+      "bytes": 4278073,
+      "hdBytes": 568,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "military": 6,
+          "rocks": 2
+        },
+        "removed": {
+          "military": 1
+        },
+        "rebuilt": false,
+        "base": "history/29_el_hallouf/1.22.0.webp",
+        "overlay": "history/29_el_hallouf/1.22.0-objects.webp"
+      },
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "1.26.0",
+      "from": "1.25.1",
+      "bytes": 23178550,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "rocks": 14,
+          "buildings": 2,
+          "military": 1,
+          "props": 8
+        },
+        "removed": {
+          "military": 1,
+          "rocks": 35,
+          "props": 3,
+          "buildings": 4
+        },
+        "rebuilt": false,
+        "base": "history/29_el_hallouf/1.26.0.webp",
+        "overlay": "history/29_el_hallouf/1.26.0-objects.webp"
+      },
+      "aspects": []
+    },
+    {
+      "version": "1.28.1",
+      "from": "1.28.0",
+      "bytes": 17276814,
+      "hdBytes": 5809243,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    }
+  ],
+  "251_br_battle_city3": [
+    {
+      "version": "1.21.0",
+      "from": "1.20.1",
+      "bytes": 32408908,
+      "hdBytes": 2640,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "effects",
+        "ground",
+        "models",
+        "sky",
+        "vegetation",
+        "water"
+      ]
+    },
+    {
+      "version": "1.21.1",
+      "from": "1.21.0",
+      "bytes": 30491148,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "effects",
+        "ground",
+        "sky",
+        "vegetation",
+        "water"
+      ]
+    },
+    {
+      "version": "1.22.0",
+      "from": "1.21.1",
+      "bytes": 1786368,
+      "hdBytes": 2247206,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "1.27.0",
+      "from": "1.26.1",
+      "bytes": 25578723,
+      "hdBytes": 30333565,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "2.4.0",
+      "from": "2.3.1",
+      "bytes": 2777594,
+      "hdBytes": 3312,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {},
+        "removed": {
+          "props": 2
+        },
+        "rebuilt": false,
+        "base": "history/251_br_battle_city3/2.4.0.webp",
+        "overlay": "history/251_br_battle_city3/2.4.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "sky",
+        "sound"
+      ]
+    }
+  ],
+  "13_erlenberg": [
+    {
+      "version": "0.7.4",
+      "from": "0.7.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/13_erlenberg/0.7.0.webp",
+        "after": "history/13_erlenberg/0.7.4.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "0.8.2",
+      "from": "0.7.4",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/13_erlenberg/0.7.4.webp",
+        "after": "history/13_erlenberg/0.8.2.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "0.8.11",
+      "from": "0.8.2",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/13_erlenberg/0.8.2.webp",
+        "after": "history/13_erlenberg/0.8.11.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "1.0.0",
+      "from": "0.9.7",
+      "through": "1.15.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/13_erlenberg/0.8.11.webp",
+        "after": "history/13_erlenberg/1.15.0.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 24.4,
+        "drop": 12.8,
+        "area": 350210,
+        "threshold": 2,
+        "base": "history/13_erlenberg/1.15.0.webp",
+        "overlay": "history/13_erlenberg/1.0.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 58,
+          "props": 4861,
+          "fences": 2177,
+          "military": 121,
+          "buildings": 465,
+          "vegetation": 102,
+          "bridges": 5
+        },
+        "removed": {
+          "fences": 1626,
+          "rocks": 18,
+          "buildings": 177,
+          "props": 556,
+          "military": 19,
+          "vegetation": 218,
+          "bridges": 3
+        },
+        "rebuilt": true,
+        "base": "history/13_erlenberg/1.15.0.webp",
+        "overlay": null
+      },
+      "aspects": []
+    },
+    {
+      "version": "1.21.0",
+      "from": "1.20.1",
+      "bytes": 2182458,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "1.22.0",
+      "from": "1.21.1",
+      "bytes": 1719119,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "1.24.1",
+      "from": "1.24.0",
+      "bytes": 1417282,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 1.7,
+        "drop": 1.2,
+        "area": 246,
+        "threshold": 0.25,
+        "base": "history/13_erlenberg/1.24.1.webp",
+        "overlay": "history/13_erlenberg/1.24.1-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 37
+        },
+        "removed": {
+          "props": 1
+        },
+        "rebuilt": false,
+        "base": "history/13_erlenberg/1.24.1.webp",
+        "overlay": "history/13_erlenberg/1.24.1-objects.webp"
+      },
+      "aspects": []
+    },
+    {
+      "version": "1.26.0",
+      "from": "1.25.1",
+      "bytes": 2743789,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "sound",
+        "water"
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "from": "1.29.1",
+      "bytes": 8004568,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "2.0.1",
+      "from": "2.0.0",
+      "bytes": 66555156,
+      "hdBytes": 336,
+      "replaced": false,
+      "minimap": {
+        "before": "history/13_erlenberg/2.0.0.webp",
+        "after": "history/13_erlenberg/2.0.1.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 18.9,
+        "drop": 16.5,
+        "area": 270191,
+        "threshold": 2,
+        "base": "history/13_erlenberg/2.0.1.webp",
+        "overlay": "history/13_erlenberg/2.0.1-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 141,
+          "props": 994,
+          "buildings": 343,
+          "fences": 488,
+          "military": 75,
+          "vegetation": 38
+        },
+        "removed": {
+          "props": 1182,
+          "military": 34,
+          "buildings": 148,
+          "fences": 700,
+          "rocks": 14,
+          "vegetation": 39
+        },
+        "rebuilt": false,
+        "base": "history/13_erlenberg/2.0.1.webp",
+        "overlay": "history/13_erlenberg/2.0.1-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "models",
+        "sky",
+        "vegetation",
+        "water"
+      ]
+    },
+    {
+      "version": "2.1.1",
+      "from": "2.1.0",
+      "bytes": 3971173,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "military": 47,
+          "props": 595,
+          "buildings": 94,
+          "fences": 131,
+          "bridges": 12,
+          "rocks": 2
+        },
+        "removed": {
+          "fences": 3,
+          "props": 1,
+          "military": 1
+        },
+        "rebuilt": false,
+        "base": "history/13_erlenberg/2.1.1.webp",
+        "overlay": "history/13_erlenberg/2.1.1-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "sky"
+      ]
+    }
+  ],
+  "250_br_battle_city2-1": [
+    {
+      "version": "1.21.0",
+      "from": "1.20.1",
+      "bytes": 4369232,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "effects",
+        "models",
+        "sky"
+      ]
+    },
+    {
+      "version": "1.21.1",
+      "from": "1.21.0",
+      "bytes": 4992350,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "effects",
+        "sky"
+      ]
+    },
+    {
+      "version": "1.22.0",
+      "from": "1.21.1",
+      "bytes": 1453709,
+      "hdBytes": 1688451,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "from": "1.29.1",
+      "bytes": 2517427,
+      "hdBytes": 1460,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "2.4.0",
+      "from": "2.3.1",
+      "bytes": 2860067,
+      "hdBytes": 2269,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 5.5,
+        "drop": 2.1,
+        "area": 1095,
+        "threshold": 0.25,
+        "base": "history/250_br_battle_city2-1/2.4.0.webp",
+        "overlay": "history/250_br_battle_city2-1/2.4.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 1,
+          "props": 15,
+          "buildings": 7
+        },
+        "removed": {
+          "props": 4,
+          "buildings": 1
+        },
+        "rebuilt": false,
+        "base": "history/250_br_battle_city2-1/2.4.0.webp",
+        "overlay": "history/250_br_battle_city2-1/2.4.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "sky",
+        "sound"
+      ]
+    }
+  ],
+  "252_br_battle_city4": [
+    {
+      "version": "1.21.0",
+      "from": "1.20.1",
+      "bytes": 48643654,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "effects",
+        "ground",
+        "sky",
+        "water"
+      ]
+    },
+    {
+      "version": "1.21.1",
+      "from": "1.21.0",
+      "bytes": 48012120,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "effects",
+        "ground",
+        "sky",
+        "water"
+      ]
+    },
+    {
+      "version": "1.22.0",
+      "from": "1.21.1",
+      "bytes": 2820388,
+      "hdBytes": 2242854,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "from": "1.29.1",
+      "bytes": 3075628,
+      "hdBytes": 771,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    }
+  ],
+  "105_germany": [
+    {
+      "version": "1.21.1",
+      "from": "1.21.0",
+      "bytes": 1135919,
+      "hdBytes": 32350,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "1.22.0",
+      "from": "1.21.1",
+      "bytes": 4453432,
+      "hdBytes": 3372263,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "1.24.1",
+      "from": "1.24.0",
+      "bytes": 4730933,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "props": 16
+        },
+        "removed": {
+          "props": 2,
+          "buildings": 1
+        },
+        "rebuilt": false,
+        "base": "history/105_germany/1.24.1.webp",
+        "overlay": "history/105_germany/1.24.1-objects.webp"
+      },
+      "aspects": []
+    },
+    {
+      "version": "2.0.0",
+      "from": "1.29.1",
+      "bytes": 7541650,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "2.4.0",
+      "from": "2.3.1",
+      "bytes": 4836095,
+      "hdBytes": 858,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "props": 7
+        },
+        "removed": {
+          "fences": 1,
+          "military": 2,
+          "props": 1
+        },
+        "rebuilt": false,
+        "base": "history/105_germany/2.4.0.webp",
+        "overlay": "history/105_germany/2.4.0-objects.webp"
+      },
+      "aspects": [
+        "ground",
+        "sky",
+        "sound"
+      ]
+    }
+  ],
+  "08_ruinberg": [
+    {
+      "version": "0.7.4",
+      "from": "0.7.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/08_ruinberg/0.7.0.webp",
+        "after": "history/08_ruinberg/0.7.4.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "0.8.2",
+      "from": "0.7.4",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/08_ruinberg/0.7.4.webp",
+        "after": "history/08_ruinberg/0.8.2.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "1.0.0",
+      "from": "0.9.7",
+      "through": "1.15.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/08_ruinberg/0.8.2.webp",
+        "after": "history/08_ruinberg/1.15.0.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 15.1,
+        "drop": 7.2,
+        "area": 55034,
+        "threshold": 2,
+        "base": "history/08_ruinberg/1.15.0.webp",
+        "overlay": "history/08_ruinberg/1.0.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "buildings": 687,
+          "props": 11237,
+          "fences": 1632,
+          "vegetation": 694,
+          "military": 393,
+          "bridges": 6
+        },
+        "removed": {
+          "props": 2275,
+          "buildings": 429,
+          "vegetation": 852,
+          "military": 40,
+          "fences": 681,
+          "rocks": 15
+        },
+        "rebuilt": true,
+        "base": "history/08_ruinberg/1.15.0.webp",
+        "overlay": null
+      },
+      "aspects": []
+    },
+    {
+      "version": "1.22.0",
+      "from": "1.21.1",
+      "bytes": 758821,
+      "hdBytes": 565697,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "1.23.0",
+      "from": "1.22.1",
+      "bytes": 101988307,
+      "hdBytes": 612150,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 6.8,
+        "drop": 5.3,
+        "area": 6688,
+        "threshold": 0.25,
+        "base": "history/08_ruinberg/1.23.0.webp",
+        "overlay": "history/08_ruinberg/1.23.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "fences": 3,
+          "props": 377,
+          "vegetation": 55,
+          "buildings": 91
+        },
+        "removed": {
+          "props": 102,
+          "buildings": 58,
+          "fences": 46,
+          "vegetation": 44,
+          "military": 12
+        },
+        "rebuilt": false,
+        "base": "history/08_ruinberg/1.23.0.webp",
+        "overlay": "history/08_ruinberg/1.23.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "models",
+        "sky",
+        "vegetation",
+        "water"
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "from": "1.29.1",
+      "bytes": 38979505,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 4.7,
+        "drop": 7,
+        "area": 21924,
+        "threshold": 0.25,
+        "base": "history/08_ruinberg/2.0.0.webp",
+        "overlay": "history/08_ruinberg/2.0.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "fences": 97,
+          "props": 1374,
+          "buildings": 100,
+          "vegetation": 178,
+          "military": 22
+        },
+        "removed": {
+          "props": 12,
+          "fences": 2,
+          "vegetation": 2,
+          "buildings": 8,
+          "military": 3
+        },
+        "rebuilt": false,
+        "base": "history/08_ruinberg/2.0.0.webp",
+        "overlay": "history/08_ruinberg/2.0.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "models",
+        "sky"
+      ]
+    },
+    {
+      "version": "2.3.1",
+      "from": "2.3.0",
+      "bytes": 1828949,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "sound"
+      ]
+    }
+  ],
+  "19_monastery": [
+    {
+      "version": "0.8.1",
+      "from": "0.7.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/19_monastery/0.7.0.webp",
+        "after": "history/19_monastery/0.8.1.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "1.0.0",
+      "from": "0.9.7",
+      "through": "1.15.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/19_monastery/0.8.1.webp",
+        "after": "history/19_monastery/1.15.0.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 30.5,
+        "drop": 50.7,
+        "area": 279508,
+        "threshold": 2,
+        "base": "history/19_monastery/1.15.0.webp",
+        "overlay": "history/19_monastery/1.0.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 2430,
+          "rocks": 2063,
+          "military": 73,
+          "fences": 1050,
+          "buildings": 293,
+          "vegetation": 105
+        },
+        "removed": {
+          "vegetation": 134,
+          "military": 30,
+          "rocks": 85,
+          "fences": 687,
+          "props": 551,
+          "buildings": 98
+        },
+        "rebuilt": true,
+        "base": "history/19_monastery/1.15.0.webp",
+        "overlay": null
+      },
+      "aspects": []
+    },
+    {
+      "version": "1.22.0",
+      "from": "1.21.1",
+      "bytes": 7844987,
+      "hdBytes": 2244903,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "1.23.1",
+      "from": "1.23.0",
+      "bytes": 6346688,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 4.8,
+        "drop": 1.5,
+        "area": 2265,
+        "threshold": 0.25,
+        "base": "history/19_monastery/1.23.1.webp",
+        "overlay": "history/19_monastery/1.23.1-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 8,
+          "rocks": 19
+        },
+        "removed": {
+          "rocks": 4,
+          "props": 4,
+          "military": 3,
+          "buildings": 3
+        },
+        "rebuilt": false,
+        "base": "history/19_monastery/1.23.1.webp",
+        "overlay": "history/19_monastery/1.23.1-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "sky",
+        "vegetation"
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "from": "1.29.1",
+      "bytes": 1022038,
+      "hdBytes": 2303673,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    }
+  ],
+  "03_campania_big": [
+    {
+      "version": "1.22.0",
+      "from": "1.21.1",
+      "bytes": 18652973,
+      "hdBytes": 12915160,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "1.24.1",
+      "from": "1.24.0",
+      "bytes": 1479310,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "from": "1.29.1",
+      "bytes": 3163049,
+      "hdBytes": 6804709,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "2.4.0",
+      "from": "2.3.1",
+      "bytes": 1959155,
+      "hdBytes": 11637,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "rocks": 3
+        },
+        "removed": {
+          "fences": 2
+        },
+        "rebuilt": false,
+        "base": "history/03_campania_big/2.4.0.webp",
+        "overlay": "history/03_campania_big/2.4.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "sky",
+        "sound",
+        "water"
+      ]
+    }
+  ],
+  "101_dday": [
+    {
+      "version": "1.0.0",
+      "from": "0.9.7",
+      "through": "1.15.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/101_dday/0.9.7.webp",
+        "after": "history/101_dday/1.15.0.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 20.7,
+        "drop": 16.9,
+        "area": 163123,
+        "threshold": 0.25,
+        "base": "history/101_dday/1.15.0.webp",
+        "overlay": "history/101_dday/1.0.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "fences": 2949,
+          "military": 1250,
+          "vegetation": 229,
+          "props": 2372,
+          "rocks": 714,
+          "buildings": 87
+        },
+        "removed": {
+          "fences": 2397,
+          "military": 485,
+          "rocks": 271,
+          "props": 709,
+          "buildings": 57,
+          "vegetation": 13
+        },
+        "rebuilt": true,
+        "base": "history/101_dday/1.15.0.webp",
+        "overlay": null
+      },
+      "aspects": []
+    },
+    {
+      "version": "1.22.0",
+      "from": "1.21.1",
+      "bytes": 1349866,
+      "hdBytes": 143602,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 8.3,
+        "drop": 2,
+        "area": 2925,
+        "threshold": 0.25,
+        "base": "history/101_dday/1.22.0.webp",
+        "overlay": "history/101_dday/1.22.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "military": 13,
+          "rocks": 7,
+          "props": 6,
+          "buildings": 6
+        },
+        "removed": {
+          "rocks": 11,
+          "military": 2,
+          "props": 1
+        },
+        "rebuilt": false,
+        "base": "history/101_dday/1.22.0.webp",
+        "overlay": "history/101_dday/1.22.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "models",
+        "sky"
+      ]
+    },
+    {
+      "version": "1.23.1",
+      "from": "1.23.0",
+      "bytes": 6438977,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 4.7,
+        "drop": 2.8,
+        "area": 251,
+        "threshold": 0.25,
+        "base": "history/101_dday/1.23.1.webp",
+        "overlay": "history/101_dday/1.23.1-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 4,
+          "military": 6,
+          "vegetation": 2,
+          "props": 2,
+          "fences": 4,
+          "buildings": 10
+        },
+        "removed": {
+          "military": 3,
+          "buildings": 6
+        },
+        "rebuilt": false,
+        "base": "history/101_dday/1.23.1.webp",
+        "overlay": "history/101_dday/1.23.1-objects.webp"
+      },
+      "aspects": [
+        "effects"
+      ]
+    },
+    {
+      "version": "2.0.1",
+      "from": "2.0.0",
+      "bytes": 70643525,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/101_dday/2.0.0.webp",
+        "after": "history/101_dday/2.0.1.webp"
+      },
+      "relief": {
+        "rebuilt": true,
+        "rise": 29,
+        "drop": 32.1,
+        "area": 682587,
+        "threshold": 2,
+        "base": "history/101_dday/2.0.1.webp",
+        "overlay": null
+      },
+      "objects": {
+        "added": {
+          "fences": 3598,
+          "rocks": 842,
+          "military": 1309,
+          "props": 2531,
+          "vegetation": 224,
+          "buildings": 124
+        },
+        "removed": {
+          "military": 1267,
+          "fences": 2561,
+          "vegetation": 215,
+          "props": 2192,
+          "rocks": 683,
+          "buildings": 101
+        },
+        "rebuilt": true,
+        "base": "history/101_dday/2.0.1.webp",
+        "overlay": null
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "models",
+        "sky",
+        "vegetation",
+        "water"
+      ]
+    },
+    {
+      "version": "2.4.0",
+      "from": "2.3.1",
+      "bytes": 11000540,
+      "hdBytes": 962,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 2.9,
+        "drop": 3.5,
+        "area": 1299,
+        "threshold": 0.25,
+        "base": "history/101_dday/2.4.0.webp",
+        "overlay": "history/101_dday/2.4.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 1
+        },
+        "removed": {},
+        "rebuilt": false,
+        "base": "history/101_dday/2.4.0.webp",
+        "overlay": "history/101_dday/2.4.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "sky",
+        "sound",
+        "vegetation"
+      ]
+    }
+  ],
+  "121_lost_paradise_v": [
+    {
+      "version": "1.22.0",
+      "from": "1.21.1",
+      "bytes": 10290208,
+      "hdBytes": 6512,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 8.9,
+        "drop": 40.6,
+        "area": 10966,
+        "threshold": 0.25,
+        "base": "history/121_lost_paradise_v/1.22.0.webp",
+        "overlay": "history/121_lost_paradise_v/1.22.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 42,
+          "props": 16
+        },
+        "removed": {
+          "rocks": 19,
+          "props": 9
+        },
+        "rebuilt": false,
+        "base": "history/121_lost_paradise_v/1.22.0.webp",
+        "overlay": "history/121_lost_paradise_v/1.22.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "models",
+        "sky",
+        "vegetation"
+      ]
+    },
+    {
+      "version": "1.23.1",
+      "from": "1.23.0",
+      "bytes": 24079126,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "military": 14,
+          "rocks": 16,
+          "buildings": 6,
+          "props": 5,
+          "fences": 1
+        },
+        "removed": {},
+        "rebuilt": false,
+        "base": "history/121_lost_paradise_v/1.23.1.webp",
+        "overlay": "history/121_lost_paradise_v/1.23.1-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "sky",
+        "vegetation",
+        "water"
+      ]
+    },
+    {
+      "version": "1.26.0",
+      "from": "1.25.1",
+      "bytes": 13321019,
+      "hdBytes": 4418,
+      "replaced": false,
+      "minimap": {
+        "before": "history/121_lost_paradise_v/1.25.1.webp",
+        "after": "history/121_lost_paradise_v/1.26.0.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 29.1,
+        "drop": 65.8,
+        "area": 79278,
+        "threshold": 0.25,
+        "base": "history/121_lost_paradise_v/1.26.0.webp",
+        "overlay": "history/121_lost_paradise_v/1.26.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 158,
+          "rocks": 552,
+          "military": 15,
+          "fences": 70,
+          "buildings": 6
+        },
+        "removed": {
+          "props": 61,
+          "military": 13,
+          "rocks": 123,
+          "fences": 48,
+          "buildings": 6
+        },
+        "rebuilt": false,
+        "base": "history/121_lost_paradise_v/1.26.0.webp",
+        "overlay": "history/121_lost_paradise_v/1.26.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "models",
+        "sky",
+        "sound",
+        "vegetation",
+        "water"
+      ]
+    },
+    {
+      "version": "1.29.1",
+      "from": "1.29.0",
+      "bytes": 3765100,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models",
+        "sky"
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "from": "1.29.1",
+      "bytes": 2928846,
+      "hdBytes": 3367674,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    }
+  ],
+  "14_siegfried_line": [
+    {
+      "version": "0.8.5",
+      "from": "0.7.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/14_siegfried_line/0.7.0.webp",
+        "after": "history/14_siegfried_line/0.8.5.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "1.0.0",
+      "from": "0.9.7",
+      "through": "1.15.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/14_siegfried_line/0.8.5.webp",
+        "after": "history/14_siegfried_line/1.15.0.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 12.4,
+        "drop": 9.9,
+        "area": 357677,
+        "threshold": 0.25,
+        "base": "history/14_siegfried_line/1.15.0.webp",
+        "overlay": "history/14_siegfried_line/1.0.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "military": 219,
+          "props": 3570,
+          "rocks": 323,
+          "fences": 1076,
+          "buildings": 309,
+          "vegetation": 195
+        },
+        "removed": {
+          "military": 190,
+          "props": 1343,
+          "fences": 907,
+          "buildings": 203,
+          "vegetation": 442
+        },
+        "rebuilt": true,
+        "base": "history/14_siegfried_line/1.15.0.webp",
+        "overlay": null
+      },
+      "aspects": []
+    },
+    {
+      "version": "1.22.0",
+      "from": "1.21.1",
+      "bytes": 1923848,
+      "hdBytes": 62,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "props": 15,
+          "buildings": 1
+        },
+        "removed": {
+          "props": 1
+        },
+        "rebuilt": false,
+        "base": "history/14_siegfried_line/1.22.0.webp",
+        "overlay": "history/14_siegfried_line/1.22.0-objects.webp"
+      },
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "1.24.1",
+      "from": "1.24.0",
+      "bytes": 8621825,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "military": 52,
+          "rocks": 13,
+          "fences": 55,
+          "buildings": 18,
+          "props": 161,
+          "vegetation": 52
+        },
+        "removed": {
+          "fences": 2,
+          "vegetation": 1
+        },
+        "rebuilt": false,
+        "base": "history/14_siegfried_line/1.24.1.webp",
+        "overlay": "history/14_siegfried_line/1.24.1-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "water"
+      ]
+    },
+    {
+      "version": "1.27.0",
+      "from": "1.26.1",
+      "bytes": 105627682,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 4.6,
+        "drop": 0.7,
+        "area": 2916,
+        "threshold": 0.25,
+        "base": "history/14_siegfried_line/1.27.0.webp",
+        "overlay": "history/14_siegfried_line/1.27.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "buildings": 3,
+          "props": 127,
+          "vegetation": 4
+        },
+        "removed": {
+          "military": 6,
+          "props": 207,
+          "buildings": 28,
+          "vegetation": 27,
+          "rocks": 4,
+          "fences": 9
+        },
+        "rebuilt": false,
+        "base": "history/14_siegfried_line/1.27.0.webp",
+        "overlay": "history/14_siegfried_line/1.27.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "models",
+        "sky",
+        "vegetation"
+      ]
+    },
+    {
+      "version": "1.28.0",
+      "from": "1.27.1",
+      "bytes": 1064586,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "effects"
+      ]
+    },
+    {
+      "version": "2.3.1",
+      "from": "2.3.0",
+      "bytes": 3574710,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "sound"
+      ]
+    }
+  ],
+  "208_bf_epic_normandy": [
+    {
+      "version": "1.22.0",
+      "from": "1.21.1",
+      "bytes": 1314884,
+      "hdBytes": 206,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "1.24.0",
+      "from": "1.23.1",
+      "bytes": 29043007,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 13.4,
+        "drop": 1.2,
+        "area": 4575,
+        "threshold": 0.25,
+        "base": "history/208_bf_epic_normandy/1.24.0.webp",
+        "overlay": "history/208_bf_epic_normandy/1.24.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 8,
+          "rocks": 10
+        },
+        "removed": {
+          "props": 3,
+          "military": 1,
+          "fences": 3,
+          "buildings": 1
+        },
+        "rebuilt": false,
+        "base": "history/208_bf_epic_normandy/1.24.0.webp",
+        "overlay": "history/208_bf_epic_normandy/1.24.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "models",
+        "sky",
+        "water"
+      ]
+    },
+    {
+      "version": "1.24.1",
+      "from": "1.24.0",
+      "bytes": 1020032,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "2.1.0",
+      "from": "2.0.1",
+      "bytes": 1313880,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    }
+  ],
+  "36_fishing_bay": [
+    {
+      "version": "0.7.4",
+      "from": "0.7.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/36_fishing_bay/0.7.0.webp",
+        "after": "history/36_fishing_bay/0.7.4.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "0.8.4",
+      "from": "0.7.4",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/36_fishing_bay/0.7.4.webp",
+        "after": "history/36_fishing_bay/0.8.4.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "1.0.0",
+      "from": "0.9.7",
+      "through": "1.15.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/36_fishing_bay/0.8.4.webp",
+        "after": "history/36_fishing_bay/1.15.0.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 10.9,
+        "drop": 25.4,
+        "area": 130332,
+        "threshold": 2,
+        "base": "history/36_fishing_bay/1.15.0.webp",
+        "overlay": "history/36_fishing_bay/1.0.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 882,
+          "props": 5840,
+          "military": 98,
+          "fences": 2731,
+          "buildings": 540,
+          "vegetation": 271,
+          "bridges": 8
+        },
+        "removed": {
+          "props": 949,
+          "rocks": 56,
+          "fences": 1726,
+          "buildings": 203,
+          "vegetation": 368,
+          "military": 5,
+          "bridges": 1
+        },
+        "rebuilt": true,
+        "base": "history/36_fishing_bay/1.15.0.webp",
+        "overlay": null
+      },
+      "aspects": []
+    },
+    {
+      "version": "1.22.0",
+      "from": "1.21.1",
+      "bytes": 57520907,
+      "hdBytes": 2235814,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 3.4,
+        "drop": 5.2,
+        "area": 30591,
+        "threshold": 0.25,
+        "base": "history/36_fishing_bay/1.22.0.webp",
+        "overlay": "history/36_fishing_bay/1.22.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "buildings": 57,
+          "props": 424,
+          "fences": 397,
+          "military": 8,
+          "rocks": 17,
+          "vegetation": 19
+        },
+        "removed": {
+          "props": 219,
+          "buildings": 56,
+          "fences": 252,
+          "military": 7,
+          "rocks": 3,
+          "vegetation": 18
+        },
+        "rebuilt": false,
+        "base": "history/36_fishing_bay/1.22.0.webp",
+        "overlay": "history/36_fishing_bay/1.22.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "models",
+        "sky",
+        "vegetation",
+        "water"
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "from": "1.29.1",
+      "bytes": 1765685,
+      "hdBytes": 1839822,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "2.4.0",
+      "from": "2.3.1",
+      "bytes": 9436520,
+      "hdBytes": 1182,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 2.2,
+        "drop": 0,
+        "area": 779,
+        "threshold": 0.25,
+        "base": "history/36_fishing_bay/2.4.0.webp",
+        "overlay": "history/36_fishing_bay/2.4.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 18
+        },
+        "removed": {},
+        "rebuilt": false,
+        "base": "history/36_fishing_bay/2.4.0.webp",
+        "overlay": "history/36_fishing_bay/2.4.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "sky",
+        "sound",
+        "vegetation"
+      ]
+    }
+  ],
+  "44_north_america": [
+    {
+      "version": "0.7.4",
+      "from": "0.7.2",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/44_north_america/0.7.2.webp",
+        "after": "history/44_north_america/0.7.4.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "0.8.4",
+      "from": "0.7.4",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/44_north_america/0.7.4.webp",
+        "after": "history/44_north_america/0.8.4.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "0.9.7",
+      "from": "0.8.4",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/44_north_america/0.8.4.webp",
+        "after": "history/44_north_america/0.9.7.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "1.0.0",
+      "from": "0.9.7",
+      "through": "1.15.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/44_north_america/0.9.7.webp",
+        "after": "history/44_north_america/1.15.0.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 11,
+        "drop": 8.2,
+        "area": 172763,
+        "threshold": 0.25,
+        "base": "history/44_north_america/1.15.0.webp",
+        "overlay": "history/44_north_america/1.0.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "fences": 2339,
+          "props": 3173,
+          "military": 132,
+          "vegetation": 84,
+          "buildings": 547,
+          "rocks": 92,
+          "bridges": 6
+        },
+        "removed": {
+          "vegetation": 70,
+          "props": 1264,
+          "fences": 1346,
+          "buildings": 203,
+          "rocks": 17,
+          "military": 46,
+          "bridges": 5
+        },
+        "rebuilt": true,
+        "base": "history/44_north_america/1.15.0.webp",
+        "overlay": null
+      },
+      "aspects": []
+    },
+    {
+      "version": "1.22.0",
+      "from": "1.21.1",
+      "bytes": 48101931,
+      "hdBytes": 202,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 10,
+        "drop": 3.1,
+        "area": 55380,
+        "threshold": 0.25,
+        "base": "history/44_north_america/1.22.0.webp",
+        "overlay": "history/44_north_america/1.22.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 95,
+          "buildings": 81,
+          "fences": 80,
+          "military": 7,
+          "rocks": 2
+        },
+        "removed": {
+          "props": 37,
+          "buildings": 43,
+          "fences": 19,
+          "rocks": 15,
+          "military": 1
+        },
+        "rebuilt": false,
+        "base": "history/44_north_america/1.22.0.webp",
+        "overlay": "history/44_north_america/1.22.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "models",
+        "sky",
+        "vegetation",
+        "water"
+      ]
+    },
+    {
+      "version": "1.24.1",
+      "from": "1.24.0",
+      "bytes": 4924976,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "props": 2
+        },
+        "removed": {},
+        "rebuilt": false,
+        "base": "history/44_north_america/1.24.1.webp",
+        "overlay": "history/44_north_america/1.24.1-objects.webp"
+      },
+      "aspects": [
+        "sky",
+        "water"
+      ]
+    },
+    {
+      "version": "1.26.0",
+      "from": "1.25.1",
+      "bytes": 28082906,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "fences": 114,
+          "props": 497,
+          "vegetation": 5,
+          "military": 43,
+          "buildings": 50,
+          "rocks": 5
+        },
+        "removed": {
+          "props": 1
+        },
+        "rebuilt": false,
+        "base": "history/44_north_america/1.26.0.webp",
+        "overlay": "history/44_north_america/1.26.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "sky"
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "from": "1.29.1",
+      "bytes": 844042,
+      "hdBytes": 826600,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    }
+  ],
+  "45_north_america": [
+    {
+      "version": "0.8.7",
+      "from": "0.7.5",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/45_north_america/0.7.5.webp",
+        "after": "history/45_north_america/0.8.7.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "0.8.11",
+      "from": "0.8.7",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/45_north_america/0.8.7.webp",
+        "after": "history/45_north_america/0.8.11.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "1.0.0",
+      "from": "0.9.7",
+      "through": "1.15.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/45_north_america/0.8.11.webp",
+        "after": "history/45_north_america/1.15.0.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 5.2,
+        "drop": 17.9,
+        "area": 148381,
+        "threshold": 0.25,
+        "base": "history/45_north_america/1.15.0.webp",
+        "overlay": "history/45_north_america/1.0.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 5773,
+          "fences": 2060,
+          "buildings": 483,
+          "military": 40,
+          "vegetation": 124,
+          "rocks": 1,
+          "bridges": 57
+        },
+        "removed": {
+          "fences": 1388,
+          "props": 786,
+          "buildings": 216,
+          "vegetation": 48,
+          "bridges": 3,
+          "military": 26
+        },
+        "rebuilt": true,
+        "base": "history/45_north_america/1.15.0.webp",
+        "overlay": null
+      },
+      "aspects": []
+    },
+    {
+      "version": "1.22.0",
+      "from": "1.21.1",
+      "bytes": 3864182,
+      "hdBytes": 5603386,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models",
+        "water"
+      ]
+    },
+    {
+      "version": "1.28.1",
+      "from": "1.28.0",
+      "bytes": 5972125,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "effects"
+      ]
+    },
+    {
+      "version": "1.29.1",
+      "from": "1.29.0",
+      "bytes": 2797239,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models",
+        "sky",
+        "water"
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "from": "1.29.1",
+      "bytes": 3601771,
+      "hdBytes": 436977,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "2.0.1",
+      "from": "2.0.0",
+      "bytes": 18420649,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/45_north_america/2.0.0.webp",
+        "after": "history/45_north_america/2.0.1.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 13.6,
+        "drop": 8.2,
+        "area": 367280,
+        "threshold": 0.25,
+        "base": "history/45_north_america/2.0.1.webp",
+        "overlay": "history/45_north_america/2.0.1-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 855,
+          "military": 8,
+          "vegetation": 15,
+          "fences": 459,
+          "buildings": 62,
+          "bridges": 7
+        },
+        "removed": {
+          "props": 413,
+          "military": 2,
+          "buildings": 50,
+          "fences": 187,
+          "vegetation": 1
+        },
+        "rebuilt": false,
+        "base": "history/45_north_america/2.0.1.webp",
+        "overlay": "history/45_north_america/2.0.1-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "sky",
+        "vegetation",
+        "water"
+      ]
+    },
+    {
+      "version": "2.1.0",
+      "from": "2.0.1",
+      "bytes": 25179012,
+      "hdBytes": 11806823,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "props": 6
+        },
+        "removed": {
+          "bridges": 2,
+          "props": 35,
+          "buildings": 1
+        },
+        "rebuilt": false,
+        "base": "history/45_north_america/2.1.0.webp",
+        "overlay": "history/45_north_america/2.1.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "models",
+        "sky"
+      ]
+    },
+    {
+      "version": "2.3.1",
+      "from": "2.3.0",
+      "bytes": 3003659,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models",
+        "sound"
+      ]
+    }
+  ],
+  "60_asia_miao": [
+    {
+      "version": "0.8.9",
+      "from": "0.8.5",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/60_asia_miao/0.8.5.webp",
+        "after": "history/60_asia_miao/0.8.9.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "0.9.0",
+      "from": "0.8.9",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/60_asia_miao/0.8.9.webp",
+        "after": "history/60_asia_miao/0.9.0.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "1.0.0",
+      "from": "0.9.7",
+      "through": "1.15.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/60_asia_miao/0.9.0.webp",
+        "after": "history/60_asia_miao/1.15.0.webp"
+      },
+      "relief": {
+        "rebuilt": true,
+        "rise": 27.6,
+        "drop": 53.8,
+        "area": 585349,
+        "threshold": 2,
+        "base": "history/60_asia_miao/1.15.0.webp",
+        "overlay": null
+      },
+      "objects": {
+        "added": {
+          "rocks": 1914,
+          "props": 1949,
+          "fences": 1919,
+          "buildings": 614,
+          "bridges": 1
+        },
+        "removed": {
+          "props": 177,
+          "rocks": 309,
+          "fences": 88,
+          "buildings": 158,
+          "military": 20,
+          "bridges": 7
+        },
+        "rebuilt": true,
+        "base": "history/60_asia_miao/1.15.0.webp",
+        "overlay": null
+      },
+      "aspects": []
+    },
+    {
+      "version": "1.22.0",
+      "from": "1.21.1",
+      "bytes": 2692185,
+      "hdBytes": 3459970,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "1.27.0",
+      "from": "1.26.1",
+      "bytes": 2544925,
+      "hdBytes": 4959,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "1.29.1",
+      "from": "1.29.0",
+      "bytes": 2640760,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 3.3,
+        "drop": 1.2,
+        "area": 348,
+        "threshold": 0.25,
+        "base": "history/60_asia_miao/1.29.1.webp",
+        "overlay": "history/60_asia_miao/1.29.1-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 10,
+          "rocks": 6
+        },
+        "removed": {},
+        "rebuilt": false,
+        "base": "history/60_asia_miao/1.29.1.webp",
+        "overlay": "history/60_asia_miao/1.29.1-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "models",
+        "sky",
+        "water"
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "from": "1.29.1",
+      "bytes": 1518460,
+      "hdBytes": 129183,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "2.2.1",
+      "from": "2.2.0",
+      "bytes": 58438956,
+      "hdBytes": 1214457,
+      "replaced": false,
+      "minimap": {
+        "before": "history/60_asia_miao/2.2.0.webp",
+        "after": "history/60_asia_miao/2.2.1.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 17.8,
+        "drop": 19.7,
+        "area": 197017,
+        "threshold": 0.25,
+        "base": "history/60_asia_miao/2.2.1.webp",
+        "overlay": "history/60_asia_miao/2.2.1-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 291,
+          "props": 600,
+          "fences": 240,
+          "bridges": 2,
+          "buildings": 75
+        },
+        "removed": {
+          "props": 370,
+          "rocks": 273,
+          "buildings": 102,
+          "fences": 211,
+          "bridges": 1
+        },
+        "rebuilt": false,
+        "base": "history/60_asia_miao/2.2.1.webp",
+        "overlay": "history/60_asia_miao/2.2.1-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "models",
+        "sky",
+        "sound",
+        "vegetation",
+        "water"
+      ]
+    },
+    {
+      "version": "2.4.0",
+      "from": "2.3.1",
+      "bytes": 1719275,
+      "hdBytes": 8532,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 1.2,
+        "drop": 1.2,
+        "area": 222,
+        "threshold": 0.25,
+        "base": "history/60_asia_miao/2.4.0.webp",
+        "overlay": "history/60_asia_miao/2.4.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 2
+        },
+        "removed": {
+          "props": 1
+        },
+        "rebuilt": false,
+        "base": "history/60_asia_miao/2.4.0.webp",
+        "overlay": "history/60_asia_miao/2.4.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "models",
+        "sky",
+        "sound",
+        "vegetation"
+      ]
+    }
+  ],
+  "83_kharkiv": [
+    {
+      "version": "1.0.0",
+      "from": "0.9.7",
+      "through": "1.15.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/83_kharkiv/0.9.1.webp",
+        "after": "history/83_kharkiv/1.15.0.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 15.7,
+        "drop": 13.9,
+        "area": 390036,
+        "threshold": 2,
+        "base": "history/83_kharkiv/1.15.0.webp",
+        "overlay": "history/83_kharkiv/1.0.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 5394,
+          "fences": 4147,
+          "military": 1328,
+          "buildings": 707,
+          "vegetation": 218,
+          "rocks": 12
+        },
+        "removed": {
+          "props": 1762,
+          "fences": 1135,
+          "buildings": 291,
+          "vegetation": 179,
+          "military": 159
+        },
+        "rebuilt": true,
+        "base": "history/83_kharkiv/1.15.0.webp",
+        "overlay": null
+      },
+      "aspects": []
+    },
+    {
+      "version": "1.22.0",
+      "from": "1.21.1",
+      "bytes": 32707429,
+      "hdBytes": 13996235,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "1.27.0",
+      "from": "1.26.1",
+      "bytes": 2347734,
+      "hdBytes": 2279100,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    }
+  ],
+  "90_minsk": [
+    {
+      "version": "1.22.0",
+      "from": "1.21.1",
+      "bytes": 49286418,
+      "hdBytes": 15750990,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    }
+  ],
+  "95_lost_city_ctf": [
+    {
+      "version": "1.22.0",
+      "from": "1.21.1",
+      "bytes": 1157383,
+      "hdBytes": 277686,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "rocks": 1,
+          "props": 17,
+          "buildings": 22,
+          "military": 5
+        },
+        "removed": {
+          "props": 1
+        },
+        "rebuilt": false,
+        "base": "history/95_lost_city_ctf/1.22.0.webp",
+        "overlay": "history/95_lost_city_ctf/1.22.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "models"
+      ]
+    },
+    {
+      "version": "1.23.1",
+      "from": "1.23.0",
+      "bytes": 1924185,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "fences": 1,
+          "military": 1
+        },
+        "removed": {},
+        "rebuilt": false,
+        "base": "history/95_lost_city_ctf/1.23.1.webp",
+        "overlay": "history/95_lost_city_ctf/1.23.1-objects.webp"
+      },
+      "aspects": [
+        "sky",
+        "water"
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "from": "1.29.1",
+      "bytes": 5165319,
+      "hdBytes": 10502585,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "2.1.0",
+      "from": "2.0.1",
+      "bytes": 55507053,
+      "hdBytes": 5706451,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "props": 169,
+          "military": 10
+        },
+        "removed": {
+          "props": 79,
+          "fences": 12,
+          "buildings": 804,
+          "vegetation": 1
+        },
+        "rebuilt": false,
+        "base": "history/95_lost_city_ctf/2.1.0.webp",
+        "overlay": "history/95_lost_city_ctf/2.1.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "models",
+        "sky",
+        "vegetation"
+      ]
+    },
+    {
+      "version": "2.2.0",
+      "from": "2.1.1",
+      "bytes": 1515165,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models",
+        "sound"
+      ]
+    },
+    {
+      "version": "2.3.1",
+      "from": "2.3.0",
+      "bytes": 2419329,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "sound"
+      ]
+    }
+  ],
+  "99_poland": [
+    {
+      "version": "1.22.0",
+      "from": "1.21.1",
+      "bytes": 39120866,
+      "hdBytes": 1130426,
+      "replaced": false,
+      "minimap": {
+        "before": "history/99_poland/1.21.1.webp",
+        "after": "history/99_poland/1.22.0.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 4.6,
+        "drop": 10.5,
+        "area": 101469,
+        "threshold": 0.25,
+        "base": "history/99_poland/1.22.0.webp",
+        "overlay": "history/99_poland/1.22.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 1018,
+          "rocks": 40,
+          "buildings": 370,
+          "fences": 177,
+          "vegetation": 30,
+          "military": 59
+        },
+        "removed": {
+          "props": 679,
+          "buildings": 165,
+          "fences": 110,
+          "rocks": 5,
+          "military": 39,
+          "vegetation": 27
+        },
+        "rebuilt": false,
+        "base": "history/99_poland/1.22.0.webp",
+        "overlay": "history/99_poland/1.22.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "models",
+        "sky",
+        "vegetation",
+        "water"
+      ]
+    },
+    {
+      "version": "1.23.1",
+      "from": "1.23.0",
+      "bytes": 3107148,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "military": 24,
+          "fences": 104,
+          "props": 121,
+          "buildings": 20,
+          "vegetation": 14
+        },
+        "removed": {},
+        "rebuilt": false,
+        "base": "history/99_poland/1.23.1.webp",
+        "overlay": "history/99_poland/1.23.1-objects.webp"
+      },
+      "aspects": [
+        "effects"
+      ]
+    },
+    {
+      "version": "1.26.0",
+      "from": "1.25.1",
+      "bytes": 1504152,
+      "hdBytes": 198,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 1.8,
+        "drop": 0,
+        "area": 523,
+        "threshold": 0.25,
+        "base": "history/99_poland/1.26.0.webp",
+        "overlay": "history/99_poland/1.26.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "buildings": 4,
+          "props": 3,
+          "vegetation": 1
+        },
+        "removed": {
+          "buildings": 1
+        },
+        "rebuilt": false,
+        "base": "history/99_poland/1.26.0.webp",
+        "overlay": "history/99_poland/1.26.0-objects.webp"
+      },
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "from": "1.29.1",
+      "bytes": 4004295,
+      "hdBytes": 3702458,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "2.1.1",
+      "from": "2.1.0",
+      "bytes": 1601683,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "props": 27,
+          "buildings": 5,
+          "military": 1,
+          "fences": 7
+        },
+        "removed": {
+          "props": 7
+        },
+        "rebuilt": false,
+        "base": "history/99_poland/2.1.1.webp",
+        "overlay": "history/99_poland/2.1.1-objects.webp"
+      },
+      "aspects": [
+        "sky"
+      ]
+    }
+  ],
+  "11_murovanka": [
+    {
+      "version": "0.8.0",
+      "from": "0.7.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/11_murovanka/0.7.0.webp",
+        "after": "history/11_murovanka/0.8.0.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "0.8.6",
+      "from": "0.8.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/11_murovanka/0.8.0.webp",
+        "after": "history/11_murovanka/0.8.6.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "0.9.3",
+      "from": "0.8.6",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/11_murovanka/0.8.6.webp",
+        "after": "history/11_murovanka/0.9.3.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "1.0.0",
+      "from": "0.9.7",
+      "through": "1.15.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/11_murovanka/0.9.3.webp",
+        "after": "history/11_murovanka/1.15.0.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 3.9,
+        "drop": 4.9,
+        "area": 70960,
+        "threshold": 0.25,
+        "base": "history/11_murovanka/1.15.0.webp",
+        "overlay": "history/11_murovanka/1.0.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 2141,
+          "rocks": 508,
+          "fences": 2646,
+          "buildings": 232,
+          "military": 4,
+          "vegetation": 11
+        },
+        "removed": {
+          "fences": 1701,
+          "props": 356,
+          "buildings": 116,
+          "vegetation": 13,
+          "military": 3,
+          "rocks": 4
+        },
+        "rebuilt": true,
+        "base": "history/11_murovanka/1.15.0.webp",
+        "overlay": null
+      },
+      "aspects": []
+    },
+    {
+      "version": "1.22.0",
+      "from": "1.21.1",
+      "bytes": 30623152,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 6,
+        "drop": 4.6,
+        "area": 55865,
+        "threshold": 0.25,
+        "base": "history/11_murovanka/1.22.0.webp",
+        "overlay": "history/11_murovanka/1.22.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 73,
+          "buildings": 9,
+          "rocks": 38,
+          "fences": 31
+        },
+        "removed": {
+          "props": 19,
+          "buildings": 6,
+          "rocks": 9,
+          "fences": 40
+        },
+        "rebuilt": false,
+        "base": "history/11_murovanka/1.22.0.webp",
+        "overlay": "history/11_murovanka/1.22.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "models",
+        "sky",
+        "vegetation"
+      ]
+    },
+    {
+      "version": "1.26.0",
+      "from": "1.25.1",
+      "bytes": 27473838,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "fences": 234,
+          "props": 343,
+          "buildings": 31,
+          "military": 11,
+          "rocks": 24
+        },
+        "removed": {
+          "fences": 14,
+          "props": 2
+        },
+        "rebuilt": false,
+        "base": "history/11_murovanka/1.26.0.webp",
+        "overlay": "history/11_murovanka/1.26.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "models"
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "from": "1.29.1",
+      "bytes": 2161580,
+      "hdBytes": 2399919,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    }
+  ],
+  "18_cliff": [
+    {
+      "version": "0.8.0",
+      "from": "0.7.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/18_cliff/0.7.0.webp",
+        "after": "history/18_cliff/0.8.0.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "0.8.4",
+      "from": "0.8.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/18_cliff/0.8.0.webp",
+        "after": "history/18_cliff/0.8.4.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "0.9.2",
+      "from": "0.8.4",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/18_cliff/0.8.4.webp",
+        "after": "history/18_cliff/0.9.2.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "1.0.0",
+      "from": "0.9.7",
+      "through": "1.15.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/18_cliff/0.9.2.webp",
+        "after": "history/18_cliff/1.15.0.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 71.6,
+        "drop": 80.1,
+        "area": 363981,
+        "threshold": 2,
+        "base": "history/18_cliff/1.15.0.webp",
+        "overlay": "history/18_cliff/1.0.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 1244,
+          "rocks": 2097,
+          "fences": 3014,
+          "military": 23,
+          "buildings": 793,
+          "vegetation": 4,
+          "bridges": 9
+        },
+        "removed": {
+          "rocks": 126,
+          "props": 236,
+          "fences": 713,
+          "buildings": 49,
+          "military": 21
+        },
+        "rebuilt": true,
+        "base": "history/18_cliff/1.15.0.webp",
+        "overlay": null
+      },
+      "aspects": []
+    },
+    {
+      "version": "1.22.0",
+      "from": "1.21.1",
+      "bytes": 30516786,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 12.7,
+        "drop": 6.8,
+        "area": 15476,
+        "threshold": 0.25,
+        "base": "history/18_cliff/1.22.0.webp",
+        "overlay": "history/18_cliff/1.22.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 31,
+          "rocks": 100,
+          "fences": 14,
+          "buildings": 3,
+          "military": 1
+        },
+        "removed": {
+          "props": 24,
+          "rocks": 31,
+          "fences": 7,
+          "military": 1
+        },
+        "rebuilt": false,
+        "base": "history/18_cliff/1.22.0.webp",
+        "overlay": "history/18_cliff/1.22.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "water"
+      ]
+    },
+    {
+      "version": "1.27.0",
+      "from": "1.26.1",
+      "bytes": 49223311,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 5.4,
+        "drop": 1.4,
+        "area": 3582,
+        "threshold": 0.25,
+        "base": "history/18_cliff/1.27.0.webp",
+        "overlay": "history/18_cliff/1.27.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 84,
+          "fences": 28,
+          "props": 29,
+          "military": 1
+        },
+        "removed": {
+          "rocks": 79,
+          "fences": 23,
+          "props": 90,
+          "buildings": 9,
+          "military": 1,
+          "bridges": 4
+        },
+        "rebuilt": false,
+        "base": "history/18_cliff/1.27.0.webp",
+        "overlay": "history/18_cliff/1.27.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "models",
+        "vegetation"
+      ]
+    },
+    {
+      "version": "1.28.1",
+      "from": "1.28.0",
+      "bytes": 7532378,
+      "hdBytes": 6826026,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 1.3,
+        "drop": 6.5,
+        "area": 1637,
+        "threshold": 0.25,
+        "base": "history/18_cliff/1.28.1.webp",
+        "overlay": "history/18_cliff/1.28.1-relief.webp"
+      },
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "2.3.1",
+      "from": "2.3.0",
+      "bytes": 2732961,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "sound"
+      ]
+    }
+  ],
+  "217_er_alaska": [
+    {
+      "version": "1.22.0",
+      "from": "1.21.1",
+      "bytes": 14889359,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 6.8,
+        "drop": 3.3,
+        "area": 2082,
+        "threshold": 0.25,
+        "base": "history/217_er_alaska/1.22.0.webp",
+        "overlay": "history/217_er_alaska/1.22.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 66,
+          "rocks": 30,
+          "military": 18,
+          "buildings": 6
+        },
+        "removed": {
+          "rocks": 3,
+          "military": 2,
+          "props": 8,
+          "buildings": 7
+        },
+        "rebuilt": false,
+        "base": "history/217_er_alaska/1.22.0.webp",
+        "overlay": "history/217_er_alaska/1.22.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "models",
+        "sky"
+      ]
+    },
+    {
+      "version": "1.23.1",
+      "from": "1.23.0",
+      "bytes": 33494954,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "props": 9
+        },
+        "removed": {
+          "props": 2
+        },
+        "rebuilt": false,
+        "base": "history/217_er_alaska/1.23.1.webp",
+        "overlay": "history/217_er_alaska/1.23.1-objects.webp"
+      },
+      "aspects": [
+        "effects"
+      ]
+    },
+    {
+      "version": "2.2.1",
+      "from": "2.2.0",
+      "bytes": 89607563,
+      "hdBytes": 348465,
+      "replaced": false,
+      "minimap": {
+        "before": "history/217_er_alaska/2.2.0.webp",
+        "after": "history/217_er_alaska/2.2.1.webp"
+      },
+      "relief": {
+        "rebuilt": true,
+        "rise": 38.1,
+        "drop": 44.8,
+        "area": 892785,
+        "threshold": 2,
+        "base": "history/217_er_alaska/2.2.1.webp",
+        "overlay": null
+      },
+      "objects": {
+        "added": {
+          "fences": 1076,
+          "rocks": 529,
+          "props": 4894,
+          "buildings": 1131,
+          "military": 210,
+          "bridges": 135,
+          "vegetation": 29
+        },
+        "removed": {
+          "bridges": 151,
+          "fences": 1336,
+          "props": 4580,
+          "rocks": 371,
+          "buildings": 886,
+          "military": 200
+        },
+        "rebuilt": true,
+        "base": "history/217_er_alaska/2.2.1.webp",
+        "overlay": null
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "models",
+        "sky",
+        "sound",
+        "vegetation",
+        "water"
+      ]
+    },
+    {
+      "version": "2.4.0",
+      "from": "2.3.1",
+      "bytes": 8085023,
+      "hdBytes": 2915,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "props": 13,
+          "rocks": 2,
+          "buildings": 2
+        },
+        "removed": {
+          "props": 8,
+          "buildings": 3
+        },
+        "rebuilt": false,
+        "base": "history/217_er_alaska/2.4.0.webp",
+        "overlay": "history/217_er_alaska/2.4.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "sky",
+        "sound",
+        "water"
+      ]
+    }
+  ],
+  "23_westfeld": [
+    {
+      "version": "0.8.0",
+      "from": "0.7.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/23_westfeld/0.7.0.webp",
+        "after": "history/23_westfeld/0.8.0.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "1.0.0",
+      "from": "0.9.7",
+      "through": "1.15.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/23_westfeld/0.8.0.webp",
+        "after": "history/23_westfeld/1.15.0.webp"
+      },
+      "relief": {
+        "rebuilt": true,
+        "rise": 15.2,
+        "drop": 37.6,
+        "area": 570763,
+        "threshold": 2,
+        "base": "history/23_westfeld/1.15.0.webp",
+        "overlay": null
+      },
+      "objects": {
+        "added": {
+          "props": 1165,
+          "rocks": 1837,
+          "buildings": 532,
+          "fences": 2481
+        },
+        "removed": {
+          "buildings": 69,
+          "fences": 1320,
+          "props": 489,
+          "rocks": 41,
+          "bridges": 37,
+          "vegetation": 14
+        },
+        "rebuilt": true,
+        "base": "history/23_westfeld/1.15.0.webp",
+        "overlay": null
+      },
+      "aspects": []
+    },
+    {
+      "version": "1.22.0",
+      "from": "1.21.1",
+      "bytes": 2983643,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "rocks": 28,
+          "buildings": 9
+        },
+        "removed": {
+          "rocks": 9,
+          "buildings": 2
+        },
+        "rebuilt": false,
+        "base": "history/23_westfeld/1.22.0.webp",
+        "overlay": "history/23_westfeld/1.22.0-objects.webp"
+      },
+      "aspects": [
+        "ground",
+        "models",
+        "sky"
+      ]
+    },
+    {
+      "version": "1.23.0",
+      "from": "1.22.1",
+      "bytes": 2157035,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "1.23.1",
+      "from": "1.23.0",
+      "bytes": 1556553,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "2.4.0",
+      "from": "2.3.1",
+      "bytes": 14503815,
+      "hdBytes": 2683,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "props": 3
+        },
+        "removed": {},
+        "rebuilt": false,
+        "base": "history/23_westfeld/2.4.0.webp",
+        "overlay": "history/23_westfeld/2.4.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "sky",
+        "sound",
+        "vegetation"
+      ]
+    }
+  ],
+  "37_caucasus": [
+    {
+      "version": "0.8.0",
+      "from": "0.7.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/37_caucasus/0.7.0.webp",
+        "after": "history/37_caucasus/0.8.0.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "1.0.0",
+      "from": "0.9.7",
+      "through": "1.15.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/37_caucasus/0.8.0.webp",
+        "after": "history/37_caucasus/1.15.0.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 27.2,
+        "drop": 42.7,
+        "area": 213494,
+        "threshold": 2,
+        "base": "history/37_caucasus/1.15.0.webp",
+        "overlay": "history/37_caucasus/1.0.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 1785,
+          "props": 254,
+          "fences": 255,
+          "vegetation": 49,
+          "buildings": 28,
+          "bridges": 8
+        },
+        "removed": {
+          "rocks": 322,
+          "props": 44,
+          "buildings": 4,
+          "fences": 28,
+          "bridges": 12,
+          "vegetation": 1
+        },
+        "rebuilt": true,
+        "base": "history/37_caucasus/1.15.0.webp",
+        "overlay": null
+      },
+      "aspects": []
+    },
+    {
+      "version": "1.22.0",
+      "from": "1.21.1",
+      "bytes": 27713798,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/37_caucasus/1.21.1.webp",
+        "after": "history/37_caucasus/1.22.0.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 28.3,
+        "drop": 32.7,
+        "area": 236997,
+        "threshold": 0.25,
+        "base": "history/37_caucasus/1.22.0.webp",
+        "overlay": "history/37_caucasus/1.22.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 682,
+          "fences": 53,
+          "props": 53,
+          "buildings": 9,
+          "vegetation": 6,
+          "bridges": 1
+        },
+        "removed": {
+          "rocks": 394,
+          "props": 141,
+          "fences": 51,
+          "buildings": 7,
+          "vegetation": 7
+        },
+        "rebuilt": false,
+        "base": "history/37_caucasus/1.22.0.webp",
+        "overlay": "history/37_caucasus/1.22.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "models",
+        "sky",
+        "vegetation",
+        "water"
+      ]
+    },
+    {
+      "version": "1.24.1",
+      "from": "1.24.0",
+      "bytes": 31929974,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 23.5,
+        "drop": 36.9,
+        "area": 73149,
+        "threshold": 0.25,
+        "base": "history/37_caucasus/1.24.1.webp",
+        "overlay": "history/37_caucasus/1.24.1-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 93,
+          "buildings": 1,
+          "props": 14,
+          "fences": 2
+        },
+        "removed": {
+          "rocks": 59,
+          "buildings": 1,
+          "props": 6,
+          "fences": 2
+        },
+        "rebuilt": false,
+        "base": "history/37_caucasus/1.24.1.webp",
+        "overlay": "history/37_caucasus/1.24.1-objects.webp"
+      },
+      "aspects": [
+        "ground",
+        "sky",
+        "vegetation",
+        "water"
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "from": "1.29.1",
+      "bytes": 5604806,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models",
+        "sky"
+      ]
+    },
+    {
+      "version": "2.1.0",
+      "from": "2.0.1",
+      "bytes": 77153511,
+      "hdBytes": 1318885,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 3,
+        "drop": 3.4,
+        "area": 481,
+        "threshold": 0.25,
+        "base": "history/37_caucasus/2.1.0.webp",
+        "overlay": "history/37_caucasus/2.1.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 29,
+          "props": 2
+        },
+        "removed": {
+          "fences": 3,
+          "rocks": 42,
+          "props": 4,
+          "vegetation": 2,
+          "bridges": 2
+        },
+        "rebuilt": false,
+        "base": "history/37_caucasus/2.1.0.webp",
+        "overlay": "history/37_caucasus/2.1.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "models",
+        "sky",
+        "vegetation",
+        "water"
+      ]
+    }
+  ],
+  "04_himmelsdorf": [
+    {
+      "version": "0.8.0",
+      "from": "0.7.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/04_himmelsdorf/0.7.0.webp",
+        "after": "history/04_himmelsdorf/0.8.0.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "1.0.0",
+      "from": "0.9.7",
+      "through": "1.15.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/04_himmelsdorf/0.8.0.webp",
+        "after": "history/04_himmelsdorf/1.15.0.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 15.6,
+        "drop": 11.2,
+        "area": 105880,
+        "threshold": 0.25,
+        "base": "history/04_himmelsdorf/1.15.0.webp",
+        "overlay": "history/04_himmelsdorf/1.0.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 12694,
+          "fences": 443,
+          "buildings": 939,
+          "military": 173,
+          "rocks": 66,
+          "vegetation": 679
+        },
+        "removed": {
+          "buildings": 623,
+          "props": 2288,
+          "military": 54,
+          "rocks": 28,
+          "fences": 171,
+          "vegetation": 702
+        },
+        "rebuilt": true,
+        "base": "history/04_himmelsdorf/1.15.0.webp",
+        "overlay": null
+      },
+      "aspects": []
+    },
+    {
+      "version": "1.23.0",
+      "from": "1.22.1",
+      "bytes": 155304703,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/04_himmelsdorf/1.22.1.webp",
+        "after": "history/04_himmelsdorf/1.23.0.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 18.3,
+        "drop": 13.4,
+        "area": 17748,
+        "threshold": 0.25,
+        "base": "history/04_himmelsdorf/1.23.0.webp",
+        "overlay": "history/04_himmelsdorf/1.23.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "fences": 69,
+          "military": 56,
+          "buildings": 14,
+          "props": 707,
+          "vegetation": 19,
+          "rocks": 14
+        },
+        "removed": {
+          "props": 665,
+          "fences": 25,
+          "military": 18,
+          "buildings": 4,
+          "vegetation": 11,
+          "rocks": 1
+        },
+        "rebuilt": false,
+        "base": "history/04_himmelsdorf/1.23.0.webp",
+        "overlay": "history/04_himmelsdorf/1.23.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "models",
+        "vegetation"
+      ]
+    },
+    {
+      "version": "1.24.1",
+      "from": "1.24.0",
+      "bytes": 1844743,
+      "hdBytes": 4197872,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "1.26.0",
+      "from": "1.25.1",
+      "bytes": 1314104,
+      "hdBytes": 149,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 0.9,
+        "drop": 4.2,
+        "area": 1164,
+        "threshold": 0.25,
+        "base": "history/04_himmelsdorf/1.26.0.webp",
+        "overlay": "history/04_himmelsdorf/1.26.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 132,
+          "buildings": 22,
+          "military": 12,
+          "vegetation": 27,
+          "rocks": 4
+        },
+        "removed": {
+          "buildings": 9,
+          "props": 11,
+          "military": 2
+        },
+        "rebuilt": false,
+        "base": "history/04_himmelsdorf/1.26.0.webp",
+        "overlay": "history/04_himmelsdorf/1.26.0-objects.webp"
+      },
+      "aspects": [
+        "models",
+        "sky",
+        "vegetation"
+      ]
+    },
+    {
+      "version": "1.28.0",
+      "from": "1.27.1",
+      "bytes": 4849812,
+      "hdBytes": 5645860,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "effects",
+        "models"
+      ]
+    },
+    {
+      "version": "1.28.1",
+      "from": "1.28.0",
+      "bytes": 4394784,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "2.0.0",
+      "from": "1.29.1",
+      "bytes": 6303096,
+      "hdBytes": 232,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "2.3.1",
+      "from": "2.3.0",
+      "bytes": 6867099,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "sound"
+      ]
+    }
+  ],
+  "210_bf_epic_desert": [
+    {
+      "version": "1.23.0",
+      "from": "1.22.1",
+      "bytes": 46478774,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 12.5,
+        "drop": 10.2,
+        "area": 173369,
+        "threshold": 0.25,
+        "base": "history/210_bf_epic_desert/1.23.0.webp",
+        "overlay": "history/210_bf_epic_desert/1.23.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 479,
+          "rocks": 43,
+          "military": 55,
+          "buildings": 202,
+          "fences": 184
+        },
+        "removed": {
+          "buildings": 125,
+          "props": 483,
+          "rocks": 53,
+          "military": 52,
+          "fences": 194
+        },
+        "rebuilt": false,
+        "base": "history/210_bf_epic_desert/1.23.0.webp",
+        "overlay": "history/210_bf_epic_desert/1.23.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "sky",
+        "water"
+      ]
+    },
+    {
+      "version": "1.24.0",
+      "from": "1.23.1",
+      "bytes": 1381464,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "fences": 1,
+          "props": 1
+        },
+        "removed": {},
+        "rebuilt": false,
+        "base": "history/210_bf_epic_desert/1.24.0.webp",
+        "overlay": "history/210_bf_epic_desert/1.24.0-objects.webp"
+      },
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "1.27.0",
+      "from": "1.26.1",
+      "bytes": 1521201,
+      "hdBytes": 3001525,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "1.28.1",
+      "from": "1.28.0",
+      "bytes": 1756806,
+      "hdBytes": 33112,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "from": "1.29.1",
+      "bytes": 6331235,
+      "hdBytes": 13069156,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    }
+  ],
+  "05_prohorovka": [
+    {
+      "version": "0.7.4",
+      "from": "0.7.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/05_prohorovka/0.7.0.webp",
+        "after": "history/05_prohorovka/0.7.4.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "0.8.2",
+      "from": "0.7.4",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/05_prohorovka/0.7.4.webp",
+        "after": "history/05_prohorovka/0.8.2.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "1.0.0",
+      "from": "0.9.7",
+      "through": "1.15.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/05_prohorovka/0.8.2.webp",
+        "after": "history/05_prohorovka/1.15.0.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 8,
+        "drop": 13.7,
+        "area": 352221,
+        "threshold": 0.25,
+        "base": "history/05_prohorovka/1.15.0.webp",
+        "overlay": "history/05_prohorovka/1.0.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 334,
+          "props": 1075,
+          "fences": 2012,
+          "military": 8,
+          "buildings": 358
+        },
+        "removed": {
+          "fences": 385,
+          "props": 435,
+          "buildings": 58,
+          "military": 9,
+          "rocks": 6
+        },
+        "rebuilt": true,
+        "base": "history/05_prohorovka/1.15.0.webp",
+        "overlay": null
+      },
+      "aspects": []
+    },
+    {
+      "version": "1.23.0",
+      "from": "1.22.1",
+      "bytes": 79073900,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/05_prohorovka/1.22.1.webp",
+        "after": "history/05_prohorovka/1.23.0.webp"
+      },
+      "relief": null,
+      "objects": {
+        "added": {
+          "props": 28
+        },
+        "removed": {
+          "props": 20,
+          "fences": 4,
+          "military": 4,
+          "rocks": 17,
+          "buildings": 17
+        },
+        "rebuilt": false,
+        "base": "history/05_prohorovka/1.23.0.webp",
+        "overlay": "history/05_prohorovka/1.23.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "models",
+        "sky",
+        "vegetation"
+      ]
+    },
+    {
+      "version": "1.27.1",
+      "from": "1.27.0",
+      "bytes": 13752692,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "military": 14,
+          "rocks": 110,
+          "buildings": 210,
+          "props": 410,
+          "fences": 495
+        },
+        "removed": {
+          "fences": 6,
+          "props": 1,
+          "rocks": 5
+        },
+        "rebuilt": false,
+        "base": "history/05_prohorovka/1.27.1.webp",
+        "overlay": "history/05_prohorovka/1.27.1-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "vegetation"
+      ]
+    },
+    {
+      "version": "2.3.1",
+      "from": "2.3.0",
+      "bytes": 1546844,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "sound",
+        "vegetation"
+      ]
+    },
+    {
+      "version": "2.4.0",
+      "from": "2.3.1",
+      "bytes": 6441133,
+      "hdBytes": 403,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "effects",
+        "sky",
+        "sound",
+        "vegetation"
+      ]
+    }
+  ],
+  "33_fjord": [
+    {
+      "version": "0.7.2",
+      "from": "0.7.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/33_fjord/0.7.0.webp",
+        "after": "history/33_fjord/0.7.2.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "0.7.4",
+      "from": "0.7.2",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/33_fjord/0.7.2.webp",
+        "after": "history/33_fjord/0.7.4.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "0.8.0",
+      "from": "0.7.4",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/33_fjord/0.7.4.webp",
+        "after": "history/33_fjord/0.8.0.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "1.0.0",
+      "from": "0.9.7",
+      "through": "1.15.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/33_fjord/0.8.0.webp",
+        "after": "history/33_fjord/1.15.0.webp"
+      },
+      "relief": {
+        "rebuilt": true,
+        "rise": 43.7,
+        "drop": 91.1,
+        "area": 614013,
+        "threshold": 2,
+        "base": "history/33_fjord/1.15.0.webp",
+        "overlay": null
+      },
+      "objects": {
+        "added": {
+          "rocks": 703,
+          "props": 2576,
+          "military": 11,
+          "fences": 1356,
+          "buildings": 227
+        },
+        "removed": {
+          "rocks": 76,
+          "fences": 685,
+          "props": 596,
+          "buildings": 110,
+          "military": 20,
+          "bridges": 1,
+          "vegetation": 64
+        },
+        "rebuilt": true,
+        "base": "history/33_fjord/1.15.0.webp",
+        "overlay": null
+      },
+      "aspects": []
+    },
+    {
+      "version": "1.24.0",
+      "from": "1.23.1",
+      "bytes": 19170261,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 9.4,
+        "drop": 9.7,
+        "area": 9589,
+        "threshold": 0.25,
+        "base": "history/33_fjord/1.24.0.webp",
+        "overlay": "history/33_fjord/1.24.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 13,
+          "rocks": 20
+        },
+        "removed": {
+          "rocks": 4,
+          "props": 2
+        },
+        "rebuilt": false,
+        "base": "history/33_fjord/1.24.0.webp",
+        "overlay": "history/33_fjord/1.24.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "sky",
+        "water"
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "from": "1.29.1",
+      "bytes": 94443739,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 39.3,
+        "drop": 48.2,
+        "area": 19434,
+        "threshold": 0.25,
+        "base": "history/33_fjord/2.0.0.webp",
+        "overlay": "history/33_fjord/2.0.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "fences": 179,
+          "props": 560,
+          "buildings": 105,
+          "rocks": 105,
+          "military": 48,
+          "vegetation": 6
+        },
+        "removed": {
+          "rocks": 76,
+          "props": 172,
+          "fences": 40,
+          "buildings": 16
+        },
+        "rebuilt": false,
+        "base": "history/33_fjord/2.0.0.webp",
+        "overlay": "history/33_fjord/2.0.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "models",
+        "sky",
+        "sound",
+        "vegetation",
+        "water"
+      ]
+    },
+    {
+      "version": "2.0.1",
+      "from": "2.0.0",
+      "bytes": 65462729,
+      "hdBytes": 8848097,
+      "replaced": false,
+      "minimap": {
+        "before": "history/33_fjord/2.0.0.webp",
+        "after": "history/33_fjord/2.0.1.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 39.2,
+        "drop": 82.8,
+        "area": 309014,
+        "threshold": 0.25,
+        "base": "history/33_fjord/2.0.1.webp",
+        "overlay": "history/33_fjord/2.0.1-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 186,
+          "props": 148,
+          "fences": 177,
+          "buildings": 33
+        },
+        "removed": {
+          "rocks": 97,
+          "props": 115,
+          "fences": 159
+        },
+        "rebuilt": false,
+        "base": "history/33_fjord/2.0.1.webp",
+        "overlay": "history/33_fjord/2.0.1-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "models",
+        "sky",
+        "vegetation",
+        "water"
+      ]
+    }
+  ],
+  "63_tundra": [
+    {
+      "version": "0.9.1",
+      "from": "0.8.8",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/63_tundra/0.8.8.webp",
+        "after": "history/63_tundra/0.9.1.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "1.0.0",
+      "from": "0.9.7",
+      "through": "1.15.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/63_tundra/0.9.1.webp",
+        "after": "history/63_tundra/1.15.0.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 11.5,
+        "drop": 11.6,
+        "area": 119085,
+        "threshold": 0.25,
+        "base": "history/63_tundra/1.15.0.webp",
+        "overlay": "history/63_tundra/1.0.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 1732,
+          "military": 5,
+          "vegetation": 33,
+          "props": 1016,
+          "fences": 778,
+          "buildings": 97,
+          "bridges": 2
+        },
+        "removed": {
+          "props": 268,
+          "rocks": 133,
+          "buildings": 25,
+          "fences": 193,
+          "military": 8,
+          "bridges": 2
+        },
+        "rebuilt": true,
+        "base": "history/63_tundra/1.15.0.webp",
+        "overlay": null
+      },
+      "aspects": []
+    },
+    {
+      "version": "1.24.0",
+      "from": "1.23.1",
+      "bytes": 8058332,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 5.1,
+        "drop": 5.1,
+        "area": 1030,
+        "threshold": 0.25,
+        "base": "history/63_tundra/1.24.0.webp",
+        "overlay": "history/63_tundra/1.24.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 23
+        },
+        "removed": {
+          "rocks": 3,
+          "props": 4
+        },
+        "rebuilt": false,
+        "base": "history/63_tundra/1.24.0.webp",
+        "overlay": "history/63_tundra/1.24.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "water"
+      ]
+    },
+    {
+      "version": "1.27.1",
+      "from": "1.27.0",
+      "bytes": 2246856,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "military": 8,
+          "rocks": 14,
+          "buildings": 6
+        },
+        "removed": {},
+        "rebuilt": false,
+        "base": "history/63_tundra/1.27.1.webp",
+        "overlay": "history/63_tundra/1.27.1-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "water"
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "from": "1.29.1",
+      "bytes": 15296885,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 1.1,
+        "drop": 1.1,
+        "area": 2627,
+        "threshold": 0.25,
+        "base": "history/63_tundra/2.0.0.webp",
+        "overlay": "history/63_tundra/2.0.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 426,
+          "fences": 56,
+          "props": 84,
+          "military": 11,
+          "buildings": 39
+        },
+        "removed": {
+          "props": 1,
+          "military": 6,
+          "buildings": 6,
+          "rocks": 2
+        },
+        "rebuilt": false,
+        "base": "history/63_tundra/2.0.0.webp",
+        "overlay": "history/63_tundra/2.0.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "models",
+        "sky",
+        "vegetation"
+      ]
+    },
+    {
+      "version": "2.1.0",
+      "from": "2.0.1",
+      "bytes": 3876761,
+      "hdBytes": 7390308,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "2.4.0",
+      "from": "2.3.1",
+      "bytes": 2573109,
+      "hdBytes": 2918,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {},
+        "removed": {
+          "fences": 1
+        },
+        "rebuilt": false,
+        "base": "history/63_tundra/2.4.0.webp",
+        "overlay": "history/63_tundra/2.4.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "sky",
+        "sound"
+      ]
+    }
+  ],
+  "01_karelia": [
+    {
+      "version": "0.8.0",
+      "from": "0.7.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/01_karelia/0.7.0.webp",
+        "after": "history/01_karelia/0.8.0.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "0.8.5",
+      "from": "0.8.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/01_karelia/0.8.0.webp",
+        "after": "history/01_karelia/0.8.5.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "0.8.10",
+      "from": "0.8.5",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/01_karelia/0.8.5.webp",
+        "after": "history/01_karelia/0.8.10.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "1.0.0",
+      "from": "0.9.7",
+      "through": "1.15.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/01_karelia/0.8.10.webp",
+        "after": "history/01_karelia/1.15.0.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 34.2,
+        "drop": 38.3,
+        "area": 222569,
+        "threshold": 2,
+        "base": "history/01_karelia/1.15.0.webp",
+        "overlay": "history/01_karelia/1.0.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 1587,
+          "military": 27,
+          "buildings": 24,
+          "props": 61
+        },
+        "removed": {
+          "military": 28,
+          "rocks": 270,
+          "buildings": 3,
+          "props": 36,
+          "fences": 9
+        },
+        "rebuilt": true,
+        "base": "history/01_karelia/1.15.0.webp",
+        "overlay": null
+      },
+      "aspects": []
+    },
+    {
+      "version": "1.24.1",
+      "from": "1.24.0",
+      "bytes": 33978531,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 7,
+        "drop": 4.9,
+        "area": 15804,
+        "threshold": 0.25,
+        "base": "history/01_karelia/1.24.1.webp",
+        "overlay": "history/01_karelia/1.24.1-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 45
+        },
+        "removed": {
+          "rocks": 17
+        },
+        "rebuilt": false,
+        "base": "history/01_karelia/1.24.1.webp",
+        "overlay": "history/01_karelia/1.24.1-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "sky",
+        "vegetation",
+        "water"
+      ]
+    },
+    {
+      "version": "1.26.0",
+      "from": "1.25.1",
+      "bytes": 85902211,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 5.8,
+        "drop": 4.5,
+        "area": 3456,
+        "threshold": 0.25,
+        "base": "history/01_karelia/1.26.0.webp",
+        "overlay": "history/01_karelia/1.26.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "fences": 1,
+          "rocks": 4
+        },
+        "removed": {
+          "rocks": 31
+        },
+        "rebuilt": false,
+        "base": "history/01_karelia/1.26.0.webp",
+        "overlay": "history/01_karelia/1.26.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "models",
+        "sky",
+        "vegetation"
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "from": "1.29.1",
+      "bytes": 5203726,
+      "hdBytes": 1143,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "effects",
+        "models"
+      ]
+    },
+    {
+      "version": "2.1.1",
+      "from": "2.1.0",
+      "bytes": 13221157,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "2.3.1",
+      "from": "2.3.0",
+      "bytes": 1173645,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "sound"
+      ]
+    }
+  ],
+  "02_malinovka": [
+    {
+      "version": "0.8.5",
+      "from": "0.7.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/02_malinovka/0.7.0.webp",
+        "after": "history/02_malinovka/0.8.5.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "0.9.0",
+      "from": "0.8.5",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/02_malinovka/0.8.5.webp",
+        "after": "history/02_malinovka/0.9.0.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "1.0.0",
+      "from": "0.9.7",
+      "through": "1.15.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/02_malinovka/0.9.0.webp",
+        "after": "history/02_malinovka/1.15.0.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 25.6,
+        "drop": 25,
+        "area": 246757,
+        "threshold": 0.25,
+        "base": "history/02_malinovka/1.15.0.webp",
+        "overlay": "history/02_malinovka/1.0.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 445,
+          "props": 2427,
+          "fences": 1004,
+          "military": 146,
+          "buildings": 183,
+          "vegetation": 43
+        },
+        "removed": {
+          "vegetation": 1,
+          "props": 231,
+          "fences": 434,
+          "military": 4,
+          "rocks": 35,
+          "buildings": 28
+        },
+        "rebuilt": true,
+        "base": "history/02_malinovka/1.15.0.webp",
+        "overlay": null
+      },
+      "aspects": []
+    },
+    {
+      "version": "1.26.0",
+      "from": "1.25.1",
+      "bytes": 62936989,
+      "hdBytes": 10771384,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 2.9,
+        "drop": 8.2,
+        "area": 12544,
+        "threshold": 0.25,
+        "base": "history/02_malinovka/1.26.0.webp",
+        "overlay": "history/02_malinovka/1.26.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 27,
+          "props": 40,
+          "fences": 82,
+          "vegetation": 5,
+          "military": 12,
+          "buildings": 3
+        },
+        "removed": {
+          "props": 11,
+          "fences": 44,
+          "rocks": 2,
+          "vegetation": 2,
+          "buildings": 3
+        },
+        "rebuilt": false,
+        "base": "history/02_malinovka/1.26.0.webp",
+        "overlay": "history/02_malinovka/1.26.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "models",
+        "sky",
+        "vegetation",
+        "water"
+      ]
+    },
+    {
+      "version": "2.3.1",
+      "from": "2.3.0",
+      "bytes": 1925747,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "sound",
+        "vegetation"
+      ]
+    }
+  ],
+  "38_mannerheim_line": [
+    {
+      "version": "0.8.0",
+      "from": "0.7.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/38_mannerheim_line/0.7.0.webp",
+        "after": "history/38_mannerheim_line/0.8.0.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "0.9.1",
+      "from": "0.8.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/38_mannerheim_line/0.8.0.webp",
+        "after": "history/38_mannerheim_line/0.9.1.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "1.0.0",
+      "from": "0.9.7",
+      "through": "1.15.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/38_mannerheim_line/0.9.1.webp",
+        "after": "history/38_mannerheim_line/1.15.0.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 34.4,
+        "drop": 38.4,
+        "area": 234694,
+        "threshold": 2,
+        "base": "history/38_mannerheim_line/1.15.0.webp",
+        "overlay": "history/38_mannerheim_line/1.0.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 1242,
+          "props": 1455,
+          "military": 139,
+          "buildings": 25,
+          "fences": 493,
+          "vegetation": 12
+        },
+        "removed": {
+          "rocks": 155,
+          "props": 130,
+          "buildings": 4,
+          "vegetation": 42,
+          "military": 6
+        },
+        "rebuilt": true,
+        "base": "history/38_mannerheim_line/1.15.0.webp",
+        "overlay": null
+      },
+      "aspects": []
+    },
+    {
+      "version": "1.26.0",
+      "from": "1.25.1",
+      "bytes": 27596714,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": {
+        "rebuilt": false,
+        "rise": 12.6,
+        "drop": 27.5,
+        "area": 69350,
+        "threshold": 0.25,
+        "base": "history/38_mannerheim_line/1.26.0.webp",
+        "overlay": "history/38_mannerheim_line/1.26.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "rocks": 127,
+          "vegetation": 1,
+          "props": 24
+        },
+        "removed": {
+          "rocks": 30,
+          "props": 10,
+          "vegetation": 1,
+          "fences": 1
+        },
+        "rebuilt": false,
+        "base": "history/38_mannerheim_line/1.26.0.webp",
+        "overlay": "history/38_mannerheim_line/1.26.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "ground",
+        "sky",
+        "vegetation",
+        "water"
+      ]
+    },
+    {
+      "version": "2.0.0",
+      "from": "1.29.1",
+      "bytes": 4266209,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    }
+  ],
+  "h33_battle_royale_2021": [
+    {
+      "version": "1.26.0",
+      "from": "1.25.1",
+      "bytes": 4349823,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "1.28.0",
+      "from": "1.27.1",
+      "bytes": 2728399,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "2.0.0",
+      "from": "1.29.1",
+      "bytes": 17989753,
+      "hdBytes": 3447952,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {},
+        "removed": {
+          "props": 34
+        },
+        "rebuilt": false,
+        "base": "history/h33_battle_royale_2021/2.0.0.webp",
+        "overlay": "history/h33_battle_royale_2021/2.0.0-objects.webp"
+      },
+      "aspects": [
+        "models",
+        "sky"
+      ]
+    }
+  ],
+  "14_siegfried_line_nom": [
+    {
+      "version": "2.0.0",
+      "from": "1.29.1",
+      "bytes": 569630,
+      "hdBytes": 431075,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    }
+  ],
+  "06_ensk_big": [
+    {
+      "version": "2.0.0",
+      "from": "1.29.1",
+      "bytes": 12545191,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "props": 3
+        },
+        "removed": {
+          "props": 1
+        },
+        "rebuilt": false,
+        "base": "history/06_ensk_big/2.0.0.webp",
+        "overlay": "history/06_ensk_big/2.0.0-objects.webp"
+      },
+      "aspects": [
+        "ground",
+        "models",
+        "sky"
+      ]
+    },
+    {
+      "version": "2.3.1",
+      "from": "2.3.0",
+      "bytes": 1964443,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "sound"
+      ]
+    }
+  ],
+  "08_ruinberg_sm24": [
+    {
+      "version": "2.0.0",
+      "from": "1.29.1",
+      "bytes": 1104543,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "2.3.1",
+      "from": "2.3.0",
+      "bytes": 1396022,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    }
+  ],
+  "212_epic_random_valley_sm25": [
+    {
+      "version": "2.0.0",
+      "from": "1.29.1",
+      "bytes": 8393243,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "2.3.1",
+      "from": "2.3.0",
+      "bytes": 1807841,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    }
+  ],
+  "hangar_v4": [
+    {
+      "version": "2.1.0",
+      "from": "2.0.1",
+      "bytes": 9554704,
+      "hdBytes": 14404282,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "props": 4
+        },
+        "removed": {
+          "props": 4
+        },
+        "rebuilt": false,
+        "base": "history/hangar_v4/2.1.0.webp",
+        "overlay": "history/hangar_v4/2.1.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "models",
+        "sky"
+      ]
+    },
+    {
+      "version": "2.1.1",
+      "from": "2.1.0",
+      "bytes": 4476200,
+      "hdBytes": 5178097,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "props": 8
+        },
+        "removed": {
+          "props": 175,
+          "buildings": 11
+        },
+        "rebuilt": false,
+        "base": "history/hangar_v4/2.1.1.webp",
+        "overlay": "history/hangar_v4/2.1.1-objects.webp"
+      },
+      "aspects": [
+        "models"
+      ]
+    },
+    {
+      "version": "2.4.0",
+      "from": "2.3.1",
+      "bytes": 1221541,
+      "hdBytes": 8388,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": {
+        "added": {
+          "props": 6,
+          "fences": 1
+        },
+        "removed": {
+          "props": 2
+        },
+        "rebuilt": false,
+        "base": "history/hangar_v4/2.4.0.webp",
+        "overlay": "history/hangar_v4/2.4.0-objects.webp"
+      },
+      "aspects": [
+        "effects",
+        "models",
+        "sky"
+      ]
+    }
+  ],
+  "hangar_v4_last_stand": [
+    {
+      "version": "2.4.0",
+      "from": "2.3.1",
+      "bytes": 1157410,
+      "hdBytes": 515,
+      "replaced": false,
+      "minimap": null,
+      "relief": null,
+      "objects": null,
+      "aspects": [
+        "models",
+        "sky"
+      ]
+    }
+  ],
+  "00_tank_tutorial": [
+    {
+      "version": "0.8.8",
+      "from": "0.8.4",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/00_tank_tutorial/0.8.4.webp",
+        "after": "history/00_tank_tutorial/0.8.8.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    }
+  ],
+  "03_campania": [
+    {
+      "version": "0.7.4",
+      "from": "0.7.2",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/03_campania/0.7.2.webp",
+        "after": "history/03_campania/0.7.4.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "0.8.0",
+      "from": "0.7.4",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/03_campania/0.7.4.webp",
+        "after": "history/03_campania/0.8.0.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "0.8.1",
+      "from": "0.8.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/03_campania/0.8.0.webp",
+        "after": "history/03_campania/0.8.1.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    }
+  ],
+  "15_komarin": [
+    {
+      "version": "0.8.8",
+      "from": "0.7.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/15_komarin/0.7.0.webp",
+        "after": "history/15_komarin/0.8.8.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "0.9.1",
+      "from": "0.8.8",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/15_komarin/0.8.8.webp",
+        "after": "history/15_komarin/0.9.1.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    }
+  ],
+  "17_munchen": [
+    {
+      "version": "0.8.2",
+      "from": "0.7.4",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/17_munchen/0.7.4.webp",
+        "after": "history/17_munchen/0.8.2.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "0.8.6",
+      "from": "0.8.2",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/17_munchen/0.8.2.webp",
+        "after": "history/17_munchen/0.8.6.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "1.0.0",
+      "from": "0.9.7",
+      "through": "1.15.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/17_munchen/0.8.6.webp",
+        "after": "history/17_munchen/1.15.0.webp"
+      },
+      "relief": {
+        "rebuilt": false,
+        "rise": 5.7,
+        "drop": 8.5,
+        "area": 34774,
+        "threshold": 0.25,
+        "base": "history/17_munchen/1.15.0.webp",
+        "overlay": "history/17_munchen/1.0.0-relief.webp"
+      },
+      "objects": {
+        "added": {
+          "props": 6402,
+          "buildings": 252,
+          "fences": 1800,
+          "military": 50,
+          "vegetation": 188,
+          "rocks": 43,
+          "bridges": 1
+        },
+        "removed": {
+          "fences": 934,
+          "props": 2025,
+          "vegetation": 472,
+          "buildings": 165,
+          "military": 26,
+          "bridges": 1,
+          "rocks": 39
+        },
+        "rebuilt": true,
+        "base": "history/17_munchen/1.15.0.webp",
+        "overlay": null
+      },
+      "aspects": []
+    }
+  ],
+  "22_slough": [
+    {
+      "version": "0.8.8",
+      "from": "0.7.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/22_slough/0.7.0.webp",
+        "after": "history/22_slough/0.8.8.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    }
+  ],
+  "39_crimea": [
+    {
+      "version": "0.8.2",
+      "from": "0.7.3",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/39_crimea/0.7.3.webp",
+        "after": "history/39_crimea/0.8.2.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "0.8.5",
+      "from": "0.8.2",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/39_crimea/0.8.2.webp",
+        "after": "history/39_crimea/0.8.5.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    }
+  ],
+  "42_north_america": [
+    {
+      "version": "0.8.0",
+      "from": "0.7.5",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/42_north_america/0.7.5.webp",
+        "after": "history/42_north_america/0.8.0.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "0.8.7",
+      "from": "0.8.0",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/42_north_america/0.8.0.webp",
+        "after": "history/42_north_america/0.8.7.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    }
+  ],
+  "43_north_america": [
+    {
+      "version": "0.8.11",
+      "from": "0.8.9",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/43_north_america/0.8.9.webp",
+        "after": "history/43_north_america/0.8.11.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "0.9.1",
+      "from": "0.8.11",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/43_north_america/0.8.11.webp",
+        "after": "history/43_north_america/0.9.1.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    }
+  ],
+  "51_asia": [
+    {
+      "version": "0.8.1",
+      "from": "0.7.3",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/51_asia/0.7.3.webp",
+        "after": "history/51_asia/0.8.1.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    },
+    {
+      "version": "0.8.2",
+      "from": "0.8.1",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/51_asia/0.8.1.webp",
+        "after": "history/51_asia/0.8.2.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    }
+  ],
+  "53_japan": [
+    {
+      "version": "0.9.2",
+      "from": "0.8.10",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/53_japan/0.8.10.webp",
+        "after": "history/53_japan/0.9.2.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    }
+  ],
+  "73_asia_korea": [
+    {
+      "version": "0.9.2",
+      "from": "0.8.6",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/73_asia_korea/0.8.6.webp",
+        "after": "history/73_asia_korea/0.9.2.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    }
+  ],
+  "85_winter": [
+    {
+      "version": "0.9.0",
+      "from": "0.8.7",
+      "bytes": 0,
+      "hdBytes": 0,
+      "replaced": false,
+      "minimap": {
+        "before": "history/85_winter/0.8.7.webp",
+        "after": "history/85_winter/0.9.0.webp"
+      },
+      "relief": null,
+      "objects": null,
+      "aspects": []
+    }
+  ]
+}

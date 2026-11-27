@@ -1,0 +1,852 @@
+{
+ "00_tank_tutorial": [
+  {
+   "version": "0.8.4",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.8",
+   "through": "0.9.7"
+  }
+ ],
+ "01_karelia": [
+  {
+   "version": "0.7.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.5",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.10",
+   "through": "0.9.7"
+  },
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "02_malinovka": [
+  {
+   "version": "0.7.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.5",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.9.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "03_campania": [
+  {
+   "version": "0.7.2",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.7.4",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.1",
+   "through": "0.9.7"
+  }
+ ],
+ "03_campania_big": [
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "04_himmelsdorf": [
+  {
+   "version": "0.7.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "1.15.0",
+   "through": "1.15.99"
+  }
+ ],
+ "05_prohorovka": [
+  {
+   "version": "0.7.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.7.4",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.2",
+   "through": "0.9.7"
+  },
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "06_ensk": [
+  {
+   "version": "0.7.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.7.4",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.4",
+   "through": "0.9.7"
+  },
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "07_lakeville": [
+  {
+   "version": "0.7.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.7.4",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "08_ruinberg": [
+  {
+   "version": "0.7.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.7.4",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.2",
+   "through": "0.9.7"
+  },
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "100_thepit": [
+  {
+   "version": "0.9.7",
+   "through": "0.9.7"
+  }
+ ],
+ "101_dday": [
+  {
+   "version": "0.9.7",
+   "through": "0.9.7"
+  },
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "102_deathtrack": [
+  {
+   "version": "0.9.3",
+   "through": "0.9.7"
+  }
+ ],
+ "103_ruinberg_winter": [
+  {
+   "version": "0.9.7",
+   "through": "0.9.7"
+  }
+ ],
+ "105_germany": [
+  {
+   "version": "1.15.0",
+   "through": "1.15.99"
+  }
+ ],
+ "10_hills": [
+  {
+   "version": "0.7.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.10",
+   "through": "0.9.7"
+  },
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "112_eiffel_tower_ctf": [
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "114_czech": [
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "115_sweden": [
+  {
+   "version": "1.15.0",
+   "through": "1.15.99"
+  }
+ ],
+ "11_murovanka": [
+  {
+   "version": "0.7.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.6",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.9.3",
+   "through": "0.9.7"
+  },
+  {
+   "version": "1.15.0",
+   "through": "1.15.99"
+  }
+ ],
+ "127_japort": [
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "13_erlenberg": [
+  {
+   "version": "0.7.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.7.4",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.2",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.11",
+   "through": "0.9.7"
+  },
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "14_siegfried_line": [
+  {
+   "version": "0.7.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.5",
+   "through": "0.9.7"
+  },
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "15_komarin": [
+  {
+   "version": "0.7.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.8",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.9.1",
+   "through": "0.9.7"
+  }
+ ],
+ "17_munchen": [
+  {
+   "version": "0.7.4",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.2",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.6",
+   "through": "0.9.7"
+  },
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "18_cliff": [
+  {
+   "version": "0.7.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.4",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.9.2",
+   "through": "0.9.7"
+  },
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "19_monastery": [
+  {
+   "version": "0.7.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.1",
+   "through": "0.9.7"
+  },
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "208_bf_epic_normandy": [
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "209_wg_epic_suburbia": [
+  {
+   "version": "1.15.0",
+   "through": "1.15.99"
+  }
+ ],
+ "212_epic_random_valley": [
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "217_er_alaska": [
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "222_er_clime": [
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "22_slough": [
+  {
+   "version": "0.7.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.8",
+   "through": "0.9.7"
+  }
+ ],
+ "23_westfeld": [
+  {
+   "version": "0.7.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "250_br_battle_city2-1": [
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "251_br_battle_city3": [
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "28_desert": [
+  {
+   "version": "0.7.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "29_el_hallouf": [
+  {
+   "version": "0.7.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.7.4",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.1",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.10",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.9.2",
+   "through": "0.9.7"
+  },
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "31_airfield": [
+  {
+   "version": "0.7.4",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.6",
+   "through": "0.9.7"
+  },
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "33_fjord": [
+  {
+   "version": "0.7.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.7.2",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.7.4",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "34_redshire": [
+  {
+   "version": "0.7.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.2",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.11",
+   "through": "0.9.7"
+  },
+  {
+   "version": "1.15.0",
+   "through": "1.15.99"
+  }
+ ],
+ "35_steppes": [
+  {
+   "version": "0.7.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.4",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.10",
+   "through": "0.9.7"
+  },
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "36_fishing_bay": [
+  {
+   "version": "0.7.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.7.4",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.4",
+   "through": "0.9.7"
+  },
+  {
+   "version": "1.15.0",
+   "through": "1.15.99"
+  }
+ ],
+ "37_caucasus": [
+  {
+   "version": "0.7.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "38_mannerheim_line": [
+  {
+   "version": "0.7.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.9.1",
+   "through": "0.9.7"
+  },
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "39_crimea": [
+  {
+   "version": "0.7.3",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.2",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.5",
+   "through": "0.9.7"
+  }
+ ],
+ "42_north_america": [
+  {
+   "version": "0.7.5",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.7",
+   "through": "0.9.7"
+  }
+ ],
+ "43_north_america": [
+  {
+   "version": "0.8.9",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.11",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.9.1",
+   "through": "0.9.7"
+  }
+ ],
+ "44_north_america": [
+  {
+   "version": "0.7.2",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.7.4",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.4",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.9.7",
+   "through": "0.9.7"
+  },
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "45_north_america": [
+  {
+   "version": "0.7.5",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.7",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.11",
+   "through": "0.9.7"
+  },
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "47_canada_a": [
+  {
+   "version": "0.7.5",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.8",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.9.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "51_asia": [
+  {
+   "version": "0.7.3",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.1",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.2",
+   "through": "0.9.7"
+  }
+ ],
+ "53_japan": [
+  {
+   "version": "0.8.10",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.9.2",
+   "through": "0.9.7"
+  }
+ ],
+ "59_asia_great_wall": [
+  {
+   "version": "0.8.8",
+   "through": "0.9.7"
+  },
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "60_asia_miao": [
+  {
+   "version": "0.8.5",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.8.9",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.9.0",
+   "through": "0.9.7"
+  },
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "63_tundra": [
+  {
+   "version": "0.8.8",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.9.1",
+   "through": "0.9.7"
+  },
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "73_asia_korea": [
+  {
+   "version": "0.8.6",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.9.2",
+   "through": "0.9.7"
+  }
+ ],
+ "83_kharkiv": [
+  {
+   "version": "0.9.1",
+   "through": "0.9.7"
+  },
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "84_winter": [
+  {
+   "version": "0.8.11",
+   "through": "0.9.7"
+  }
+ ],
+ "85_winter": [
+  {
+   "version": "0.8.7",
+   "through": "0.9.7"
+  },
+  {
+   "version": "0.9.0",
+   "through": "0.9.7"
+  }
+ ],
+ "86_himmelsdorf_winter": [
+  {
+   "version": "0.8.11",
+   "through": "0.9.7"
+  }
+ ],
+ "87_ruinberg_on_fire": [
+  {
+   "version": "0.8.11",
+   "through": "0.9.7"
+  }
+ ],
+ "90_minsk": [
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "92_stalingrad": [
+  {
+   "version": "0.9.4",
+   "through": "0.9.7"
+  }
+ ],
+ "95_lost_city": [
+  {
+   "version": "0.9.7",
+   "through": "0.9.7"
+  }
+ ],
+ "95_lost_city_ctf": [
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ],
+ "96_prohorovka_defense": [
+  {
+   "version": "0.9.2",
+   "through": "0.9.7"
+  }
+ ],
+ "99_himmelball": [
+  {
+   "version": "0.9.1",
+   "through": "0.9.7"
+  }
+ ],
+ "99_poland": [
+  {
+   "version": "1.15.0",
+   "through": "1.19.1"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<name>#arenas:51_asia/name</name>
+	<description>#arenas:51_asia/description</description>
+	<geometry>spaces/51_asia</geometry>
+	<roundLength>900</roundLength>
+	<boundingBox>
+		<bottomLeft>
+			-500.0 -500.0
+			<!--BW_String-->
+		</bottomLeft>
+		<upperRight>
+			500.0 500.0
+			<!--BW_String-->
+		</upperRight>
+	</boundingBox>
+	<minimap>spaces/51_asia/mmap.dds</minimap>
+	<vehicleCamouflageKind>summer</vehicleCamouflageKind>
+	<umbraEnabled>1</umbraEnabled>
+	<loadingMusic>/music/intro/rus_village</loadingMusic>
+	<ambientSound>/wind/wind/wind_summer_01</ambientSound>
+	<gameplayTypes>
+		<ctf>
+			<teamBasePositions>
+				<team1>
+					<position1>115.593025 -387.344238</position1>
+				</team1>
+				<team2>
+					<position1>69.850479 348.806213</position1>
+				</team2>
+			</teamBasePositions>
+		</ctf>
+	</gameplayTypes>
+</root>

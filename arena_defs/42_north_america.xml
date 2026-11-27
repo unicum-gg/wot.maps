@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<name>#arenas:42_north_america/name</name>
+	<description>#arenas:42_north_america/description</description>
+	<geometry>spaces/42_north_america</geometry>
+	<boundingBox>
+		<bottomLeft>
+			-400.0 -430.0
+			<!--BW_String-->
+		</bottomLeft>
+		<upperRight>
+			430.0 400.0
+			<!--BW_String-->
+		</upperRight>
+	</boundingBox>
+	<roundLength>900</roundLength>
+	<minimap>spaces/42_north_america/mmap.dds</minimap>
+	<vehicleCamouflageKind>summer</vehicleCamouflageKind>
+	<maxPlayersInTeam>15</maxPlayersInTeam>
+	<loadingMusic>/music/intro/euro_city</loadingMusic>
+	<water>
+		<texScale>0</texScale>
+		<freqX>0</freqX>
+		<freqZ>0</freqZ>
+	</water>
+	<gameplayTypes>
+		<ctf>
+			<teamBasePositions>
+				<team1>
+					<position1>-191.100006 -315.200012</position1>
+				</team1>
+				<team2>
+					<position1>318.000000 286.299988</position1>
+				</team2>
+			</teamBasePositions>
+		</ctf>
+	</gameplayTypes>
+</root>
